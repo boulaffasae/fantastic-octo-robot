@@ -1,0 +1,10 @@
+uuid: d80526ff-0bda-45c8-b31e-4b09b6bd9461
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_highlight
+label: 'Mise en exergue - Highlight'
+icon_uuid: null
+icon_default: null
+description: "La mise en exergue permet à l’utilisateur de distinguer et repérer une information facilement.\r\nLa mise en exergue met en évidence une information déjà présente dans le reste du contenu : soit une reformulation, soit une reprise du texte."
+behavior_plugins: {  }

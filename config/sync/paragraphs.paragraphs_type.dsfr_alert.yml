@@ -1,0 +1,10 @@
+uuid: 8f26f42e-2d21-4563-8eab-d48829d7d13a
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_alert
+label: Alerte
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

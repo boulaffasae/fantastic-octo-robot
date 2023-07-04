@@ -1,0 +1,10 @@
+uuid: 8e8816f5-a666-4b2d-bf86-0e5f09a0e12e
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_accordion
+label: Accordéon
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

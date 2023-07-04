@@ -1,0 +1,10 @@
+uuid: 8cea1d58-3e61-4898-87ee-c85d71d19e6f
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_tab
+label: Onglet
+icon_uuid: null
+icon_default: null
+description: "Le composant onglet permet aux utilisateurs de naviguer dans différentes sections de contenu au sein d’une même page.\r\nLe système d'onglet aide à regrouper différents contenus dans un espace limité et permet de diviser un contenu dense en sections accessibles individuellement afin de faciliter la lecture pour l'utilisateur."
+behavior_plugins: {  }

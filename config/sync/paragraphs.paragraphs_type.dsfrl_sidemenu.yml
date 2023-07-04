@@ -1,0 +1,10 @@
+uuid: 886ee415-5334-4439-b0ce-253de4ce8a57
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfrl_sidemenu
+label: 'Menu latéral'
+icon_uuid: null
+icon_default: null
+description: 'Le menu latéral est un système de navigation vertical présentant une liste de liens placée à côté du contenu (à gauche ou à droite de la page) et donnant accès jusqu''à 3 niveaux d’arborescence.'
+behavior_plugins: {  }

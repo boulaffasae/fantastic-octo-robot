@@ -1,0 +1,10 @@
+uuid: c7bfc31c-a9e2-463b-af34-75ec097b9ca2
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_badge
+label: Badge
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

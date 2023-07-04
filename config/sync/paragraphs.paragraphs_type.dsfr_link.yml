@@ -1,0 +1,10 @@
+uuid: 9a0abfa2-fc78-4997-804c-fa99edea442f
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_link
+label: Lien
+icon_uuid: null
+icon_default: null
+description: 'Le lien permet la navigation entre une page et un autre contenu au sein de la même page, du même site ou externe. '
+behavior_plugins: {  }

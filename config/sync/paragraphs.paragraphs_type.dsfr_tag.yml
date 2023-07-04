@@ -1,0 +1,10 @@
+uuid: 6bfe0d3b-f141-4113-98a5-dd62c9c8c477
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_tag
+label: Tag
+icon_uuid: null
+icon_default: null
+description: 'Le tag catégorise/classe/organise les contenus à l''aide de mots-clés. Il aide les utilisateurs à rechercher et à trouver facilement une information.'
+behavior_plugins: {  }

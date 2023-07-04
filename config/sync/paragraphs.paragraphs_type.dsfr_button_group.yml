@@ -1,0 +1,10 @@
+uuid: 4813cc28-2572-4b26-9e07-ad843e74b0f6
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_button_group
+label: 'Groupe de boutons'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

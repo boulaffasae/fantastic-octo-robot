@@ -1,0 +1,10 @@
+uuid: 7945aac4-be7d-4d3b-b0f8-a5c7adb5d13e
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_ckeditor
+label: 'Texte long'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

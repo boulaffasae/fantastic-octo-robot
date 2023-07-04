@@ -1,0 +1,10 @@
+uuid: e0f43bd1-08ca-4e0d-b1ae-910291ed608e
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_notice
+label: 'Bandeau d''information importante'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

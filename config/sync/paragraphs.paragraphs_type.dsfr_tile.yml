@@ -1,0 +1,10 @@
+uuid: b70464f0-97ab-4f5d-9826-06dc71dff03f
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_tile
+label: Tuile
+icon_uuid: null
+icon_default: null
+description: 'La tuile est un raccourci ou point d’entrée qui redirige les utilisateurs vers des pages de contenu. Elle fait généralement partie d''une collection ou liste de tuiles similaires. La tuile n’est jamais présentée de manière isolée.'
+behavior_plugins: {  }

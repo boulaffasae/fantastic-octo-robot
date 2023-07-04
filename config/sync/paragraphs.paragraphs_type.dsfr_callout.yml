@@ -1,0 +1,10 @@
+uuid: cf580b05-11af-4d25-b4e5-11b8af00c352
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_callout
+label: 'Mise en avant - Callout'
+icon_uuid: null
+icon_default: null
+description: 'La mise en avant permet à l’utilisateur de distinguer rapidement une information qui vient compléter le contenu consulté.'
+behavior_plugins: {  }
