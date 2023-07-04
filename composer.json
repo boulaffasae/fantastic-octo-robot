@@ -26,6 +26,8 @@
         "drupal/features": "^3.13",
         "drupal/gin": "^3.0@RC",
         "drupal/gin_toolbar": "^1.0@RC",
+        "drupal/layout_paragraphs": "^2.0",
+        "drupal/paragraphs": "^1.15",
         "drush/drush": "^11.6"
     },
     "conflict": {
