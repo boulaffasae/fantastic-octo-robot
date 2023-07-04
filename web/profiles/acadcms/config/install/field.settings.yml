@@ -1,0 +1,2 @@
+langcode: fr
+purge_batch_size: 50
