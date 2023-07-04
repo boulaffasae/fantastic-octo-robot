@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f1b968359740505dcaafe5c064f45a3",
+    "content-hash": "aeb5fd9a78fdf006d593b920d2f3daf0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1514,6 +1514,50 @@
             }
         },
         {
+            "name": "drupal/cool_editor_tabs",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/cool_editor_tabs.git",
+                "reference": "1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/cool_editor_tabs-1.0.3.zip",
+                "reference": "1.0.3",
+                "shasum": "87782a4e546c897a22ed55a43e28a3687d0670eb"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.3",
+                    "datestamp": "1662971625",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Dennis Cohn",
+                    "homepage": "https://www.drupal.org/user/429431"
+                }
+            ],
+            "description": "Improved layout for the Drupal Editor tabs",
+            "homepage": "https://www.drupal.org/project/cool_editor_tabs",
+            "support": {
+                "source": "https://git.drupalcode.org/project/cool_editor_tabs"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "9.5.9",
             "source": {
@@ -2268,6 +2312,56 @@
             "homepage": "https://www.drupal.org/project/paragraphs",
             "support": {
                 "source": "https://git.drupalcode.org/project/paragraphs"
+            }
+        },
+        {
+            "name": "drupal/toolbar_visibility",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/toolbar_visibility.git",
+                "reference": "8.x-2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/toolbar_visibility-8.x-2.1.zip",
+                "reference": "8.x-2.1",
+                "shasum": "76b68dc75451c62ac3b8a41dc23e2e26136a6847"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.1",
+                    "datestamp": "1660053561",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "George Anderson (geoanders)",
+                    "homepage": "https://www.drupal.org/u/geoanders",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "mdespeuilles",
+                    "homepage": "https://www.drupal.org/user/939504"
+                }
+            ],
+            "description": "Remove toolbar on specific themes or domains.",
+            "homepage": "https://www.drupal.org/project/toolbar_visibility",
+            "support": {
+                "source": "https://git.drupalcode.org/project/toolbar_visibility",
+                "issues": "https://www.drupal.org/project/issues/toolbar_visibility"
             }
         },
         {
