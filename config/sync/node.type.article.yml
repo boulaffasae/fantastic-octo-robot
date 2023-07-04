@@ -1,13 +1,19 @@
 uuid: 6ec0fd26-e3ab-47e1-9a91-0924b508ceff
 langcode: fr
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
 _core:
   default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
 name: Article
 type: article
 description: 'Utilisez les <em>articles</em> pour des contenus possédant une temporalité tels que des actualités, des communiqués de presse ou des billets de blog.'
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: true

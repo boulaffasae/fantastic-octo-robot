@@ -1,0 +1,21 @@
+uuid: 6384d86f-10fb-4497-9728-009915c378a8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ckeditor5
+    - paragraphs.paragraphs_type.dsfr_ckeditor
+  module:
+    - text
+id: paragraph.dsfr_ckeditor.field_ckeditor5
+field_name: field_ckeditor5
+entity_type: paragraph
+bundle: dsfr_ckeditor
+label: Texte
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
