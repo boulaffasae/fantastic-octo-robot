@@ -1,0 +1,15 @@
+langcode: fr
+_core:
+  default_config_hash: nNcqzC75Ga_iQShU0PBJRKk48eiw1ArP7A3xAL5Lveg
+button_value: 'Sauvegarder & Modifier'
+button_weight: '-1'
+dropbutton: true
+unpublish: false
+unpublish_new_only: false
+hide_default_save: false
+hide_default_publish: false
+hide_default_preview: false
+hide_default_delete: false
+node_types:
+  article: article
+  page: '0'

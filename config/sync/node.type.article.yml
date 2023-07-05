@@ -15,5 +15,5 @@ type: article
 description: 'Utilisez les <em>articles</em> pour des contenus possédant une temporalité tels que des actualités, des communiqués de presse ou des billets de blog.'
 help: ''
 new_revision: false
-preview_mode: 1
+preview_mode: 0
 display_submitted: true

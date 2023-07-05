@@ -8,8 +8,10 @@ dependencies:
     - field.field.node.article.field_composant_paragraphs
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
+    - image.style.thumbnail_webp
     - node.type.article
   module:
+    - image
     - layout_paragraphs
     - path
 _core:
@@ -21,7 +23,7 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 3
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -35,15 +37,23 @@ content:
       require_layouts: 1
       empty_message: ''
     third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail_webp
+    third_party_settings: {  }
   path:
     type: path
-    weight: 4
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 5
+    weight: 6
     region: content
     settings:
       display_label: true
@@ -58,7 +68,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 2
+    weight: 3
     region: content
     settings:
       match_operator: CONTAINS
@@ -69,7 +79,6 @@ content:
 hidden:
   body: true
   comment: true
-  field_image: true
   field_tags: true
   langcode: true
   promote: true

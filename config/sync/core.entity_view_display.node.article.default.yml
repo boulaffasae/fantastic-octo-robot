@@ -9,8 +9,10 @@ dependencies:
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - node.type.article
+    - responsive_image.styles.image_webp
   module:
     - layout_paragraphs
+    - responsive_image
     - user
 _core:
   default_config_hash: 7fb0j9HnIXfP9ndewzgPPzzeX_SV532wuYpkscrCMCk
@@ -28,10 +30,18 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  field_image:
+    type: responsive_image
+    label: above
+    settings:
+      responsive_image_style: image_webp
+      image_link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   body: true
   comment: true
-  field_image: true
   field_tags: true
   langcode: true
   links: true
