@@ -1,0 +1,13 @@
+uuid: 78de4fbb-fe76-46b2-8bfc-1743ec5bd57a
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_media_image
+label: Image
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map: {  }

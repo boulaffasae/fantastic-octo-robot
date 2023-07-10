@@ -1,0 +1,32 @@
+uuid: d1cba6d7-e3e2-4ff8-a5f8-ec8c7c49a6b1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.media.dsfr_media_image.field_media_image
+    - image.style.large
+    - media.type.dsfr_media_image
+  module:
+    - image
+id: media.dsfr_media_image.default
+targetEntityType: media
+bundle: dsfr_media_image
+mode: default
+content:
+  field_media_image:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true
