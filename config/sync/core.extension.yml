@@ -55,10 +55,10 @@ module:
   wpf: 0
   views: 10
   paragraphs: 11
-  dsfr_kickstart: 1000
+  minimal: 1000
 theme:
   olivero: 0
   claro: 0
   gin: 0
   stable9: 0
-profile: dsfr_kickstart
+profile: minimal
