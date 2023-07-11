@@ -17,7 +17,6 @@ dependencies:
     - paragraphs.paragraphs_type.dsfr_highlight
     - paragraphs.paragraphs_type.dsfr_layout
     - paragraphs.paragraphs_type.dsfr_link
-    - paragraphs.paragraphs_type.dsfr_media
     - paragraphs.paragraphs_type.dsfr_media_content
     - paragraphs.paragraphs_type.dsfr_notice
     - paragraphs.paragraphs_type.dsfr_quote
@@ -47,7 +46,6 @@ settings:
       dsfr_ckeditor: dsfr_ckeditor
       dsfr_highlight: dsfr_highlight
       dsfr_alert: dsfr_alert
-      dsfr_media: dsfr_media
       dsfr_files_table: dsfr_files_table
       dsfr_accordion: dsfr_accordion
       dsfrl_sidemenu: dsfrl_sidemenu

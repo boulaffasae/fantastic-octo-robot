@@ -1,0 +1,21 @@
+uuid: 614af18e-ab2e-4198-b8a4-0cab0f324351
+langcode: fr
+status: true
+dependencies: {  }
+name: dsfr_medium
+label: 'DSFR Moyen (220x220)'
+effects:
+  7e8971e5-8685-40cb-9472-f03f52cd65e3:
+    uuid: 7e8971e5-8685-40cb-9472-f03f52cd65e3
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  af8002e3-16f1-4cff-a7f2-cb66c48e43a0:
+    uuid: af8002e3-16f1-4cff-a7f2-cb66c48e43a0
+    id: image_scale
+    weight: 2
+    data:
+      width: 220
+      height: 220
+      upscale: false

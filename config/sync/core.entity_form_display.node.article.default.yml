@@ -8,7 +8,6 @@ dependencies:
     - field.field.node.article.field_composant_paragraphs
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - image.style.thumbnail_webp
     - node.type.article
   module:
     - image
@@ -43,7 +42,7 @@ content:
     region: content
     settings:
       progress_indicator: throbber
-      preview_image_style: thumbnail_webp
+      preview_image_style: ''
     third_party_settings: {  }
   path:
     type: path

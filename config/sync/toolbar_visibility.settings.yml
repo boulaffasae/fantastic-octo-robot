@@ -1,6 +1,7 @@
 themes:
   olivero: olivero
-  dsfr: dsfr
-  stable9: 0
   claro: 0
+  stable9: 0
+  _dsfr_child: 0
+  dsfr: 0
   gin: 0

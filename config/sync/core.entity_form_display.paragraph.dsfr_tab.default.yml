@@ -1,0 +1,14 @@
+uuid: 3783a601-b92d-4ec0-8f3e-dd62fc204ba2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.dsfr_tab
+id: paragraph.dsfr_tab.default
+targetEntityType: paragraph
+bundle: dsfr_tab
+mode: default
+content: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,21 @@
+uuid: 8a0fe985-6943-4dc2-8f25-35d7d09302e7
+langcode: fr
+status: true
+dependencies: {  }
+name: dsfr_wide
+label: 'DSFR Large (1090)'
+effects:
+  47a094d6-a159-46e6-8405-56c3aa5b0870:
+    uuid: 47a094d6-a159-46e6-8405-56c3aa5b0870
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  fab6fa97-473f-418a-b40f-86cfeb34dc6e:
+    uuid: fab6fa97-473f-418a-b40f-86cfeb34dc6e
+    id: image_scale
+    weight: 2
+    data:
+      width: 1090
+      height: null
+      upscale: false

@@ -1,0 +1,31 @@
+uuid: 11bd111d-0396-4ff6-8c4a-760832a9fd6a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media
+    - media.type.dsfr_media_document
+    - media.type.dsfr_media_image
+    - paragraphs.paragraphs_type.dsfr_media_content
+id: paragraph.dsfr_media_content.field_media
+field_name: field_media
+entity_type: paragraph
+bundle: dsfr_media_content
+label: media
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      dsfr_media_document: dsfr_media_document
+      dsfr_media_image: dsfr_media_image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: dsfr_media_document
+field_type: entity_reference

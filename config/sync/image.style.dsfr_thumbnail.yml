@@ -1,0 +1,21 @@
+uuid: c4f63485-0d65-4476-996e-b1fe9c081324
+langcode: fr
+status: true
+dependencies: {  }
+name: dsfr_thumbnail
+label: 'DSFR Vignette (100x100)'
+effects:
+  8a6f185f-af3e-42f0-a881-5540235b3aa7:
+    uuid: 8a6f185f-af3e-42f0-a881-5540235b3aa7
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  6ab748ae-9ebe-47d8-918e-fcb3f63aa8ef:
+    uuid: 6ab748ae-9ebe-47d8-918e-fcb3f63aa8ef
+    id: image_scale
+    weight: 2
+    data:
+      width: 100
+      height: 100
+      upscale: false
