@@ -1,0 +1,9 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_share
+label: Partage
+icon_uuid: null
+icon_default: null
+description: 'Les boutons de partage permettent aux utilisateurs de partager facilement un contenu qu’il consulte à d’autres utilisateur.'
+behavior_plugins: {  }

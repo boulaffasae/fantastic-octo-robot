@@ -1,0 +1,20 @@
+langcode: fr
+status: true
+dependencies: {  }
+name: wide_webp
+label: 'Large WebP (1090)'
+effects:
+  121bc389-b35b-4132-be92-a04da77a17a2:
+    uuid: 121bc389-b35b-4132-be92-a04da77a17a2
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  9a2500e3-7183-476c-a7dc-06e91cb8480b:
+    uuid: 9a2500e3-7183-476c-a7dc-06e91cb8480b
+    id: image_scale
+    weight: 2
+    data:
+      width: 1090
+      height: null
+      upscale: false

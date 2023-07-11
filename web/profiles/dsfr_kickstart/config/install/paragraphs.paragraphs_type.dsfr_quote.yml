@@ -1,0 +1,9 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_quote
+label: Citation
+icon_uuid: null
+icon_default: null
+description: 'La citation permet de citer un texte dans une page éditoriale. La citation peut provenir d''un extrait d’un discours oral formulé par une tierce personne ou d’un texte écrit. '
+behavior_plugins: {  }

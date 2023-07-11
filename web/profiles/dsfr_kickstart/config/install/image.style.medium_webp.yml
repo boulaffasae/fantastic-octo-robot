@@ -1,0 +1,20 @@
+langcode: fr
+status: true
+dependencies: {  }
+name: medium_webp
+label: 'Moyen WebP (220x220)'
+effects:
+  559b777f-beac-4391-9129-1436c5e9cf24:
+    uuid: 559b777f-beac-4391-9129-1436c5e9cf24
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  48dcd522-7619-4144-9592-560742bf8918:
+    uuid: 48dcd522-7619-4144-9592-560742bf8918
+    id: image_scale
+    weight: 2
+    data:
+      width: 220
+      height: 220
+      upscale: false

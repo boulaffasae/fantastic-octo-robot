@@ -1,0 +1,9 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_link
+label: Lien
+icon_uuid: null
+icon_default: null
+description: 'Le lien permet la navigation entre une page et un autre contenu au sein de la même page, du même site ou externe. '
+behavior_plugins: {  }

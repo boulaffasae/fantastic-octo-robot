@@ -1,0 +1,40 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.large_webp
+    - image.style.medium_webp
+    - image.style.thumbnail_webp
+    - image.style.wide_webp
+  theme:
+    - olivero
+id: image_webp
+label: 'image WebP'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: wide_webp
+    breakpoint_id: olivero.grid-max
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: large_webp
+    breakpoint_id: olivero.grid-md
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: large_webp
+    breakpoint_id: olivero.nav
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: medium_webp
+    breakpoint_id: olivero.nav-md
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: medium_webp
+    breakpoint_id: olivero.xl
+    multiplier: 1x
+breakpoint_group: olivero
+fallback_image_style: thumbnail_webp

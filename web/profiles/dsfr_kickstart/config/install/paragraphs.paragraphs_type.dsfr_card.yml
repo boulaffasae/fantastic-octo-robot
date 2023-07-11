@@ -1,0 +1,9 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_card
+label: Carte
+icon_uuid: null
+icon_default: null
+description: "La carte est un lien vers une page éditoriale dont elle donne un aperçu. Elle fait généralement partie d'une collection ou liste d’aperçus de contenu similaires. La carte n’est jamais présentée de manière isolée.\r\n\r\nLa carte existe en trois tailles (LG, MD, SM) et deux formats (horizontale et verticale), déclinés sur deux supports (desktop et mobile). Les cartes horizontales sont réservées au desktop (en mobile, une carte horizontale devient verticale)."
+behavior_plugins: {  }

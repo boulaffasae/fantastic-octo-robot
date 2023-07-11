@@ -1,0 +1,9 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_files_table
+label: 'Tableau de fichiers'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

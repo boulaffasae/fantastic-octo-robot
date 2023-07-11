@@ -1,0 +1,9 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_summary
+label: Sommaire
+icon_uuid: null
+icon_default: null
+description: 'Le sommaire permet aux utilisateurs d’avoir un aperçu du contenu et de naviguer entre les différentes sections d’une page.'
+behavior_plugins: {  }
