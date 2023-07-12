@@ -1,0 +1,30 @@
+uuid: 93bfeb49-a09d-4dd1-b781-d135936453a4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.media.dsfr_image_informative.field_media_image_2
+    - media.type.dsfr_image_informative
+    - responsive_image.styles.dsfr_image_adaptative
+  module:
+    - responsive_image
+id: media.dsfr_image_informative.default
+targetEntityType: media
+bundle: dsfr_image_informative
+mode: default
+content:
+  field_media_image_2:
+    type: responsive_image
+    label: visually_hidden
+    settings:
+      responsive_image_style: dsfr_image_adaptative
+      image_link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

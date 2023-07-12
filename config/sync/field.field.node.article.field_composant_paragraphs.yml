@@ -44,21 +44,21 @@ settings:
     target_bundles:
       dsfr_layout: dsfr_layout
       dsfr_ckeditor: dsfr_ckeditor
-      dsfr_highlight: dsfr_highlight
-      dsfr_alert: dsfr_alert
+      dsfr_media_content: dsfr_media_content
       dsfr_files_table: dsfr_files_table
       dsfr_accordion: dsfr_accordion
-      dsfrl_sidemenu: dsfrl_sidemenu
       dsfr_callout: dsfr_callout
+      dsfr_highlight: dsfr_highlight
+      dsfr_quote: dsfr_quote
+      dsfr_alert: dsfr_alert
+      dsfrl_sidemenu: dsfrl_sidemenu
       dsfr_link: dsfr_link
       dsfr_card: dsfr_card
       dsfr_badge: dsfr_badge
       dsfr_button: dsfr_button
       dsfr_button_group: dsfr_button_group
       dsfr_tab: dsfr_tab
-      dsfr_media_content: dsfr_media_content
       dsfr_notice: dsfr_notice
-      dsfr_quote: dsfr_quote
       dsfr_share: dsfr_share
       dsfr_summary: dsfr_summary
       dsfr_tag: dsfr_tag
@@ -69,66 +69,63 @@ settings:
         weight: -39
         enabled: true
       dsfr_alert:
-        weight: -42
-        enabled: true
-      dsfr_badge:
-        weight: -34
-        enabled: true
-      dsfr_button:
-        weight: -33
-        enabled: true
-      dsfr_button_group:
-        weight: -32
-        enabled: true
-      dsfr_callout:
-        weight: -37
-        enabled: true
-      dsfr_card:
         weight: -35
         enabled: true
+      dsfr_badge:
+        weight: -31
+        enabled: true
+      dsfr_button:
+        weight: -30
+        enabled: true
+      dsfr_button_group:
+        weight: -29
+        enabled: true
+      dsfr_callout:
+        weight: -38
+        enabled: true
+      dsfr_card:
+        weight: -32
+        enabled: true
       dsfr_ckeditor:
-        weight: -44
+        weight: -42
         enabled: true
       dsfr_files_table:
         weight: -40
         enabled: true
       dsfr_highlight:
-        weight: -43
+        weight: -37
         enabled: true
       dsfr_layout:
-        weight: -45
+        weight: -43
         enabled: true
       dsfr_link:
-        weight: -36
-        enabled: true
-      dsfr_media:
-        weight: -41
+        weight: -33
         enabled: true
       dsfr_media_content:
-        weight: -30
+        weight: -41
         enabled: true
       dsfr_notice:
-        weight: -29
-        enabled: true
-      dsfr_quote:
-        weight: -28
-        enabled: true
-      dsfr_share:
         weight: -27
         enabled: true
-      dsfr_summary:
+      dsfr_quote:
+        weight: -36
+        enabled: true
+      dsfr_share:
         weight: -26
         enabled: true
-      dsfr_tab:
-        weight: -31
-        enabled: true
-      dsfr_tag:
+      dsfr_summary:
         weight: -25
         enabled: true
-      dsfr_tile:
+      dsfr_tab:
+        weight: -28
+        enabled: true
+      dsfr_tag:
         weight: -24
         enabled: true
+      dsfr_tile:
+        weight: -23
+        enabled: true
       dsfrl_sidemenu:
-        weight: -38
+        weight: -34
         enabled: true
 field_type: entity_reference_revisions

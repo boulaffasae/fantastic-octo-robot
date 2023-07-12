@@ -1,0 +1,13 @@
+uuid: 999cff7e-ba09-4552-bc87-6ea91c12fd0c
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_image_decorative
+label: 'Image décorative'
+description: 'Alternative vide (img alt)'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_1
+field_map: {  }

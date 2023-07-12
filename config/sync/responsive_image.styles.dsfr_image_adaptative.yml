@@ -1,0 +1,34 @@
+uuid: b40abcd9-920a-467c-b352-d74981f65a22
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.dsfr_medium
+    - image.style.dsfr_wide
+  theme:
+    - olivero
+id: dsfr_image_adaptative
+label: 'DSFR image adaptative'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: dsfr_medium
+    breakpoint_id: olivero.grid-max
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: dsfr_medium
+    breakpoint_id: olivero.grid-md
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: dsfr_medium
+    breakpoint_id: olivero.nav
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: dsfr_wide
+    breakpoint_id: olivero.nav-md
+    multiplier: 1x
+breakpoint_group: olivero
+fallback_image_style: dsfr_medium

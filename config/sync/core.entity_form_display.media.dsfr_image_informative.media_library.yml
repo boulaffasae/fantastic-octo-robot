@@ -1,0 +1,38 @@
+uuid: be0b3c91-0fa1-4641-ae28-02fd2e727897
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.dsfr_image_informative.field_media_image_2
+    - image.style.thumbnail
+    - media.type.dsfr_image_informative
+  module:
+    - image
+id: media.dsfr_image_informative.media_library
+targetEntityType: media
+bundle: dsfr_image_informative
+mode: media_library
+content:
+  field_media_image_2:
+    type: image_image
+    weight: 5
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  status: true
+  uid: true
