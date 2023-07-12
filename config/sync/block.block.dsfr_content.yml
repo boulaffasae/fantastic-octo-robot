@@ -1,0 +1,22 @@
+uuid: 6e074091-2391-4eab-883b-223a32de129a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dsfr
+_core:
+  default_config_hash: R1sWjC5xDIJr1w7eEkBJ7MvGfgN8gj8VQTpQs9xz0jY
+id: dsfr_content
+theme: dsfr
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

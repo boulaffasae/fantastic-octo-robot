@@ -1,0 +1,11 @@
+uuid: 173885b0-d6ba-4c65-b9ef-8af29bb1458d
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_accordion
+label: 'Accordéon - Accordion'
+description:
+  value: ''
+  format: full_html
+pattern: "<section class=\"fr-accordion\">\r\n    <h3 class=\"fr-accordion__title\">\r\n        <button class=\"fr-accordion__btn\" aria-expanded=\"false\" aria-controls=\"accordion-106\">Intitulé accordéon</button>\r\n    </h3>\r\n    <div class=\"fr-collapse\" id=\"accordion-106\">\r\n        Vestibulum facilisis purus nec pulvinar Vestibulum facilisis purus nec pulvinar\r\n    </div>\r\n</section>"
+weight: -10

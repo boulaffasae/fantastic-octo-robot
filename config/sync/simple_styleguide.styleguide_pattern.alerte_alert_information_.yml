@@ -1,0 +1,11 @@
+uuid: 896226e7-5c60-4478-abc6-66751ce0545a
+langcode: fr
+status: true
+dependencies: {  }
+id: alerte_alert_information_
+label: 'Alerte - Alert (Information)'
+description:
+  value: ''
+  format: full_html
+pattern: "<div class=\"fr-alert fr-alert--info\">\r\n    <h3 class=\"fr-alert__title\">Information : titre du message</h3>\r\n    <p>Description détaillée du message</p>\r\n</div>"
+weight: -5

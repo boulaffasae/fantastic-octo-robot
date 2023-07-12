@@ -1,0 +1,22 @@
+uuid: 0fa8b008-f16d-4b94-abe2-8dd3f3e15356
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - _dsfr_child
+_core:
+  default_config_hash: UExsgXFRnxfCIlc6Sy4L1p6b9bas80KdWjrWx4foZw4
+id: _dsfr_child_messages
+theme: _dsfr_child
+region: content
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

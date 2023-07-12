@@ -1,0 +1,27 @@
+uuid: e59992bd-4bbb-4ebb-9b7b-9cd5c5cb0c96
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - dsfr
+_core:
+  default_config_hash: 5mhW2dAVUOG5QkU6ysrjONNjNHGFzE92Kq8m1J51JYg
+id: dsfr_tools
+theme: dsfr
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Outils
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

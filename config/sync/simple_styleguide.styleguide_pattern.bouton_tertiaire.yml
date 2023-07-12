@@ -1,0 +1,11 @@
+uuid: a583cfb2-109c-49e1-be0f-f9f39e8336d0
+langcode: fr
+status: true
+dependencies: {  }
+id: bouton_tertiaire
+label: 'Bouton tertiaire'
+description:
+  value: '<p><span style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(58, 58, 58);display:inline !important;float:none;font-family:Marianne, arial, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Le bouton tertiaire est réservé pour des actions contextuelles ou alternatives : fermeture de modale, annuler, réinitialiser, partager, suivre sur un réseau social, copier un lien.</span><br><span style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(58, 58, 58);display:inline !important;float:none;font-family:Marianne, arial, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Rappel : le bouton est utilisé pour déclencher une action alors que le lien est utiliser pour naviguer (au sein de la page, vers une autre page).</span></p>'
+  format: full_html
+pattern: "<button class=\"fr-btn fr-btn--tertiary\">\r\n    Label bouton\r\n</button>\r\n\r\n<button class=\"fr-btn fr-btn--tertiary-no-outline\">\r\n    Label bouton\r\n</button>"
+weight: -8

@@ -1,0 +1,22 @@
+uuid: 43b33405-29e0-497d-acf1-a9b59292b8ad
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - dsfr
+_core:
+  default_config_hash: ukzBV43jrq5dT5QyLEeRhyWgTcEYOiAxMvv1lMjUDhk
+id: dsfr_local_tasks
+theme: dsfr
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

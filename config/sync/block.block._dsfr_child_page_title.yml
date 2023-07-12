@@ -1,0 +1,20 @@
+uuid: c3bc9faf-8627-45e7-995c-66120f559015
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - _dsfr_child
+_core:
+  default_config_hash: obW_oPi1X2m-S3Ut4UFxqsRfJaAUvSbo8Qe0q_t-5s0
+id: _dsfr_child_page_title
+theme: _dsfr_child
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  label_display: '0'
+  provider: core
+visibility: {  }

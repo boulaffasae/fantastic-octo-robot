@@ -1,0 +1,11 @@
+uuid: 54174352-6742-43ba-9d62-7c3087cee8af
+langcode: fr
+status: true
+dependencies: {  }
+id: indicateur_d_etapes_stepper
+label: 'Indicateur d''étapes - Stepper'
+description:
+  value: '<p><span style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(58, 58, 58);display:inline !important;float:none;font-family:Marianne, arial, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">L’indicateur d''étapes permet d’indiquer à l’utilisateur où il se trouve dans un formulaire ou dans une démarche.</span></p>'
+  format: full_html
+pattern: "<div class=\"fr-stepper\">\r\n    <h2 class=\"fr-stepper__title\">\r\n        <span class=\"fr-stepper__state\">Étape 1 sur 3</span>\r\n        Titre de l’étape en cours\r\n    </h2>\r\n    <div class=\"fr-stepper__steps\" data-fr-current-step=\"1\" data-fr-steps=\"3\"></div>\r\n    <p class=\"fr-stepper__details\">\r\n        <span class=\"fr-text--bold\">Étape suivante :</span> Titre de la prochaine étape\r\n    </p>\r\n</div>"
+weight: -7

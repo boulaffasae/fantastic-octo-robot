@@ -1,0 +1,20 @@
+uuid: 478efeab-611b-4fe6-b215-5f1b4c8b86fc
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - dsfr
+_core:
+  default_config_hash: l0z9q-VY8EirAuj80XNRSZt4nqclUO93BZk27PYbpZQ
+id: dsfr_page_title
+theme: dsfr
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  label_display: '0'
+  provider: core
+visibility: {  }

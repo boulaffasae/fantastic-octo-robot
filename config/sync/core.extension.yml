@@ -44,6 +44,7 @@ module:
   responsive_image: 0
   save_edit: 0
   search: 0
+  simple_styleguide: 0
   system: 0
   taxonomy: 0
   telephone: 0
@@ -61,4 +62,6 @@ theme:
   claro: 0
   gin: 0
   stable9: 0
+  dsfr: 0
+  _dsfr_child: 0
 profile: minimal

@@ -1,0 +1,11 @@
+uuid: c9e263c8-9f57-4f86-b620-0cd2eaee36c0
+langcode: fr
+status: true
+dependencies: {  }
+id: badges_systemes_sm
+label: 'Badges systèmes SM'
+description:
+  value: ''
+  format: full_html
+pattern: "<p class=\"fr-badge fr-badge--success fr-badge--sm fr-badge--no-icon\">Label badge</p>\r\n\r\n<p class=\"fr-badge fr-badge--error fr-badge--sm fr-badge--no-icon\">Label badge</p>\r\n\r\n<p class=\"fr-badge fr-badge--info fr-badge--sm\">Label badge</p>\r\n\r\n<p class=\"fr-badge fr-badge--warning fr-badge--sm\">Label badge</p>\r\n\r\n<p class=\"fr-badge fr-badge--new fr-badge--sm\">Label badge</p>"
+weight: -8

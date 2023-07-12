@@ -1,0 +1,27 @@
+uuid: bbf726e0-68e1-41a1-bc31-631b722f6f9f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - _dsfr_child
+_core:
+  default_config_hash: HvPB9Hy7re35SJ1g-WDqHzIbwVy0AwrOcC4gXxcxBAk
+id: _dsfr_child_account_menu
+theme: _dsfr_child
+region: header_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Menu du compte de l''utilisateur'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: b3a0dac3-d000-4765-97af-42071f210fdf
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dsfr
+_core:
+  default_config_hash: YbDH_2TZJpClGkX06DZ9ZZ6gEiuuOMGG_B-aDFvnbPw
+id: dsfr_messages
+theme: dsfr
+region: content
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

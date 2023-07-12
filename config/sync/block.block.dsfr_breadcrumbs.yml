@@ -1,0 +1,22 @@
+uuid: 13dbea54-4b55-4825-a05a-16c1ec79bf87
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - dsfr
+_core:
+  default_config_hash: sL2dKOQGMaAb2uO8JL6gdcSybG-t0myyjD0KnbH4HyI
+id: dsfr_breadcrumbs
+theme: dsfr
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''ariane'
+  label_display: '0'
+  provider: system
+visibility: {  }
