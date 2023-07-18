@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "228422ab9ce35fa59a503e9edfdee2c7",
+    "content-hash": "a4a49aec0eef63efc105f1dce456106a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1944,6 +1944,104 @@
             "homepage": "https://www.drupal.org/project/dsfr",
             "support": {
                 "source": "https://git.drupalcode.org/project/dsfr"
+            }
+        },
+        {
+            "name": "drupal/dsfr_core",
+            "version": "2.1.10-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/dsfr_core.git",
+                "reference": "2.1.10-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/dsfr_core-2.1.10-beta1.zip",
+                "reference": "2.1.10-beta1",
+                "shasum": "b277e1bf958d3cbdde4501d7c4bb4a8e3b634da5"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.10-beta1",
+                    "datestamp": "1689682827",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "netprogfr",
+                    "homepage": "https://www.drupal.org/user/3531092"
+                },
+                {
+                    "name": "sali38",
+                    "homepage": "https://www.drupal.org/user/3709635"
+                }
+            ],
+            "description": "Provides services for other DSFR modules.",
+            "homepage": "https://www.drupal.org/project/dsfr_core",
+            "support": {
+                "source": "https://git.drupalcode.org/project/dsfr_core"
+            }
+        },
+        {
+            "name": "drupal/dsfr_menu",
+            "version": "2.1.10-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/dsfr_menu.git",
+                "reference": "2.1.10-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/dsfr_menu-2.1.10-beta1.zip",
+                "reference": "2.1.10-beta1",
+                "shasum": "fcd4adce1474f3f2d0c01f71275f49ddbf83cf0b"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10",
+                "drupal/dsfr_core": "*",
+                "drupal/form_options_attributes": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.10-beta1",
+                    "datestamp": "1689682906",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "netprogfr",
+                    "homepage": "https://www.drupal.org/user/3531092"
+                },
+                {
+                    "name": "sali38",
+                    "homepage": "https://www.drupal.org/user/3709635"
+                }
+            ],
+            "description": "Creation and management of menus (also works with DSFR child themes).",
+            "homepage": "https://www.drupal.org/project/dsfr_menu",
+            "support": {
+                "source": "https://git.drupalcode.org/project/dsfr_menu"
             }
         },
         {
@@ -7435,6 +7533,8 @@
     "stability-flags": {
         "drupal/config_split": 5,
         "drupal/dsfr": 5,
+        "drupal/dsfr_core": 10,
+        "drupal/dsfr_menu": 10,
         "drupal/gin": 5,
         "drupal/gin_toolbar": 5
     },
