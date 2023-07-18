@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c23750d0938eb3df98592d0c39426609",
+    "content-hash": "228422ab9ce35fa59a503e9edfdee2c7",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1897,6 +1897,54 @@
                 "source": "https://github.com/drupal/core-recommended/tree/9.5.10"
             },
             "time": "2023-07-05T09:26:59+00:00"
+        },
+        {
+            "name": "drupal/dsfr",
+            "version": "2.1.10-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/dsfr.git",
+                "reference": "2.1.10-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/dsfr-2.1.10-rc1.zip",
+                "reference": "2.1.10-rc1",
+                "shasum": "4a33a628d1e9a2929be82a4626e738e4cab2a87f"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.10-rc1",
+                    "datestamp": "1689669283",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "netprogfr",
+                    "homepage": "https://www.drupal.org/user/3531092"
+                },
+                {
+                    "name": "sali38",
+                    "homepage": "https://www.drupal.org/user/3709635"
+                }
+            ],
+            "description": "DSFR is a base theme for Drupal, which uses for the frontend the DSFR library (French State Design System).",
+            "homepage": "https://www.drupal.org/project/dsfr",
+            "support": {
+                "source": "https://git.drupalcode.org/project/dsfr"
+            }
         },
         {
             "name": "drupal/entity_reference_revisions",
@@ -7386,6 +7434,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "drupal/config_split": 5,
+        "drupal/dsfr": 5,
         "drupal/gin": 5,
         "drupal/gin_toolbar": 5
     },

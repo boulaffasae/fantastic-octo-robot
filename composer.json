@@ -24,6 +24,7 @@
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-project-message": "^9.5",
         "drupal/core-recommended": "^9.5",
+        "drupal/dsfr": "^2.1@RC",
         "drupal/features": "^3.13",
         "drupal/form_options_attributes": "^2.0",
         "drupal/gin": "^3.0@RC",
