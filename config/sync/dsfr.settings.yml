@@ -1,5 +1,5 @@
 _core:
-  default_config_hash: qgy4KZuf1OgquyJd2e046g-lVWGgi_hYI1LrIliK4H8
+  default_config_hash: fgMox1rcvTA6HWQF4z-YnT8FMCoVKwDCr25fuTRrSxc
 general:
   institution: 'République <br> Française'
 header:
@@ -21,6 +21,9 @@ hero:
     bottom: '3'
 breadcrumb:
   position: '0'
+  margin:
+    top: '0'
+    bottom: '0'
 content:
   container: 0
   margin:
@@ -31,7 +34,8 @@ footer_top:
 footer:
   container: 0
   logo:
-    img: 0
+    img: 1
+  last_line: 1
 features:
   node_user_picture: true
   comment_user_picture: true

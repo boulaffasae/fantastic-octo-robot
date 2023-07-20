@@ -1,4 +1,4 @@
-uuid: 05627456-6b84-443f-9067-b1aa8d9d3ce3
+uuid: 5f19fd28-ea32-4168-a6f2-2517d4cd0029
 langcode: fr
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: Rechercher
+  label: Recherche
   label_display: '0'
   provider: search
   page_id: ''

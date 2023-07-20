@@ -9,7 +9,8 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  use_default: true
+  path: ''
+  use_default: false
 third_party_settings:
   shortcut:
     module_link: true
