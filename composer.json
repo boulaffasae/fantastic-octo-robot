@@ -35,6 +35,7 @@
         "drupal/paragraphs": "^1.15",
         "drupal/save_edit": "^1.4",
         "drupal/simple_styleguide": "^2.0",
+        "drupal/tacjs": "^6.4",
         "drupal/toolbar_visibility": "^2.1",
         "drupal/wpf": "^1.1",
         "drush/drush": "^11.6"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4a49aec0eef63efc105f1dce456106a",
+    "content-hash": "e027abe3c6aa2c31806fc07ba34c4416",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1515,17 +1515,17 @@
         },
         {
             "name": "drupal/cool_editor_tabs",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/cool_editor_tabs.git",
-                "reference": "1.0.3"
+                "reference": "1.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/cool_editor_tabs-1.0.3.zip",
-                "reference": "1.0.3",
-                "shasum": "87782a4e546c897a22ed55a43e28a3687d0670eb"
+                "url": "https://ftp.drupal.org/files/projects/cool_editor_tabs-1.0.4.zip",
+                "reference": "1.0.4",
+                "shasum": "44d7de409e1851e9f29d61afa14c5cb3e3e2017b"
             },
             "require": {
                 "drupal/core": "^9.3 || ^10"
@@ -1533,8 +1533,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.0.3",
-                    "datestamp": "1662971625",
+                    "version": "1.0.4",
+                    "datestamp": "1689756277",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -2608,6 +2608,79 @@
             "homepage": "https://www.drupal.org/project/simple_styleguide",
             "support": {
                 "source": "https://git.drupalcode.org/project/simple_styleguide"
+            }
+        },
+        {
+            "name": "drupal/tacjs",
+            "version": "6.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/tacjs.git",
+                "reference": "8.x-6.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/tacjs-8.x-6.4.zip",
+                "reference": "8.x-6.4",
+                "shasum": "20a23611b6ea7a5f3b8d2d5ec9ce714cd3e00d77"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-6.4",
+                    "datestamp": "1687974794",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "asmaakhalfi",
+                    "homepage": "https://www.drupal.org/user/3587145"
+                },
+                {
+                    "name": "boulaffasae",
+                    "homepage": "https://www.drupal.org/user/3584750"
+                },
+                {
+                    "name": "chaimaariz",
+                    "homepage": "https://www.drupal.org/user/3549766"
+                },
+                {
+                    "name": "k.asmouh",
+                    "homepage": "https://www.drupal.org/user/3135943"
+                },
+                {
+                    "name": "lamlih",
+                    "homepage": "https://www.drupal.org/user/3708454"
+                },
+                {
+                    "name": "mably",
+                    "homepage": "https://www.drupal.org/user/3375160"
+                },
+                {
+                    "name": "netsliver",
+                    "homepage": "https://www.drupal.org/user/3082011"
+                }
+            ],
+            "description": "Comply to the European cookie law using tarteaucitron.js.",
+            "homepage": "https://www.drupal.org/project/tacjs",
+            "keywords": [
+                "Drupal",
+                "tacjs"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/tacjs",
+                "issues": "https://www.drupal.org/project/issues/tacjs"
             }
         },
         {
