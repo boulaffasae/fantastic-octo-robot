@@ -2,7 +2,7 @@ name: DSFR Kickstart
 type: profile
 core_version_requirement: ^9.0
 description: 'DSFR Drupal installation, with everything you need to get started.'
-
+version: VERSION
 dependencies:
   - drupal:automated_cron
   - drupal:block
@@ -64,6 +64,7 @@ dependencies:
   - dsfr_menu:dsfr_menu
   - gin_toolbar:gin_toolbar
   - gin_login:gin_login
+  - symfony_mailer:symfony_mailer
 
 themes:
   - claro
