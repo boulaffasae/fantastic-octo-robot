@@ -4,14 +4,11 @@ core_version_requirement: ^9.0
 description: 'DSFR Drupal installation, with everything you need to get started.'
 
 dependencies:
-
-  # Standard.
   - drupal:automated_cron
   - drupal:block
   - drupal:block_content
   - drupal:breakpoint
   - drupal:ckeditor5
-  - drupal:color
   - drupal:comment
   - drupal:config
   - drupal:config_translation
@@ -25,8 +22,6 @@ dependencies:
   - drupal:field_ui
   - drupal:file
   - drupal:filter
-  - drupal:help
-  - drupal:history
   - drupal:image
   - drupal:inline_form_errors
   - drupal:language
@@ -40,35 +35,37 @@ dependencies:
   - drupal:options
   - drupal:page_cache
   - drupal:path
-  - drupal:quickedit
-  - drupal:rdf
   - drupal:responsive_image
   - drupal:search
-  - drupal:shortcut
   - drupal:syslog
   - drupal:system
   - drupal:taxonomy
   - drupal:telephone
   - drupal:text
   - drupal:toolbar
-  - drupal:tour
-  - drupal:update
   - drupal:user
   - drupal:views
   - drupal:views_ui
-
+  - drupal:big_pipe
   # Contrib.
   - coffee:coffee
   - config_filter:config_filter
   - config_split:config_split
   - config_update:config_update
-  - features:features
   - paragraphs:paragraphs
   - layout_paragraphs:layout_paragraphs
   - simple_styleguide:simple_styleguide
+  - cool_editor_tabs:cool_editor_tabs
+  - toolbar_visibility:toolbar_visibility
+  - save_edit:save_edit
+  - wpf:wpf
+  - form_options_attributes:form_options_attributes
+  - dsfr_core:dsfr_core
+  - dsfr_menu:dsfr_menu
+  - gin_toolbar:gin_toolbar
+  - gin_login:gin_login
 
 themes:
-  - olivero
   - claro
   - gin
   - dsfr

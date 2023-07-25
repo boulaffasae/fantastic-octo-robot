@@ -27,6 +27,7 @@ module:
   file: 0
   filter: 0
   form_options_attributes: 0
+  gin_login: 0
   gin_toolbar: 0
   image: 0
   language: 0
