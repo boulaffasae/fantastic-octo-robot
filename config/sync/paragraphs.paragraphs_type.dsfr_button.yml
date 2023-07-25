@@ -6,5 +6,5 @@ id: dsfr_button
 label: 'Bouton - Button'
 icon_uuid: null
 icon_default: null
-description: ''
+description: 'Le bouton est un élément d’interaction avec l’interface permettant à l’utilisateur d’effectuer une action.'
 behavior_plugins: {  }

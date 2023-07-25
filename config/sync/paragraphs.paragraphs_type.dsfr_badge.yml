@@ -6,5 +6,5 @@ id: dsfr_badge
 label: Badge
 icon_uuid: null
 icon_default: null
-description: ''
+description: 'Le composant badge permet de mettre en avant une information de type “statut” ou “état” sur un élément du site.'
 behavior_plugins: {  }
