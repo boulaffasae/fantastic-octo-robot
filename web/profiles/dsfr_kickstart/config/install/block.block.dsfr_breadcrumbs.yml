@@ -1,0 +1,19 @@
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - dsfr
+id: dsfr_breadcrumbs
+theme: dsfr
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''ariane'
+  label_display: '0'
+  provider: system
+visibility: {  }

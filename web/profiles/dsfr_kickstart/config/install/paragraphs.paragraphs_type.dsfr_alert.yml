@@ -5,5 +5,5 @@ id: dsfr_alert
 label: Alerte
 icon_uuid: null
 icon_default: null
-description: ''
+description: 'Les alertes permettent d’attirer l’attention de l’utilisateur sur une information sans interrompre sa tâche en cours.'
 behavior_plugins: {  }

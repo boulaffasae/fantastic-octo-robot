@@ -1,0 +1,20 @@
+langcode: fr
+status: true
+dependencies: {  }
+name: dsfr_large
+label: 'DSFR Large (480×480)'
+effects:
+  adfe0408-d83f-4c58-887a-ca343afd48c5:
+    uuid: adfe0408-d83f-4c58-887a-ca343afd48c5
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp
+  aa6a71e1-a749-421f-a79a-ff5541376d98:
+    uuid: aa6a71e1-a749-421f-a79a-ff5541376d98
+    id: image_scale
+    weight: 2
+    data:
+      width: 480
+      height: 480
+      upscale: false

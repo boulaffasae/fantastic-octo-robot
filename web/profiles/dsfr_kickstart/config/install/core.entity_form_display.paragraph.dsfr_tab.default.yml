@@ -1,0 +1,13 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.dsfr_tab
+id: paragraph.dsfr_tab.default
+targetEntityType: paragraph
+bundle: dsfr_tab
+mode: default
+content: {  }
+hidden:
+  created: true
+  status: true

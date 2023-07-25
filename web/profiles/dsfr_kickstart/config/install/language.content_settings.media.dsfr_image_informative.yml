@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media.type.dsfr_image_informative
+id: media.dsfr_image_informative
+target_entity_type_id: media
+target_bundle: dsfr_image_informative
+default_langcode: site_default
+language_alterable: false

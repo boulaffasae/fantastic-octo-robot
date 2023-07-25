@@ -1,0 +1,21 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_media_content.field_media
+    - paragraphs.paragraphs_type.dsfr_media_content
+id: paragraph.dsfr_media_content.default
+targetEntityType: paragraph
+bundle: dsfr_media_content
+mode: default
+content:
+  field_media:
+    type: entity_reference_entity_view
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: liste_deroulante_avec_texte_d_aide
+label: 'Liste déroulante avec texte d’aide'
+description:
+  value: '<p><span style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(58, 58, 58);display:inline !important;float:none;font-family:Marianne, arial, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Il est recommandé d’ajouter un texte d’aide sous le libellé afin de faciliter le choix de l’utilisateur. Il s’affiche sous le libellé du champ.</span></p>'
+  format: full_html
+pattern: "<div class=\"fr-select-group\">\r\n    <label class=\"fr-label\" for=\"select-hint\">Label pour liste déroulante\r\n        <span class=\"fr-hint-text\">Texte de description additionnel</span>\r\n    </label>\r\n    <select class=\"fr-select\" id=\"select-hint\" name=\"select-hint\">\r\n        <option value=\"\" selected disabled hidden>Selectionnez une option</option>\r\n        <option value=\"1\">Option 1</option>\r\n        <option value=\"2\">Option 2</option>\r\n        <option value=\"3\">Option 3</option>\r\n        <option value=\"4\">Option 4</option>\r\n    </select>\r\n</div>"
+weight: -1

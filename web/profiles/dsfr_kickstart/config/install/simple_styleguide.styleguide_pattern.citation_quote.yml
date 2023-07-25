@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: citation_quote
+label: 'Citation - Quote'
+description:
+  value: '<p><span style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgb(58, 58, 58);display:inline !important;float:none;font-family:Marianne, arial, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">La citation permet de citer un texte dans une page éditoriale. La citation peut provenir d''un extrait d’un discours oral formulé par une tierce personne ou d’un texte écrit.</span></p>'
+  format: full_html
+pattern: "<figure class=\"fr-quote fr-quote--column\">\r\n    <blockquote cite=\"[À MODIFIER | https://lien-vers-la-source.fr || supprimer l'attribut si pas d'url pour la source']\">\r\n        <p>« Lorem [...] elit ut. »</p>\r\n    </blockquote>\r\n    <figcaption>\r\n        <p class=\"fr-quote__author\">Auteur</p>\r\n        <ul class=\"fr-quote__source\">\r\n            <li>\r\n                <cite>Ouvrage</cite>\r\n            </li>\r\n            <li>Détail 1</li>\r\n            <li>Détail 2</li>\r\n            <li>Détail 3</li>\r\n            <li>\r\n              <a target=\"_blank\" href=\"[À MODIFIER | Lien vers la sources ou des infos complémentaires]\">Détail 4</a>\r\n            </li>\r\n        </ul>\r\n        <div class=\"fr-quote__image\">\r\n            <img src=\"/img/placeholder.1x1.png\" class=\"fr-responsive-img\" alt=\"\" />\r\n            <!-- L’alternative de l’image (attribut alt) doit rester vide car l’image est illustrative et ne doit pas être restituée aux technologies d’assistance -->\r\n        </div>\r\n    </figcaption>\r\n</figure>"
+weight: -7

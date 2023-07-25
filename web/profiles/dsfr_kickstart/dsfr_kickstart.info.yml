@@ -65,8 +65,10 @@ dependencies:
   - features:features
   - paragraphs:paragraphs
   - layout_paragraphs:layout_paragraphs
+  - simple_styleguide:simple_styleguide
 
 themes:
   - olivero
   - claro
   - gin
+  - dsfr
