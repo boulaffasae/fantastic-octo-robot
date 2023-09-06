@@ -15,6 +15,7 @@ docker-compose.yml
 # Ignore Drupal's file directory
 /web/sites/*/files/*
 /web/sites/*/files/feeds/*
+/web/sites/default/*
 /private/
 /web/libraries/*
 
