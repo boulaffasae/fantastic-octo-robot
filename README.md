@@ -34,8 +34,29 @@ This profile has no special requirements outside of Composer requirements.
 
 ## Installation
 
-Install as you would install any other [contributed Drupal profile](https://www.drupal.org/docs/extending-drupal/installing-drupal-modules) using [Composer](https://getcomposer.org) :
 
+git clone https://git.drupalcode.org/project/dsfr_kickstart.git my_website
+cd my_webite
+composer install
+cp web/sites/default/default.settings.php web/sites/default/settings.php
+
+```
+chmod ugo+w web/sites/default/files
+chmod ugo+w web/sites/default/files/translations
+chmod ugo+w web/sites/default/settings.php
+```
+
+add to web/sites/default/settings.php the following line
+```
+$settings['config_sync_directory'] = '../config/sync';
+```
+
+Go to the site address and launch the installation from the interface by choosing the DSFR Kickstart profile or use drush via the command:
+
+```
+drush si --existing-config
+
+```
 
 ## Configuration
 
