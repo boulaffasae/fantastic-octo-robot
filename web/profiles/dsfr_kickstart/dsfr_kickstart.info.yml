@@ -1,6 +1,6 @@
 name: DSFR Kickstart
 type: profile
-core_version_requirement: ^9.0
+core_version_requirement: ^9 || ^10
 description: 'DSFR Drupal installation, with everything you need to get started.'
 version: VERSION
 dependencies:

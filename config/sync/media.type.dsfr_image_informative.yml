@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 id: dsfr_image_informative
 label: 'Image informative'
-description: 'Chaque image possède un attribut alt qui contient l''information essentielle à la compréhension du contenu.'
+description: "Chaque image possède un attribut alt qui contient l'information essentielle à la compréhension du contenu."
 source: image
 queue_thumbnail_downloads: false
 new_revision: false
