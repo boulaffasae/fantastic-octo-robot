@@ -34,13 +34,13 @@ This profile has no special requirements outside of Composer requirements.
 
 ## Installation
 
-
+```
 git clone https://git.drupalcode.org/project/dsfr_kickstart.git my_website
 cd my_webite
 composer install
 cp web/sites/default/default.settings.php web/sites/default/settings.php
 
-```
+
 chmod ugo+w web/sites/default/files
 chmod ugo+w web/sites/default/files/translations
 chmod ugo+w web/sites/default/settings.php
