@@ -28,7 +28,6 @@
         "drupal/dsfr": "^2.1@RC",
         "drupal/dsfr_core": "^2.1@beta",
         "drupal/dsfr_menu": "^2.1@beta",
-        "drupal/features": "^3.13",
         "drupal/form_options_attributes": "^2.0",
         "drupal/gin": "^3.0@RC",
         "drupal/gin_lb": "1.0.x-dev@dev",
