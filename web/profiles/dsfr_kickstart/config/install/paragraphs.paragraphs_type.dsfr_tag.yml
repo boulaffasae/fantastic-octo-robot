@@ -5,5 +5,5 @@ id: dsfr_tag
 label: Tag
 icon_uuid: null
 icon_default: null
-description: 'Le tag catégorise/classe/organise les contenus à l''aide de mots-clés. Il aide les utilisateurs à rechercher et à trouver facilement une information.'
+description: "Le tag catégorise/classe/organise les contenus à l'aide de mots-clés. Il aide les utilisateurs à rechercher et à trouver facilement une information."
 behavior_plugins: {  }

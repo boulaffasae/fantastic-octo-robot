@@ -3,5 +3,5 @@ status: true
 dependencies: {  }
 id: footer
 label: 'Pied de page'
-description: 'Liens d''informations sur le site'
+description: "Liens d'informations sur le site"
 locked: true

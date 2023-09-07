@@ -4,6 +4,6 @@ dependencies:
   module:
     - user
 id: user.register
-label: 'S''inscrire'
+label: "S'inscrire"
 targetEntityType: user
 cache: true

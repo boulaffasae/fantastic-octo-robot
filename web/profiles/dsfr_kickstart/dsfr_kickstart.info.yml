@@ -51,7 +51,6 @@ dependencies:
   - coffee:coffee
   - config_filter:config_filter
   - config_split:config_split
-  - config_update:config_update
   - paragraphs:paragraphs
   - layout_paragraphs:layout_paragraphs
   - simple_styleguide:simple_styleguide

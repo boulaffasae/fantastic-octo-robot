@@ -4,7 +4,7 @@ dependencies:
   module:
     - user
 id: user_cancel_user_action
-label: 'Annuler l''(les) utilisateur(s) sélectionné(s)'
+label: "Annuler l'(les) utilisateur(s) sélectionné(s)"
 type: user
 plugin: user_cancel_user_action
 configuration: {  }

@@ -3,7 +3,7 @@ status: true
 dependencies: {  }
 name: 'Page de base'
 type: page
-description: 'Utilisez les <em>pages de base</em> pour votre contenu statique, tel que la page ''Qui sommes-nous''.'
+description: "Utilisez les <em>pages de base</em> pour votre contenu statique, tel que la page 'Qui sommes-nous'."
 help: ''
 new_revision: true
 preview_mode: 1

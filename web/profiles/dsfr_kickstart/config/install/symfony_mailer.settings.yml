@@ -1,0 +1,3 @@
+langcode: fr
+default_transport: smtp
+override: {  }
