@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "acb85586c5369216a10afcf366407b40",
+    "content-hash": "2062ad6308a5b0d6c924fb51a4db5163",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1834,26 +1834,23 @@
         },
         {
             "name": "drupal/dsfr",
-            "version": "2.1.10-rc2",
+            "version": "dev-2.1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dsfr.git",
-                "reference": "2.1.10-rc2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/dsfr-2.1.10-rc2.zip",
-                "reference": "2.1.10-rc2",
-                "shasum": "be8353db5d64b55a1a374f3ef5b90991ba365799"
+                "reference": "b7d0679864e3934744499cf86ea9da61328fb46f"
             },
             "require": {
                 "drupal/core": "^9 || ^10"
             },
             "type": "drupal-theme",
             "extra": {
+                "branch-alias": {
+                    "dev-2.1.x": "2.1.x-dev"
+                },
                 "drupal": {
-                    "version": "2.1.10-rc2",
-                    "datestamp": "1689837081",
+                    "version": "2.1.10-rc2+17-dev",
+                    "datestamp": "1694270792",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -11948,7 +11945,7 @@
     "stability-flags": {
         "drupal/ckeditor5_fullscreen": 10,
         "drupal/config_split": 5,
-        "drupal/dsfr": 5,
+        "drupal/dsfr": 20,
         "drupal/dsfr_core": 10,
         "drupal/dsfr_menu": 10,
         "drupal/gin": 5,

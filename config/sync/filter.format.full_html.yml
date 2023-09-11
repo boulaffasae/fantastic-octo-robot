@@ -9,7 +9,7 @@ _core:
   default_config_hash: WNeK5FbcY8pXgEpbD_KgRzlF1-5PL3BJXwqaBctPTqw
 name: 'HTML complet'
 format: full_html
-weight: 2
+weight: -9
 filters:
   filter_align:
     id: filter_align
@@ -53,7 +53,6 @@ filters:
       default_view_mode: default
       allowed_view_modes: {  }
       allowed_media_types:
-        dsfr_media_document: dsfr_media_document
         dsfr_media_image: dsfr_media_image
   filter_image_lazy_load:
     id: filter_image_lazy_load
