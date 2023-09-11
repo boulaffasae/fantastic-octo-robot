@@ -5,14 +5,26 @@ dependencies:
   config:
     - field.field.media.dsfr_image_informative.field_media_image_2
     - media.type.dsfr_image_informative
+  module:
+    - image
 id: media.dsfr_image_informative.default
 targetEntityType: media
 bundle: dsfr_image_informative
 mode: default
-content: {  }
+content:
+  field_media_image_2:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   created: true
-  field_media_image_2: true
   langcode: true
   name: true
   thumbnail: true

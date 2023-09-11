@@ -1838,7 +1838,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dsfr.git",
-                "reference": "b7d0679864e3934744499cf86ea9da61328fb46f"
+                "reference": "cde674064de4c6af90a5dd80214e5c5638c999c0"
             },
             "require": {
                 "drupal/core": "^9 || ^10"
@@ -1849,8 +1849,8 @@
                     "dev-2.1.x": "2.1.x-dev"
                 },
                 "drupal": {
-                    "version": "2.1.10-rc2+17-dev",
-                    "datestamp": "1694270792",
+                    "version": "2.1.10-rc2+18-dev",
+                    "datestamp": "1694435676",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"

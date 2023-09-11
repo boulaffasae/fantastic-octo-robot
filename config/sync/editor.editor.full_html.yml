@@ -34,8 +34,8 @@ settings:
       - heading
       - codeBlock
       - '|'
-      - Fullscreen
       - sourceEditing
+      - Fullscreen
   plugins:
     ckeditor5_codeBlock:
       languages:
