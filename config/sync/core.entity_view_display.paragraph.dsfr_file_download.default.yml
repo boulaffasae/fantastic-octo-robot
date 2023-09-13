@@ -1,0 +1,22 @@
+uuid: 15fd5fa6-ac2f-48e5-97fb-a04df0287b02
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_file_download.field_media_file
+    - paragraphs.paragraphs_type.dsfr_file_download
+id: paragraph.dsfr_file_download.default
+targetEntityType: paragraph
+bundle: dsfr_file_download
+mode: default
+content:
+  field_media_file:
+    type: entity_reference_entity_view
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

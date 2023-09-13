@@ -1,0 +1,10 @@
+uuid: cc83b385-e4c8-4f6b-be6e-2f3084b50567
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_file_download
+label: 'Téléchargement de fichier - Download'
+icon_uuid: null
+icon_default: null
+description: "Le lien de téléchargement permet de mettre à disposition un ou plusieurs fichiers en téléchargement au fil du texte pour que l’utilisateur puisse les télécharger.\r\nCe composant se décline sous trois formes possibles : Lien, Carte, Tuile."
+behavior_plugins: {  }
