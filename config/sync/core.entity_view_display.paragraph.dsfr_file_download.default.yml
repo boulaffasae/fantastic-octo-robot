@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.dsfr_file_download.field_media_file
+    - field.field.paragraph.dsfr_file_download.field_variations
     - paragraphs.paragraphs_type.dsfr_file_download
 id: paragraph.dsfr_file_download.default
 targetEntityType: paragraph
@@ -19,4 +20,5 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-hidden: {  }
+hidden:
+  field_variations: true

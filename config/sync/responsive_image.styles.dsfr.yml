@@ -1,0 +1,27 @@
+uuid: bcc4d843-8d4c-4f43-98b7-03e09b09bb45
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.dsfr_large
+    - image.style.dsfr_medium
+    - image.style.dsfr_thumbnail
+    - image.style.dsfr_wide
+    - image.style.large
+id: dsfr
+label: DSFR
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - dsfr_large
+        - dsfr_medium
+        - dsfr_thumbnail
+        - dsfr_wide
+        - large
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: '_original image_'
