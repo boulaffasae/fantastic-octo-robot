@@ -1,10 +1,12 @@
 uuid: c7bfc31c-a9e2-463b-af34-75ec097b9ca2
 langcode: fr
 status: true
-dependencies: {  }
+dependencies:
+  content:
+    - 'file:file:5f77b8ef-4194-49a0-9fba-858c3e1897f1'
 id: dsfr_badge
 label: Badge
-icon_uuid: null
-icon_default: null
+icon_uuid: 5f77b8ef-4194-49a0-9fba-858c3e1897f1
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEwLjkwNDIgMi4xMDAxTDIwLjgwMzcgMy41MTQzMUwyMi4yMTc5IDEzLjQxMzhMMTMuMDI1NSAyMi42MDYyQzEyLjYzNSAyMi45OTY3IDEyLjAwMTkgMjIuOTk2NyAxMS42MTEzIDIyLjYwNjJMMS43MTE4NCAxMi43MDY3QzEuMzIxMzEgMTIuMzE2MiAxLjMyMTMxIDExLjY4MyAxLjcxMTg0IDExLjI5MjVMMTAuOTA0MiAyLjEwMDFaTTExLjYxMTMgNC4yMjE0MkwzLjgzMzE2IDExLjk5OTZMMTIuMzE4NCAyMC40ODQ5TDIwLjA5NjYgMTIuNzA2N0wxOS4wMzYgNS4yODIwOEwxMS42MTEzIDQuMjIxNDJaTTEzLjczMjcgMTAuNTg1NEMxMi45NTE2IDkuODA0MzMgMTIuOTUxNiA4LjUzOCAxMy43MzI3IDcuNzU2OTVDMTQuNTEzNyA2Ljk3NTkgMTUuNzggNi45NzU5IDE2LjU2MTEgNy43NTY5NUMxNy4zNDIxIDguNTM4IDE3LjM0MjEgOS44MDQzMyAxNi41NjExIDEwLjU4NTRDMTUuNzggMTEuMzY2NCAxNC41MTM3IDExLjM2NjQgMTMuNzMyNyAxMC41ODU0WiI+PC9wYXRoPjwvc3ZnPg=='
 description: 'Le composant badge permet de mettre en avant une information de type “statut” ou “état” sur un élément du site.'
 behavior_plugins: {  }

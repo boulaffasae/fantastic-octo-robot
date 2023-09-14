@@ -1,10 +1,12 @@
 uuid: 8e8816f5-a666-4b2d-bf86-0e5f09a0e12e
 langcode: fr
 status: true
-dependencies: {  }
+dependencies:
+  content:
+    - 'file:file:f04d378a-34bf-4353-9b0c-0413d0d64df7'
 id: dsfr_accordion
 label: Accordéon
-icon_uuid: null
-icon_default: null
+icon_uuid: f04d378a-34bf-4353-9b0c-0413d0d64df7
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxIDNDMjEuNTUyMyAzIDIyIDMuNDQ3NzIgMjIgNFYyMEMyMiAyMC41NTIzIDIxLjU1MjMgMjEgMjEgMjFIM0MyLjQ0NzcyIDIxIDIgMjAuNTUyMyAyIDIwVjRDMiAzLjQ0NzcyIDIuNDQ3NzIgMyAzIDNIMjFaTTQgMTBWMTlIMjBWMTBINFpNNCA4SDIwVjVINFY4WiI+PC9wYXRoPjwvc3ZnPg=='
 description: "Les accordéons permettent aux utilisateurs d'afficher et de masquer des sections de contenu présentés dans une page."
 behavior_plugins: {  }

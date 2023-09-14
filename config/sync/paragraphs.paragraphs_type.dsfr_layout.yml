@@ -2,12 +2,14 @@ uuid: 96b401e2-a244-447b-9acd-906e7ab329ff
 langcode: fr
 status: true
 dependencies:
+  content:
+    - 'file:file:420beb93-ed7a-44a9-b579-a69ff8d1dc27'
   module:
     - layout_paragraphs
 id: dsfr_layout
 label: 'Mise en page'
-icon_uuid: null
-icon_default: null
+icon_uuid: 420beb93-ed7a-44a9-b579-a69ff8d1dc27
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxIDIwQzIxIDIwLjU1MjMgMjAuNTUyMyAyMSAyMCAyMUg0QzMuNDQ3NzIgMjEgMyAyMC41NTIzIDMgMjBWNEMzIDMuNDQ3NzIgMy40NDc3MiAzIDQgM0gyMEMyMC41NTIzIDMgMjEgMy40NDc3MiAyMSA0VjIwWk0xMSA1SDVWMTlIMTFWNVpNMTkgMTNIMTNWMTlIMTlWMTNaTTE5IDVIMTNWMTFIMTlWNVoiPjwvcGF0aD48L3N2Zz4='
 description: ''
 behavior_plugins:
   layout_paragraphs:

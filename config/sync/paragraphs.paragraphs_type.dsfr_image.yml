@@ -1,10 +1,12 @@
 uuid: ec5ab536-56a2-4ad4-912c-2576de013857
 langcode: fr
 status: true
-dependencies: {  }
+dependencies:
+  content:
+    - 'file:file:da097f2d-dd94-48d5-a8ed-83121ea60ce0'
 id: dsfr_image
 label: Image
-icon_uuid: null
-icon_default: null
+icon_uuid: da097f2d-dd94-48d5-a8ed-83121ea60ce0
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE1IDhWNEg1VjIwSDE5VjhIMTVaTTMgMi45OTE4QzMgMi40NDQwNSAzLjQ0NzQ5IDIgMy45OTg1IDJIMTZMMjAuOTk5NyA3TDIxIDIwLjk5MjVDMjEgMjEuNTQ4OSAyMC41NTUxIDIyIDIwLjAwNjYgMjJIMy45OTM0QzMuNDQ0NzYgMjIgMyAyMS41NDQ3IDMgMjEuMDA4MlYyLjk5MThaTTExIDkuNUMxMSAxMC4zMjg0IDEwLjMyODQgMTEgOS41IDExQzguNjcxNTcgMTEgOCAxMC4zMjg0IDggOS41QzggOC42NzE1NyA4LjY3MTU3IDggOS41IDhDMTAuMzI4NCA4IDExIDguNjcxNTcgMTEgOS41Wk0xNy41IDE3TDEzLjUgMTBMOCAxN0gxNy41WiI+PC9wYXRoPjwvc3ZnPg=='
 description: "Utilisez des images et vidéos qui véhiculent un message clair.\r\nVeillez à homogénéiser le style graphique de vos images et vidéos.\r\nUtilisez exclusivement des images, photos et vidéos libres de droit ou veiller à vous acquitter des droits."
 behavior_plugins: {  }

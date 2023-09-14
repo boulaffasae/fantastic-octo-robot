@@ -1,10 +1,12 @@
 uuid: 1f8e5328-e0ed-4cfd-9581-7495a71a1d3a
 langcode: fr
 status: true
-dependencies: {  }
+dependencies:
+  content:
+    - 'file:file:e440abb8-73fe-442d-9636-620c769aa70e'
 id: dsfr_files_table
 label: 'Tableau de fichiers'
-icon_uuid: null
-icon_default: null
+icon_uuid: e440abb8-73fe-442d-9636-620c769aa70e
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIyIDIwVjdMMjAgM0g0TDIgNy4wMDM1M1YyMEMyIDIwLjU1MjMgMi40NDc3MiAyMSAzIDIxSDIxQzIxLjU1MjMgMjEgMjIgMjAuNTUyMyAyMiAyMFpNNCA5SDIwVjE5SDRWOVpNNS4yMzYgNUgxOC43NjRMMTkuNzY0IDdINC4yMzdMNS4yMzYgNVpNMTUgMTFIOVYxM0gxNVYxMVoiPjwvcGF0aD48L3N2Zz4='
 description: ''
 behavior_plugins: {  }

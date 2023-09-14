@@ -8,7 +8,6 @@ dependencies:
     - paragraphs.paragraphs_type.dsfr_accordion
     - paragraphs.paragraphs_type.dsfr_alert
     - paragraphs.paragraphs_type.dsfr_badge
-    - paragraphs.paragraphs_type.dsfr_button
     - paragraphs.paragraphs_type.dsfr_button_group
     - paragraphs.paragraphs_type.dsfr_callout
     - paragraphs.paragraphs_type.dsfr_card
@@ -26,7 +25,6 @@ dependencies:
     - paragraphs.paragraphs_type.dsfr_tab
     - paragraphs.paragraphs_type.dsfr_tag
     - paragraphs.paragraphs_type.dsfr_tile
-    - paragraphs.paragraphs_type.dsfrl_sidemenu
   module:
     - entity_reference_revisions
 id: node.article.field_composant_paragraphs
@@ -53,11 +51,9 @@ settings:
       dsfr_highlight: dsfr_highlight
       dsfr_quote: dsfr_quote
       dsfr_alert: dsfr_alert
-      dsfrl_sidemenu: dsfrl_sidemenu
       dsfr_link: dsfr_link
       dsfr_card: dsfr_card
       dsfr_badge: dsfr_badge
-      dsfr_button: dsfr_button
       dsfr_button_group: dsfr_button_group
       dsfr_tab: dsfr_tab
       dsfr_notice: dsfr_notice
