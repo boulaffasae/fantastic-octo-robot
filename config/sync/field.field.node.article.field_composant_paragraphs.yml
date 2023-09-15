@@ -8,7 +8,6 @@ dependencies:
     - paragraphs.paragraphs_type.dsfr_accordion
     - paragraphs.paragraphs_type.dsfr_alert
     - paragraphs.paragraphs_type.dsfr_badge
-    - paragraphs.paragraphs_type.dsfr_button_group
     - paragraphs.paragraphs_type.dsfr_callout
     - paragraphs.paragraphs_type.dsfr_card
     - paragraphs.paragraphs_type.dsfr_ckeditor
@@ -54,7 +53,6 @@ settings:
       dsfr_link: dsfr_link
       dsfr_card: dsfr_card
       dsfr_badge: dsfr_badge
-      dsfr_button_group: dsfr_button_group
       dsfr_tab: dsfr_tab
       dsfr_notice: dsfr_notice
       dsfr_share: dsfr_share

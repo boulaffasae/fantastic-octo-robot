@@ -9,7 +9,7 @@ dependencies:
     - image.style.dsfr_wide
     - image.style.large
 id: dsfr
-label: DSFR
+label: "DSFR (styles d'images adaptatifs)"
 image_style_mappings:
   -
     image_mapping_type: sizes
