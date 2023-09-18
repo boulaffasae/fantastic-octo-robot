@@ -17,7 +17,6 @@ dependencies:
     - paragraphs.paragraphs_type.dsfr_image
     - paragraphs.paragraphs_type.dsfr_layout
     - paragraphs.paragraphs_type.dsfr_link
-    - paragraphs.paragraphs_type.dsfr_notice
     - paragraphs.paragraphs_type.dsfr_quote
     - paragraphs.paragraphs_type.dsfr_share
     - paragraphs.paragraphs_type.dsfr_summary
@@ -54,7 +53,6 @@ settings:
       dsfr_card: dsfr_card
       dsfr_badge: dsfr_badge
       dsfr_tab: dsfr_tab
-      dsfr_notice: dsfr_notice
       dsfr_share: dsfr_share
       dsfr_summary: dsfr_summary
       dsfr_tag: dsfr_tag
