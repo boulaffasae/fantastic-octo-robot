@@ -1,15 +1,15 @@
-uuid: 299f07d9-17ce-433f-86d1-eff014e841ea
+uuid: 9de80b2d-333a-4b3d-9d81-849f0c232b7f
 langcode: fr
 status: true
 dependencies:
   config:
-    - field.field.paragraph.accordeons.field_intitule_contenu
-    - paragraphs.paragraphs_type.accordeons
+    - field.field.paragraph.dsfr_accordions.field_intitule_contenu
+    - paragraphs.paragraphs_type.dsfr_accordions
   module:
     - entity_reference_revisions
-id: paragraph.accordeons.default
+id: paragraph.dsfr_accordions.default
 targetEntityType: paragraph
-bundle: accordeons
+bundle: dsfr_accordions
 mode: default
 content:
   field_intitule_contenu:

@@ -1,17 +1,17 @@
-uuid: ce7de930-9335-4248-b593-7a30209ff5f7
+uuid: 915fb3f4-e772-43f2-b8cf-4f7eb3c061cb
 langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_intitule_contenu
-    - paragraphs.paragraphs_type.accordeons
     - paragraphs.paragraphs_type.dsfr_accordion
+    - paragraphs.paragraphs_type.dsfr_accordions
   module:
     - entity_reference_revisions
-id: paragraph.accordeons.field_intitule_contenu
+id: paragraph.dsfr_accordions.field_intitule_contenu
 field_name: field_intitule_contenu
 entity_type: paragraph
-bundle: accordeons
+bundle: dsfr_accordions
 label: '<none>'
 description: ''
 required: false
@@ -31,6 +31,9 @@ settings:
       dsfr_accordion:
         weight: 21
         enabled: true
+      dsfr_accordions:
+        weight: 21
+        enabled: false
       dsfr_alert:
         weight: 22
         enabled: false
