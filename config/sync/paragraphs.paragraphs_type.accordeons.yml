@@ -1,0 +1,12 @@
+uuid: 0197ec8c-b5ec-4ba8-a3c6-d5b18c4f4040
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:9b3ec000-9f03-49d6-b348-a9722e79f5f7'
+id: accordeons
+label: Accordéons
+icon_uuid: 9b3ec000-9f03-49d6-b348-a9722e79f5f7
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxIDNDMjEuNTUyMyAzIDIyIDMuNDQ3NzIgMjIgNFYyMEMyMiAyMC41NTIzIDIxLjU1MjMgMjEgMjEgMjFIM0MyLjQ0NzcyIDIxIDIgMjAuNTUyMyAyIDIwVjRDMiAzLjQ0NzcyIDIuNDQ3NzIgMyAzIDNIMjFaTTQgMTBWMTlIMjBWMTBINFpNNCA4SDIwVjVINFY4WiI+PC9wYXRoPjwvc3ZnPg=='
+description: ''
+behavior_plugins: {  }

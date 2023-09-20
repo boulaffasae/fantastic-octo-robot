@@ -1,0 +1,24 @@
+uuid: 299f07d9-17ce-433f-86d1-eff014e841ea
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.accordeons.field_intitule_contenu
+    - paragraphs.paragraphs_type.accordeons
+  module:
+    - entity_reference_revisions
+id: paragraph.accordeons.default
+targetEntityType: paragraph
+bundle: accordeons
+mode: default
+content:
+  field_intitule_contenu:
+    type: entity_reference_revisions_entity_view
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

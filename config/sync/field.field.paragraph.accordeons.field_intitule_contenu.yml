@@ -1,0 +1,85 @@
+uuid: ce7de930-9335-4248-b593-7a30209ff5f7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_intitule_contenu
+    - paragraphs.paragraphs_type.accordeons
+    - paragraphs.paragraphs_type.dsfr_accordion
+  module:
+    - entity_reference_revisions
+id: paragraph.accordeons.field_intitule_contenu
+field_name: field_intitule_contenu
+entity_type: paragraph
+bundle: accordeons
+label: '<none>'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      dsfr_accordion: dsfr_accordion
+    negate: 0
+    target_bundles_drag_drop:
+      accordeons:
+        weight: 20
+        enabled: false
+      dsfr_accordion:
+        weight: 21
+        enabled: true
+      dsfr_alert:
+        weight: 22
+        enabled: false
+      dsfr_badge:
+        weight: 23
+        enabled: false
+      dsfr_callout:
+        weight: 24
+        enabled: false
+      dsfr_card:
+        weight: 25
+        enabled: false
+      dsfr_ckeditor:
+        weight: 26
+        enabled: false
+      dsfr_file_download:
+        weight: 27
+        enabled: false
+      dsfr_files_table:
+        weight: 28
+        enabled: false
+      dsfr_highlight:
+        weight: 29
+        enabled: false
+      dsfr_image:
+        weight: 30
+        enabled: false
+      dsfr_layout:
+        weight: 31
+        enabled: false
+      dsfr_link:
+        weight: 32
+        enabled: false
+      dsfr_quote:
+        weight: 33
+        enabled: false
+      dsfr_share:
+        weight: 34
+        enabled: false
+      dsfr_summary:
+        weight: 35
+        enabled: false
+      dsfr_tab:
+        weight: 36
+        enabled: false
+      dsfr_tag:
+        weight: 37
+        enabled: false
+      dsfr_tile:
+        weight: 38
+        enabled: false
+field_type: entity_reference_revisions
