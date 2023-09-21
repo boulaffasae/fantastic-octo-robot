@@ -1,0 +1,23 @@
+uuid: cec371b5-bd44-4eeb-b622-7801e2288a33
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_margin_top
+    - paragraphs.paragraphs_type.dsfr_alert
+  module:
+    - options
+id: paragraph.dsfr_alert.field_margin_top
+field_name: field_margin_top
+entity_type: paragraph
+bundle: dsfr_alert
+label: 'Margin top'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 2w
+default_value_callback: ''
+settings: {  }
+field_type: list_string
