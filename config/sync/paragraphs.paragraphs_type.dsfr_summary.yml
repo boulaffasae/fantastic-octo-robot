@@ -4,9 +4,14 @@ status: true
 dependencies:
   content:
     - 'file:file:6f29e167-8585-4cb2-a0ee-a07117419fdf'
+  module:
+    - layout_paragraphs
 id: dsfr_summary
 label: Sommaire
 icon_uuid: 6f29e167-8585-4cb2-a0ee-a07117419fdf
 icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTggNEgyMVY2SDhWNFpNNSAzVjZINlY3SDNWNkg0VjRIM1YzSDVaTTMgMTRWMTEuNUg1VjExSDNWMTBINlYxMi41SDRWMTNINlYxNEgzWk01IDE5LjVIM1YxOC41SDVWMThIM1YxN0g2VjIxSDNWMjBINVYxOS41Wk04IDExSDIxVjEzSDhWMTFaTTggMThIMjFWMjBIOFYxOFoiPjwvcGF0aD48L3N2Zz4='
 description: 'Le sommaire permet aux utilisateurs d’avoir un aperçu du contenu et de naviguer entre les différentes sections d’une page.'
-behavior_plugins: {  }
+behavior_plugins:
+  layout_paragraphs:
+    enabled: false
+    available_layouts: {  }

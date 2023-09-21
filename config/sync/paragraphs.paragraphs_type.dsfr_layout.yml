@@ -17,6 +17,11 @@ behavior_plugins:
     available_layouts:
       layout_onecol: 'One column'
       layout_twocol: 'Two column'
+      layout_twocol_25_75: 'Two column 25/75'
+      layout_twocol_40_60: 'Two column 40/60'
+      layout_twocol_60_40: 'Two column 60/40'
+      layout_twocol_75_25: 'Two column 75/25'
       layout_twocol_bricks: 'Two column bricks'
       layout_threecol_25_50_25: 'Three column 25/50/25'
       layout_threecol_33_34_33: 'Three column 33/34/33'
+      layout_threecol_top_25_50_25_bottom: 'Three column 25/50/25'
