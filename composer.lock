@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cab8d4aae7733c5796b10abd7d218bdd",
+    "content-hash": "07dafe234bc779f473cf20e5aabcc10a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2023,6 +2023,99 @@
             "homepage": "https://www.drupal.org/project/dsfr_menu",
             "support": {
                 "source": "https://git.drupalcode.org/project/dsfr_menu"
+            }
+        },
+        {
+            "name": "drupal/dsfr_paragraph",
+            "version": "dev-2.1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/dsfr_paragraph.git",
+                "reference": "e58a7a9e98b1c48c8773caed990e42cee39c8209"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10",
+                "drupal/dsfr_core": "*",
+                "drupal/layout_paragraphs": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.1.x": "2.1.x-dev"
+                },
+                "drupal": {
+                    "version": "2.1.x-dev",
+                    "datestamp": "1695653222",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "sali38",
+                    "homepage": "https://www.drupal.org/user/3709635"
+                },
+                {
+                    "name": "netprogfr",
+                    "homepage": "https://www.drupal.org/user/3531092"
+                }
+            ],
+            "description": "Provides an override of paragraph-like modules.",
+            "homepage": "https://www.drupal.org/project/dsfr_paragraph",
+            "support": {
+                "source": "https://git.drupalcode.org/project/dsfr_paragraph",
+                "error": "Invalid dependency: \"dsfr_twig_components\" is an unknown drupal 8 package name"
+            }
+        },
+        {
+            "name": "drupal/dsfr_twig_components",
+            "version": "dev-2.1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/dsfr_twig_components.git",
+                "reference": "0e47fc161722cc44f83d5567b3c97e0e61508e67"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.1.x": "2.1.x-dev"
+                },
+                "drupal": {
+                    "version": "2.1.x-dev",
+                    "datestamp": "1695658212",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "sali38",
+                    "homepage": "https://www.drupal.org/user/3709635"
+                },
+                {
+                    "name": "netprogfr",
+                    "homepage": "https://www.drupal.org/user/3531092"
+                }
+            ],
+            "description": "Twig components for DSFR",
+            "homepage": "https://www.drupal.org/project/dsfr_twig_components",
+            "support": {
+                "source": "https://git.drupalcode.org/project/dsfr_twig_components"
             }
         },
         {
@@ -12063,6 +12156,8 @@
         "drupal/dsfr": 20,
         "drupal/dsfr_core": 10,
         "drupal/dsfr_menu": 10,
+        "drupal/dsfr_paragraph": 20,
+        "drupal/dsfr_twig_components": 20,
         "drupal/gin": 5,
         "drupal/gin_lb": 20,
         "drupal/gin_toolbar": 20,
