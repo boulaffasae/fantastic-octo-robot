@@ -1,0 +1,11 @@
+uuid: 931dfc87-8e64-452a-9a00-16c4642fd1ca
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media.type.dsfr_icones
+id: media.dsfr_icones
+target_entity_type_id: media
+target_bundle: dsfr_icones
+default_langcode: site_default
+language_alterable: false

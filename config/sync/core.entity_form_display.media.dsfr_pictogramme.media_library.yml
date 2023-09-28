@@ -1,0 +1,28 @@
+uuid: 86b1dbef-003b-4f11-9163-7441c37ee367
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.dsfr_pictogramme.field_media_svg
+    - media.type.dsfr_pictogramme
+id: media.dsfr_pictogramme.media_library
+targetEntityType: media
+bundle: dsfr_pictogramme
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_media_svg: true
+  langcode: true
+  path: true
+  status: true
+  uid: true
