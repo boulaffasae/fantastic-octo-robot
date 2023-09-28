@@ -1,0 +1,19 @@
+uuid: e705a3cf-d612-4c3b-a5f2-e41b6a4ba650
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.dsfr_tile
+id: paragraph.dsfr_tile.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: dsfr_tile
+label: Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

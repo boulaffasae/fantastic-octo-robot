@@ -1,0 +1,19 @@
+uuid: 6174db0f-8fba-4c35-84b8-5cca8195a1ad
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_detail1
+    - paragraphs.paragraphs_type.dsfr_tile
+id: paragraph.dsfr_tile.field_detail1
+field_name: field_detail1
+entity_type: paragraph
+bundle: dsfr_tile
+label: 'Première zone de détail'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

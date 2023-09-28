@@ -1,20 +1,18 @@
-uuid: afbc1fc0-36b3-4261-8014-41b6e10bfe21
+uuid: 0c17ddaf-3a29-4b39-b6be-ba5ff8756cc6
 langcode: fr
 status: true
 dependencies:
   config:
-    - field.field.paragraph.dsfr_tab.field_ckeditor5
-    - field.field.paragraph.dsfr_tab.field_titre
-    - paragraphs.paragraphs_type.dsfr_tab
-  module:
-    - text
-id: paragraph.dsfr_tab.default
+    - field.field.paragraph.dsfr_callout.field_description
+    - field.field.paragraph.dsfr_callout.field_titre
+    - paragraphs.paragraphs_type.dsfr_callout
+id: paragraph.dsfr_callout.default
 targetEntityType: paragraph
-bundle: dsfr_tab
+bundle: dsfr_callout
 mode: default
 content:
-  field_ckeditor5:
-    type: text_default
+  field_description:
+    type: basic_string
     label: visually_hidden
     settings: {  }
     third_party_settings: {  }
@@ -26,6 +24,6 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 0
+    weight: 2
     region: content
 hidden: {  }

@@ -1,88 +1,89 @@
-uuid: 915fb3f4-e772-43f2-b8cf-4f7eb3c061cb
+uuid: e0f78232-90d3-4fba-b326-91a47ee64b6a
 langcode: fr
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_intitule_contenu
-    - paragraphs.paragraphs_type.dsfr_accordion
-    - paragraphs.paragraphs_type.dsfr_accordions
+    - field.storage.paragraph.field_paragraph
+    - paragraphs.paragraphs_type.dsfr_tabs
   module:
     - entity_reference_revisions
-id: paragraph.dsfr_accordions.field_intitule_contenu
-field_name: field_intitule_contenu
+id: paragraph.dsfr_tabs.field_paragraph
+field_name: field_paragraph
 entity_type: paragraph
-bundle: dsfr_accordions
+bundle: dsfr_tabs
 label: '<none>'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    target_bundles:
-      dsfr_accordion: dsfr_accordion
+    target_bundles: {  }
     negate: 0
     target_bundles_drag_drop:
-      accordeons:
-        weight: 20
-        enabled: false
       dsfr_accordion:
-        weight: 21
-        enabled: true
-      dsfr_accordions:
-        weight: 21
-        enabled: false
-      dsfr_alert:
         weight: 22
         enabled: false
-      dsfr_badge:
+      dsfr_accordions:
         weight: 23
         enabled: false
-      dsfr_callout:
+      dsfr_alert:
         weight: 24
         enabled: false
-      dsfr_card:
+      dsfr_badge:
         weight: 25
         enabled: false
-      dsfr_ckeditor:
+      dsfr_callout:
         weight: 26
         enabled: false
-      dsfr_file_download:
+      dsfr_card:
         weight: 27
         enabled: false
-      dsfr_files_table:
+      dsfr_ckeditor:
         weight: 28
         enabled: false
-      dsfr_highlight:
+      dsfr_file_download:
         weight: 29
         enabled: false
-      dsfr_image:
+      dsfr_files_table:
         weight: 30
         enabled: false
-      dsfr_layout:
+      dsfr_highlight:
         weight: 31
         enabled: false
-      dsfr_link:
+      dsfr_image:
         weight: 32
         enabled: false
-      dsfr_quote:
+      dsfr_layout:
         weight: 33
         enabled: false
-      dsfr_share:
+      dsfr_link:
         weight: 34
         enabled: false
-      dsfr_summary:
+      dsfr_quote:
         weight: 35
         enabled: false
-      dsfr_tab:
+      dsfr_share:
         weight: 36
         enabled: false
-      dsfr_tag:
+      dsfr_summary:
         weight: 37
         enabled: false
-      dsfr_tile:
+      dsfr_tab:
         weight: 38
         enabled: false
+      dsfr_tabs:
+        weight: 22
+        enabled: false
+      dsfr_tag:
+        weight: 39
+        enabled: false
+      dsfr_tile:
+        weight: 40
+        enabled: false
+      onglet:
+        weight: 21
+        enabled: true
 field_type: entity_reference_revisions

@@ -1,0 +1,19 @@
+uuid: 8606697c-779e-4777-b554-4f5c2a3b0615
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titre
+    - paragraphs.paragraphs_type.dsfr_callout
+id: paragraph.dsfr_callout.field_titre
+field_name: field_titre
+entity_type: paragraph
+bundle: dsfr_callout
+label: Titre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

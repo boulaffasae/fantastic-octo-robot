@@ -1,0 +1,21 @@
+uuid: 3cfe067e-6012-47fc-8f9a-67c9b57cbbaf
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_summary.field_summary_title
+    - paragraphs.paragraphs_type.dsfr_summary
+id: paragraph.dsfr_summary.default
+targetEntityType: paragraph
+bundle: dsfr_summary
+mode: default
+content:
+  field_summary_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

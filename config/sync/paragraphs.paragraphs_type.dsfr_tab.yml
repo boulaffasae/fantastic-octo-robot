@@ -4,14 +4,9 @@ status: true
 dependencies:
   content:
     - 'file:file:320bda22-740d-4de3-92db-9f9ac3dbb2c2'
-  module:
-    - layout_paragraphs
 id: dsfr_tab
 label: Onglet
 icon_uuid: 320bda22-740d-4de3-92db-9f9ac3dbb2c2
 icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLjQxNDIgNUgyMUMyMS41NTIzIDUgMjIgNS40NDc3MiAyMiA2VjIwQzIyIDIwLjU1MjMgMjEuNTUyMyAyMSAyMSAyMUgzQzIuNDQ3NzIgMjEgMiAyMC41NTIzIDIgMjBWNEMyIDMuNDQ3NzIgMi40NDc3MiAzIDMgM0gxMC40MTQyTDEyLjQxNDIgNVpNNCA3VjE5SDIwVjdINFoiPjwvcGF0aD48L3N2Zz4='
-description: "Le composant onglet permet aux utilisateurs de naviguer dans différentes sections de contenu au sein d’une même page.\r\nLe système d'onglet aide à regrouper différents contenus dans un espace limité et permet de diviser un contenu dense en sections accessibles individuellement afin de faciliter la lecture pour l'utilisateur."
-behavior_plugins:
-  layout_paragraphs:
-    enabled: false
-    available_layouts: {  }
+description: 'Onglet individuel utilisé dans le composant Onglets'
+behavior_plugins: {  }

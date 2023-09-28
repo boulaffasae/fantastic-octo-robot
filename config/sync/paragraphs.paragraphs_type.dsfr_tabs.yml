@@ -1,0 +1,12 @@
+uuid: 24ec9822-19bf-4fc5-b370-699ecc616372
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:5f41e11d-c2b0-4b81-8f91-9fc1d61a31e4'
+id: dsfr_tabs
+label: Onglets
+icon_uuid: 5f41e11d-c2b0-4b81-8f91-9fc1d61a31e4
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLjQxNDIgNUgyMUMyMS41NTIzIDUgMjIgNS40NDc3MiAyMiA2VjIwQzIyIDIwLjU1MjMgMjEuNTUyMyAyMSAyMSAyMUgzQzIuNDQ3NzIgMjEgMiAyMC41NTIzIDIgMjBWNEMyIDMuNDQ3NzIgMi40NDc3MiAzIDMgM0gxMC40MTQyTDEyLjQxNDIgNVpNNCA3VjE5SDIwVjdINFoiPjwvcGF0aD48L3N2Zz4='
+description: "Le composant onglet permet aux utilisateurs de naviguer dans différentes sections de contenu au sein d’une même page. Le système d'onglet aide à regrouper différents contenus dans un espace limité et permet de diviser un contenu dense en sections accessibles individuellement afin de faciliter la lecture pour l'utilisateur."
+behavior_plugins: {  }

@@ -1,12 +1,12 @@
-uuid: 593fcd40-5834-4425-9d6f-341eff197119
+uuid: 0dd49c99-e079-4b09-a507-1b298a438022
 langcode: fr
 status: true
 dependencies:
   module:
     - entity_reference_revisions
     - paragraphs
-id: paragraph.field_intitule_contenu
-field_name: field_intitule_contenu
+id: paragraph.field_paragraph
+field_name: field_paragraph
 entity_type: paragraph
 type: entity_reference_revisions
 settings:

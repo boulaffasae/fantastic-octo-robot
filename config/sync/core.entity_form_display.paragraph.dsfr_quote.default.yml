@@ -1,0 +1,25 @@
+uuid: 65440a6c-1a10-4213-a210-d6b845d6f280
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_quote.field_ckeditor5
+    - paragraphs.paragraphs_type.dsfr_quote
+  module:
+    - text
+id: paragraph.dsfr_quote.default
+targetEntityType: paragraph
+bundle: dsfr_quote
+mode: default
+content:
+  field_ckeditor5:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

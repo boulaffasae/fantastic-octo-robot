@@ -1,0 +1,24 @@
+uuid: 298bc842-ef27-4d6a-b521-0514015beeff
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ckeditor5
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.dsfr_quote
+  module:
+    - text
+id: paragraph.dsfr_quote.field_ckeditor5
+field_name: field_ckeditor5
+entity_type: paragraph
+bundle: dsfr_quote
+label: Citation
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

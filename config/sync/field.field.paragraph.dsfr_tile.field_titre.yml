@@ -1,0 +1,19 @@
+uuid: c7e5062e-282a-489e-a0d0-a00640776350
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titre
+    - paragraphs.paragraphs_type.dsfr_tile
+id: paragraph.dsfr_tile.field_titre
+field_name: field_titre
+entity_type: paragraph
+bundle: dsfr_tile
+label: Titre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
