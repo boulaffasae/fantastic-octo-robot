@@ -3,6 +3,7 @@ langcode: fr
 status: true
 dependencies:
   config:
+    - field.field.paragraph.dsfr_file_download.field_dsfr_pictogramme
     - field.field.paragraph.dsfr_file_download.field_media_file
     - field.field.paragraph.dsfr_file_download.field_variations
     - paragraphs.paragraphs_type.dsfr_file_download
@@ -11,6 +12,15 @@ targetEntityType: paragraph
 bundle: dsfr_file_download
 mode: default
 content:
+  field_dsfr_pictogramme:
+    type: entity_reference_entity_view
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
   field_media_file:
     type: entity_reference_entity_view
     label: visually_hidden
