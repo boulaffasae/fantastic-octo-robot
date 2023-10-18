@@ -41,6 +41,7 @@
         "drupal/layout_paragraphs": "^2.0",
         "drupal/paragraphs": "^1.15",
         "drupal/redirect": "^1.9",
+        "drupal/redis": "^1.7",
         "drupal/save_edit": "^1.4",
         "drupal/schema_metatag": "^3.0",
         "drupal/simple_styleguide": "^2.0",
@@ -50,7 +51,8 @@
         "drupal/toolbar_visibility": "^2.1",
         "drupal/twig_tweak": "^3.2",
         "drupal/wpf": "^1.1",
-        "drush/drush": "^12"
+        "drush/drush": "^12",
+        "predis/predis": "^2.2"
     },
     "conflict": {
         "drupal/drupal": "*"
