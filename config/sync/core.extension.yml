@@ -25,6 +25,7 @@ module:
   dsfr_paragraph: 0
   dsfr_twig_components: 0
   dynamic_page_cache: 0
+  easy_breadcrumb: 0
   editor: 0
   entity_reference_revisions: 0
   field: 0
@@ -42,6 +43,7 @@ module:
   locale: 0
   media: 0
   media_library: 0
+  media_revisions_ui: 0
   menu_link_content: 0
   menu_ui: 0
   mysql: 0
@@ -63,11 +65,13 @@ module:
   taxonomy: 0
   telephone: 0
   text: 0
+  token: 0
   toolbar: 0
   toolbar_visibility: 0
   user: 0
   views_ui: 0
   wpf: 0
+  pathauto: 1
   views: 10
   paragraphs: 11
   publication_date: 99
