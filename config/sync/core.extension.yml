@@ -55,6 +55,7 @@ module:
   save_edit: 0
   search: 0
   simple_styleguide: 0
+  style_selector: 0
   svg_image_field: 0
   svg_image_field_media_bundle: 0
   symfony_mailer: 0

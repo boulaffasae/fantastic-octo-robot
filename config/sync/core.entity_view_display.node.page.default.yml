@@ -27,3 +27,4 @@ content:
     region: content
 hidden:
   langcode: true
+  published_at: true

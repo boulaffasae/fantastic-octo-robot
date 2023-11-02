@@ -29,3 +29,4 @@ hidden:
   field_image: true
   field_tags: true
   langcode: true
+  published_at: true
