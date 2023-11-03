@@ -5,6 +5,7 @@ dependencies:
   module:
     - editor
     - media
+    - nbsp
 _core:
   default_config_hash: WNeK5FbcY8pXgEpbD_KgRzlF1-5PL3BJXwqaBctPTqw
 name: 'HTML complet'
@@ -59,4 +60,10 @@ filters:
     provider: filter
     status: true
     weight: 12
+    settings: {  }
+  nbsp_cleaner_filter:
+    id: nbsp_cleaner_filter
+    provider: nbsp
+    status: true
+    weight: 0
     settings: {  }

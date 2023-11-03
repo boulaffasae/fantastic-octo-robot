@@ -19,6 +19,7 @@ settings:
       - superscript
       - subscript
       - removeFormat
+      - nbsp
       - '|'
       - link
       - '|'
