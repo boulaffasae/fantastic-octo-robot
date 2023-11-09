@@ -47,6 +47,7 @@ module:
   media_revisions_ui: 0
   menu_link_content: 0
   menu_ui: 0
+  metatag: 0
   mysql: 0
   nbsp: 0
   node: 0
