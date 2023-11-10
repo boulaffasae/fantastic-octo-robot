@@ -67,6 +67,7 @@ module:
   svg_image_field_media_bundle: 0
   symfony_mailer: 0
   system: 0
+  tacjs: 0
   taxonomy: 0
   telephone: 0
   text: 0

@@ -45,9 +45,10 @@ favicon:
   path: ''
 langcode: fr
 code:
-  gdpr: '0'
+  gdpr: '1'
   newsletter: '0'
   w3c: 0
+  external_lib: null
   components:
     accordion: 1
     alert: 1
