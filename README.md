@@ -6,6 +6,9 @@ DSFR Kickstart is an installer profile for Drupal that includes the modules need
 
 **Warning:** this profil is experimental.
 
+## Licence
+It is strictly forbidden to use the DSFR outside of the French State's websites (including other public actors, such as territorial administrations).
+
 ## Contents
 
 - [DSFR KickStart](#DSFR-KickStart)
