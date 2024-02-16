@@ -40,7 +40,7 @@
         "drupal/gin": "^3.0@RC",
         "drupal/gin_lb": "1.0.x-dev@dev",
         "drupal/gin_login": "^2.0",
-        "drupal/gin_toolbar": "1.x-dev@dev",
+        "drupal/gin_toolbar": "^1.0@RC",
         "drupal/layout_paragraphs": "^2.0",
         "drupal/media_revisions_ui": "^2.1",
         "drupal/nbsp": "^3.0",
