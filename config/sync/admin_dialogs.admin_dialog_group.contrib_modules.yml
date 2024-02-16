@@ -1,0 +1,9 @@
+uuid: bb9258df-8f2c-4c44-948f-c54c7d66d9e0
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: x6WUioifa6Nk_7Y7UVF0dazRDNzxL0lMBnfUgs0RuNw
+id: contrib_modules
+label: 'Modules contribués'
+description: 'Configurations for some contributed modules'

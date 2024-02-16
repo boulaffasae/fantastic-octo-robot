@@ -1,0 +1,16 @@
+uuid: ecfed021-9cbd-4112-a898-358e58767ad1
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: E9_Ozd1X6MI7cGnUglVAvypKKl84D0XCcoFep8Vkv1A
+id: edit_date_format
+label: 'Edit Date Format'
+type: ops
+dialog_group: administrative
+dialog_type: modal
+dialog_width: '550'
+selection_criteria:
+  entity_type: date_format
+  key: edit
+  bundles: {  }
