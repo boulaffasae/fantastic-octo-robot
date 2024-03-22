@@ -1,0 +1,17 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: contrib_add_links
+label: 'Add Links'
+type: actions
+dialog_group: contrib_modules
+dialog_type: modal
+dialog_width: '550'
+selection_criteria:
+  routes:
+    - entity.pathauto_pattern.add_form
+    - paragraphs.type_add
+    - redirect.add
+    - linkit_profile.add_form
+    - linkit.matcher.add
+    - entity.response_header.add_form

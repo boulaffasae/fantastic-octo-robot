@@ -1,0 +1,25 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_block_custom.field_block_custom
+    - paragraphs.paragraphs_type.dsfr_block_custom
+  module:
+    - block_field
+id: paragraph.dsfr_block_custom.default
+targetEntityType: paragraph
+bundle: dsfr_block_custom
+mode: default
+content:
+  field_block_custom:
+    type: block_field_default
+    weight: 0
+    region: content
+    settings:
+      plugin_id: ''
+      settings: {  }
+      configuration_form: full
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

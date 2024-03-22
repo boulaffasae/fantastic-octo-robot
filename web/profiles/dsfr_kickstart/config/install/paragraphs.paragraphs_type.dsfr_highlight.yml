@@ -1,9 +1,16 @@
 langcode: fr
 status: true
-dependencies: {  }
+dependencies:
+  content:
+    - 'file:file:5b9dba24-6a9d-4b24-8886-f2b596bfc7a7'
+  module:
+    - layout_paragraphs
 id: dsfr_highlight
-label: 'Mise en exergue - Highlight'
-icon_uuid: null
-icon_default: null
+label: 'Mise en exergue'
+icon_uuid: 5b9dba24-6a9d-4b24-8886-f2b596bfc7a7
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE1LjI0MjcgNC41MTEzOEw4LjUwNTQ3IDExLjI0ODZMNy43OTgzNiAxMy4zNjk5TDYuNzU3NCAxNC40MTA5TDkuNTg1ODMgMTcuMjM5M0wxMC42MjY4IDE2LjE5ODNMMTIuNzQ4MSAxNS40OTEyTDE5LjQ4NTMgOC43NTQwMkwxNS4yNDI3IDQuNTExMzhaTTIxLjYwNjYgOC4wNDY5MkMyMS45OTcyIDguNDM3NDQgMjEuOTk3MiA5LjA3MDYgMjEuNjA2NiA5LjQ2MTEzTDEzLjgyODUgMTcuMjM5M0wxMS43MDcxIDE3Ljk0NjRMMTAuMjkyOSAxOS4zNjA2QzkuOTAyNDEgMTkuNzUxMSA5LjI2OTI1IDE5Ljc1MTEgOC44Nzg3MiAxOS4zNjA2TDQuNjM2MDggMTUuMTE4QzQuMjQ1NTYgMTQuNzI3NSA0LjI0NTU2IDE0LjA5NDMgNC42MzYwOCAxMy43MDM4TDYuMDUwMyAxMi4yODk2TDYuNzU3NCAxMC4xNjgyTDE0LjUzNTYgMi4zOTAwNkMxNC45MjYxIDEuOTk5NTQgMTUuNTU5MyAxLjk5OTU0IDE1Ljk0OTggMi4zOTAwNkwyMS42MDY2IDguMDQ2OTJaTTE1LjI0MjcgNy4zMzk4MUwxNi42NTY5IDguNzU0MDJMMTEuNzA3MSAxMy43MDM4TDEwLjI5MjkgMTIuMjg5NkwxNS4yNDI3IDcuMzM5ODFaTTQuMjgyNTMgMTYuODg1OEw3LjExMDk2IDE5LjcxNDJMNS42OTY3NCAyMS4xMjg0TDEuNDU0MSAxOS43MTQyTDQuMjgyNTMgMTYuODg1OFoiPjwvcGF0aD48L3N2Zz4='
 description: "La mise en exergue permet à l’utilisateur de distinguer et repérer une information facilement.\r\nLa mise en exergue met en évidence une information déjà présente dans le reste du contenu : soit une reformulation, soit une reprise du texte."
-behavior_plugins: {  }
+behavior_plugins:
+  layout_paragraphs:
+    enabled: false
+    available_layouts: {  }

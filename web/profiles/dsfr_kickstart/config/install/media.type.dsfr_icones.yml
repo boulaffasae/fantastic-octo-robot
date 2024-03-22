@@ -1,0 +1,14 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - svg_image_field
+id: dsfr_icones
+label: 'DSFR icônes'
+description: 'Les icônes fonctionnelles sont des symboles visuels qui accompagnent l’utilisateur dans ses actions et qui aident à sa compréhension de l’interface. Nous mettons à votre disposition une sélection d’icônes issue de la librairie Remix Icons (libre de droits). Si l’icône recherchée est absente de notre sélection, vous pouvez compléter en recherchant d’abord dans Remix Icons.'
+source: svg
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_svg
+field_map: {  }

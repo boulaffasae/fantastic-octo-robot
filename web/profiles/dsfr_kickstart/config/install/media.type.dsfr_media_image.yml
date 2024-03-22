@@ -3,7 +3,7 @@ status: true
 dependencies: {  }
 id: dsfr_media_image
 label: Image
-description: ''
+description: "Les images sont utilisés pour donner une information visuelle ou dans un but purement décoratif.\r\nSi l'image n'apporte pas d'information essentielle à la compréhension du contenu, utiliser une alternative vide (alt=\"\").\r\nSi l'image apporte une information essentielle à la compréhension du contenu, renseigner l'alternative avec l'information nécessaire (alt=\"@alternative\")."
 source: image
 queue_thumbnail_downloads: false
 new_revision: false

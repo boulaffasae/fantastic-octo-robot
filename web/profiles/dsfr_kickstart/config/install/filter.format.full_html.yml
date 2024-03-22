@@ -4,10 +4,17 @@ dependencies:
   module:
     - editor
     - media
+    - nbsp
 name: 'HTML complet'
 format: full_html
-weight: 2
+weight: -9
 filters:
+  editor_file_reference:
+    id: editor_file_reference
+    provider: editor
+    status: true
+    weight: 11
+    settings: {  }
   filter_align:
     id: filter_align
     provider: filter
@@ -20,18 +27,6 @@ filters:
     status: true
     weight: 9
     settings: {  }
-  filter_htmlcorrector:
-    id: filter_htmlcorrector
-    provider: filter
-    status: true
-    weight: 10
-    settings: {  }
-  editor_file_reference:
-    id: editor_file_reference
-    provider: editor
-    status: true
-    weight: 11
-    settings: {  }
   filter_html:
     id: filter_html
     provider: filter
@@ -41,6 +36,18 @@ filters:
       allowed_html: ''
       filter_html_help: true
       filter_html_nofollow: false
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }
+  filter_image_lazy_load:
+    id: filter_image_lazy_load
+    provider: filter
+    status: true
+    weight: 12
+    settings: {  }
   media_embed:
     id: media_embed
     provider: media
@@ -50,11 +57,10 @@ filters:
       default_view_mode: default
       allowed_view_modes: {  }
       allowed_media_types:
-        dsfr_media_document: dsfr_media_document
         dsfr_media_image: dsfr_media_image
-  filter_image_lazy_load:
-    id: filter_image_lazy_load
-    provider: filter
+  nbsp_cleaner_filter:
+    id: nbsp_cleaner_filter
+    provider: nbsp
     status: true
-    weight: 12
+    weight: 0
     settings: {  }

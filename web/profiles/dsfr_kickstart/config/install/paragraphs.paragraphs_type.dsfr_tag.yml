@@ -1,9 +1,16 @@
 langcode: fr
 status: true
-dependencies: {  }
+dependencies:
+  content:
+    - 'file:file:022d9750-507a-42b3-a0e8-5f852c626f03'
+  module:
+    - layout_paragraphs
 id: dsfr_tag
 label: Tag
-icon_uuid: null
-icon_default: null
+icon_uuid: 022d9750-507a-42b3-a0e8-5f852c626f03
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLjM4MiAzQzEyLjc2MDcgMyAxMy4xMDcgMy4yMTQgMTMuMjc2NCAzLjU1Mjc5TDE0IDVIMjBDMjAuNTUyMyA1IDIxIDUuNDQ3NzIgMjEgNlYxN0MyMSAxNy41NTIzIDIwLjU1MjMgMTggMjAgMThIMTMuNjE4QzEzLjIzOTMgMTggMTIuODkzIDE3Ljc4NiAxMi43MjM2IDE3LjQ0NzJMMTIgMTZINVYyMkgzVjNIMTIuMzgyWk0xMS43NjM5IDVINVYxNEgxMy4yMzYxTDE0LjIzNjEgMTZIMTlWN0gxMi43NjM5TDExLjc2MzkgNVoiPjwvcGF0aD48L3N2Zz4='
 description: "Le tag catégorise/classe/organise les contenus à l'aide de mots-clés. Il aide les utilisateurs à rechercher et à trouver facilement une information."
-behavior_plugins: {  }
+behavior_plugins:
+  layout_paragraphs:
+    enabled: false
+    available_layouts: {  }

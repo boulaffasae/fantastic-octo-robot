@@ -1,0 +1,87 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph
+    - paragraphs.paragraphs_type.dsfr_accordion
+    - paragraphs.paragraphs_type.dsfr_accordions
+  module:
+    - entity_reference_revisions
+id: paragraph.dsfr_accordions.field_paragraph
+field_name: field_paragraph
+entity_type: paragraph
+bundle: dsfr_accordions
+label: '<none>'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      dsfr_accordion: dsfr_accordion
+    negate: 0
+    target_bundles_drag_drop:
+      dsfr_accordion:
+        weight: 22
+        enabled: true
+      dsfr_accordions:
+        weight: 23
+        enabled: false
+      dsfr_alert:
+        weight: 24
+        enabled: false
+      dsfr_badge:
+        weight: 25
+        enabled: false
+      dsfr_callout:
+        weight: 26
+        enabled: false
+      dsfr_card:
+        weight: 27
+        enabled: false
+      dsfr_ckeditor:
+        weight: 28
+        enabled: false
+      dsfr_file_download:
+        weight: 29
+        enabled: false
+      dsfr_files_table:
+        weight: 30
+        enabled: false
+      dsfr_highlight:
+        weight: 31
+        enabled: false
+      dsfr_image:
+        weight: 32
+        enabled: false
+      dsfr_layout:
+        weight: 33
+        enabled: false
+      dsfr_link:
+        weight: 34
+        enabled: false
+      dsfr_quote:
+        weight: 35
+        enabled: false
+      dsfr_share:
+        weight: 36
+        enabled: false
+      dsfr_summary:
+        weight: 37
+        enabled: false
+      dsfr_tab:
+        weight: 38
+        enabled: false
+      dsfr_tag:
+        weight: 39
+        enabled: false
+      dsfr_tile:
+        weight: 40
+        enabled: false
+      onglet:
+        weight: 21
+        enabled: false
+field_type: entity_reference_revisions

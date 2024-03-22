@@ -1,9 +1,0 @@
-langcode: fr
-status: true
-dependencies: {  }
-id: dsfr_button
-label: 'Bouton - Button'
-icon_uuid: null
-icon_default: null
-description: 'Le bouton est un élément d’interaction avec l’interface permettant à l’utilisateur d’effectuer une action.'
-behavior_plugins: {  }

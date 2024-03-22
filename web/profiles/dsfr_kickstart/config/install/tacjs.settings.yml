@@ -1,0 +1,1308 @@
+langcode: fr
+dialog:
+  privacyUrl: ''
+  bodyPosition: top
+  hashtag: '#consentement'
+  cookieName: tarteaucitron
+  orientation: bottom
+  showAlertSmall: false
+  cookieslist: false
+  showIcon: false
+  iconPosition: BottomLeft
+  adblocker: false
+  DenyAllCta: true
+  AcceptAllCta: true
+  highPrivacy: true
+  handleBrowserDNTRequest: false
+  removeCredit: true
+  moreInfoLink: true
+  useExternalCss: true
+  useExternalJs: true
+  cookieDomain: ''
+  readmoreLink: ''
+  mandatory: true
+  closePopup: false
+expire: null
+texts:
+  alertBigPrivacy: 'Ce site utilise des cookies et vous donne le contrôle sur ceux que vous souhaitez activer.'
+  alertSmall: 'Gestion des cookies'
+  acceptAll: 'Tout accepter'
+  denyAll: 'Tout refuser'
+services:
+  myfeelback:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  doubleclick:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  userpilot:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  piwikpro:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  pinterestpixel:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  elfsight:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  plezi:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  smartsupp:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  sharpspring:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  pardot:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  openwebanalytics:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  xandr:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  xandrsegment:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  xandrconversion:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  helloasso:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  podcloud:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  facebookpost:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  amplitude:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  abtasty:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  metrica:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  addthis:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  addtoanyfeed:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  addtoanyshare:
+    status: true
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: true
+  aduptech_ads:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  aduptech_conversion:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  aduptech_retargeting:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  alexa:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  amazon:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  calameo:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  clicky:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  clicmanager:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  compteur:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  contentsquare:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  crazyegg:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  clarity:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  criteo:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  criteoonetag:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  artetv:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  dailymotion:
+    status: true
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: true
+  datingaffiliation:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  datingaffiliationpopup:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  deezer:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  leadforensics:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  disqus:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  ekomi:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  etracker:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  facebook:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  facebooklikebox:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  facebookcomment:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  ferank:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  pingdom:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  simpleanalytics:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  stonly:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  ferankpub:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  getplus:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  gplus:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  gplusbadge:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  adsense:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  googlepartners:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  adsensesearchform:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  adsensesearchresult:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  googleadwordsconversion:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  googleadwordsremarketing:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  gajs:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  analytics:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  gtag:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: true
+  firebase:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  genially:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  googlemaps:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  googlemapssearch:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  openstreetmap:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  geoportail:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  googletagmanager:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  multiplegoogletagmanager:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  googlefonts:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  hubspot:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  instagram:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  jsapi:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  twitterwidgetsapi:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  recaptcha:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  linkedin:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  mautic:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  microsoftcampaignanalytics:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  onesignal:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  pinterest:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  prelinker:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  prezi:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  pubdirecte:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  purechat:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  intercomChat:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  shareaholic:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  shareasale:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  sharethis:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  slideshare:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  soundcloud:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  spotify:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  statcounter:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  timelinejs:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  tagcommander:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  typekit:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  twenga:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  twitter:
+    status: true
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: true
+  twitterembed:
+    status: true
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: true
+  twittertimeline:
+    status: true
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: true
+  twitteruwt:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  uservoice:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  vimeo:
+    status: true
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: true
+  visualrevenue:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  verizondottag:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  vshop:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  wysistat:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  xiti:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: true
+  atinternet:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: true
+  atinternethightrack: true
+  youtube:
+    status: true
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: true
+  zopim:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  kameleoon:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  linkedininsighttag:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  facebookpixel:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  issuu:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  webmecanik:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  multiplegtag:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  koban:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  matomo:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  matomohightrack: false
+  matomocloud:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  hotjar:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  bingads:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  adform:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  activecampaign:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  tawkto:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  getquanty:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  youtubeapi:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  faciliti:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  userlike:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  adobeanalytics:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  woopra:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  ausha:
+    status: true
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: true
+  visiblee:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  bandcamp:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  discord:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  maps_noapi:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  hcaptcha:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  fculture:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  acast:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  mixcloud:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  gagenda:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  gdocs:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  gsheets:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  gslides:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  gforms:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  goptimize:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  marketomunchkin:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  outbrain:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  affilae:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  canalu:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  webtvnu:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  studizz:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  meteofrance:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  m6meteo:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  mtcaptcha:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  archive:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  gallica:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  crisp:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  microanalytics:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  facebookcustomerchat:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  weborama:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  serviceperso:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  adsenseauto:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  adsensesearch:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  antvoice:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  googleads:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  klaviyo:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  kwanko:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  plausible:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  snapchat:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  tiktok:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  wysistathightrack:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  arcio:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  matomotm:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  robofabrica:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  trustpilot:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  ubib:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+  videas:
+    status: false
+    languages:
+      fr: '0'
+    readMore: ''
+    readmoreLink: ''
+    needConsent: false
+user: {  }

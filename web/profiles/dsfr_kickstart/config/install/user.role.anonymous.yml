@@ -8,7 +8,7 @@ dependencies:
     - contact
     - filter
     - media
-    - search
+    - simple_styleguide
     - system
 id: anonymous
 label: 'Utilisateur anonyme'
@@ -18,6 +18,6 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
-  - 'search content'
+  - 'access style guide'
   - 'use text format restricted_html'
   - 'view media'

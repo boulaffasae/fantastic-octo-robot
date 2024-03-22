@@ -1,0 +1,13 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: pathauto
+label: Pathauto
+type: ops
+dialog_group: contrib_modules
+dialog_type: modal
+dialog_width: '550'
+selection_criteria:
+  entity_type: pathauto_pattern
+  key: duplicate
+  bundles: {  }

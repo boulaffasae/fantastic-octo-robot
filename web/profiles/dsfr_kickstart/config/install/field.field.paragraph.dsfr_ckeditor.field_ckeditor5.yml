@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_ckeditor5
+    - filter.format.full_html
     - paragraphs.paragraphs_type.dsfr_ckeditor
   module:
     - text
@@ -17,5 +18,6 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  allowed_formats: {  }
+  allowed_formats:
+    - full_html
 field_type: text_long

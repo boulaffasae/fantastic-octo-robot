@@ -1,0 +1,22 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_block_custom.field_block_custom
+    - paragraphs.paragraphs_type.dsfr_block_custom
+  module:
+    - block_field
+id: paragraph.dsfr_block_custom.default
+targetEntityType: paragraph
+bundle: dsfr_block_custom
+mode: default
+content:
+  field_block_custom:
+    type: block_field
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

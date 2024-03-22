@@ -64,6 +64,14 @@ dependencies:
   - gin_toolbar:gin_toolbar
   - gin_login:gin_login
   - symfony_mailer:symfony_mailer
+  - admin_dialogs:admin_dialogs
+  - svg_image_field:svg_image_field
+  - block_field:block_field
+  - nbsp:nbsp
+  - metatag:metatag
+  - search_api:search_api
+  - search_api_db:search_api_db
+  - pathauto:pathauto
 
 themes:
   - claro

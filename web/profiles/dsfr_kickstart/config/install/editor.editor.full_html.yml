@@ -16,6 +16,7 @@ settings:
       - superscript
       - subscript
       - removeFormat
+      - nbsp
       - '|'
       - link
       - '|'
@@ -32,6 +33,7 @@ settings:
       - codeBlock
       - '|'
       - sourceEditing
+      - Fullscreen
   plugins:
     ckeditor5_codeBlock:
       languages:
@@ -87,8 +89,10 @@ settings:
     ckeditor5_imageResize:
       allow_resize: true
     ckeditor5_list:
-      reversed: true
-      startIndex: true
+      properties:
+        reversed: true
+        startIndex: true
+      multiBlock: true
     ckeditor5_sourceEditing:
       allowed_tags: {  }
     media_media:

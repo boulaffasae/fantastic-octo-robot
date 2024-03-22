@@ -1,0 +1,16 @@
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:57799506-5ef6-4f09-99aa-f8a30fd5379e'
+  module:
+    - layout_paragraphs
+id: dsfr_accordions
+label: Accordéons
+icon_uuid: 57799506-5ef6-4f09-99aa-f8a30fd5379e
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxIDNDMjEuNTUyMyAzIDIyIDMuNDQ3NzIgMjIgNFYyMEMyMiAyMC41NTIzIDIxLjU1MjMgMjEgMjEgMjFIM0MyLjQ0NzcyIDIxIDIgMjAuNTUyMyAyIDIwVjRDMiAzLjQ0NzcyIDIuNDQ3NzIgMyAzIDNIMjFaTTQgMTBWMTlIMjBWMTBINFpNNCA4SDIwVjVINFY4WiI+PC9wYXRoPjwvc3ZnPg=='
+description: "Les accordéons permettent aux utilisateurs d'afficher et de masquer des sections de contenu présentés dans une page."
+behavior_plugins:
+  layout_paragraphs:
+    enabled: false
+    available_layouts: {  }

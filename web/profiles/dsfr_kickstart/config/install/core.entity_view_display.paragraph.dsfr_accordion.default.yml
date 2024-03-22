@@ -1,0 +1,30 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_accordion.field_ckeditor5
+    - field.field.paragraph.dsfr_accordion.field_intitule_accordeon
+    - paragraphs.paragraphs_type.dsfr_accordion
+  module:
+    - text
+id: paragraph.dsfr_accordion.default
+targetEntityType: paragraph
+bundle: dsfr_accordion
+mode: default
+content:
+  field_ckeditor5:
+    type: text_default
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_intitule_accordeon:
+    type: basic_string
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

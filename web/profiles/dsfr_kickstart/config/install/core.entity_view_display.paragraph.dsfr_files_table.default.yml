@@ -1,0 +1,22 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_files_table.field_fichiers
+    - paragraphs.paragraphs_type.dsfr_files_table
+id: paragraph.dsfr_files_table.default
+targetEntityType: paragraph
+bundle: dsfr_files_table
+mode: default
+content:
+  field_fichiers:
+    type: entity_reference_entity_view
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

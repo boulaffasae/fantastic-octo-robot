@@ -1,0 +1,13 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - pathauto
+  enforced:
+    module:
+      - user
+id: pathauto_update_alias_user
+label: "Mettre à jour l'alias d'URL"
+type: user
+plugin: pathauto_update_alias
+configuration: {  }

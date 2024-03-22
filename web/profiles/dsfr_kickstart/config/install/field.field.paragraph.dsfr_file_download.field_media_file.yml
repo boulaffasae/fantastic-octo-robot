@@ -1,0 +1,28 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media_file
+    - media.type.dsfr_media_document
+    - paragraphs.paragraphs_type.dsfr_file_download
+id: paragraph.dsfr_file_download.field_media_file
+field_name: field_media_file
+entity_type: paragraph
+bundle: dsfr_file_download
+label: Fichier
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      dsfr_media_document: dsfr_media_document
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

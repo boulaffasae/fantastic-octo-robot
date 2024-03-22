@@ -1,9 +1,16 @@
 langcode: fr
 status: true
-dependencies: {  }
+dependencies:
+  content:
+    - 'file:file:bf431783-76e9-450e-ac4a-35140239498d'
+  module:
+    - layout_paragraphs
 id: dsfr_card
 label: Carte
-icon_uuid: null
-icon_default: null
+icon_uuid: bf431783-76e9-450e-ac4a-35140239498d
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTMuMDA0ODggM0gyMS4wMDQ5QzIxLjU1NzIgMyAyMi4wMDQ5IDMuNDQ3NzIgMjIuMDA0OSA0VjIwQzIyLjAwNDkgMjAuNTUyMyAyMS41NTcyIDIxIDIxLjAwNDkgMjFIMy4wMDQ4OEMyLjQ1MjYgMjEgMi4wMDQ4OCAyMC41NTIzIDIuMDA0ODggMjBWNEMyLjAwNDg4IDMuNDQ3NzIgMi40NTI2IDMgMy4wMDQ4OCAzWk0yMC4wMDQ5IDExSDQuMDA0ODhWMTlIMjAuMDA0OVYxMVpNMjAuMDA0OSA5VjVINC4wMDQ4OFY5SDIwLjAwNDlaTTE0LjAwNDkgMTVIMTguMDA0OVYxN0gxNC4wMDQ5VjE1WiI+PC9wYXRoPjwvc3ZnPg=='
 description: "La carte est un lien vers une page éditoriale dont elle donne un aperçu. Elle fait généralement partie d'une collection ou liste d’aperçus de contenu similaires. La carte n’est jamais présentée de manière isolée.\r\n\r\nLa carte existe en trois tailles (LG, MD, SM) et deux formats (horizontale et verticale), déclinés sur deux supports (desktop et mobile). Les cartes horizontales sont réservées au desktop (en mobile, une carte horizontale devient verticale)."
-behavior_plugins: {  }
+behavior_plugins:
+  layout_paragraphs:
+    enabled: false
+    available_layouts: {  }

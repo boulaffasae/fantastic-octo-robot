@@ -1,0 +1,726 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - search_api.server.default_server
+    - core.entity_view_mode.node.search_index
+  module:
+    - node
+    - user
+    - search_api
+id: default_index
+name: 'Index de contenu par défaut'
+description: 'Index de contenu par défaut'
+read_only: false
+field_settings:
+  author:
+    label: 'Author name'
+    datasource_id: 'entity:node'
+    property_path: 'uid:entity:name'
+    type: string
+    dependencies:
+      module:
+        - node
+        - user
+  changed:
+    label: Changed
+    datasource_id: 'entity:node'
+    property_path: changed
+    type: date
+    dependencies:
+      module:
+        - node
+  created:
+    label: 'Authored on'
+    datasource_id: 'entity:node'
+    property_path: created
+    type: date
+    dependencies:
+      module:
+        - node
+  field_tags:
+    label: Tags
+    datasource_id: 'entity:node'
+    property_path: field_tags
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_tags
+  node_grants:
+    label: 'Node access information'
+    property_path: search_api_node_grants
+    type: string
+    indexed_locked: true
+    type_locked: true
+    hidden: true
+  rendered_item:
+    label: 'Rendered item'
+    property_path: rendered_item
+    type: text
+    configuration:
+      roles:
+        - anonymous
+      view_mode:
+        'entity:node':
+          article: search_index
+          page: search_index
+  status:
+    label: 'Publishing status'
+    datasource_id: 'entity:node'
+    property_path: status
+    type: boolean
+    indexed_locked: true
+    type_locked: true
+    dependencies:
+      module:
+        - node
+  sticky:
+    label: 'Sticky at top of lists'
+    datasource_id: 'entity:node'
+    property_path: sticky
+    type: boolean
+    dependencies:
+      module:
+        - node
+  title:
+    label: Title
+    datasource_id: 'entity:node'
+    property_path: title
+    type: text
+    boost: 8.0
+    dependencies:
+      module:
+        - node
+  type:
+    label: 'Content type'
+    datasource_id: 'entity:node'
+    property_path: type
+    type: string
+    dependencies:
+      module:
+        - node
+  uid:
+    label: 'Author ID'
+    datasource_id: 'entity:node'
+    property_path: uid
+    type: integer
+    indexed_locked: true
+    type_locked: true
+    dependencies:
+      module:
+        - node
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url:
+    weights:
+      preprocess_index: -30
+  aggregated_field:
+    weights:
+      add_properties: 20
+  content_access:
+    weights:
+      preprocess_index: -6
+      preprocess_query: -49
+  custom_value: {  }
+  entity_status:
+    weights:
+      preprocess_index: -10
+  entity_type: {  }
+  highlight:
+    weights:
+      postprocess_query: 0
+    prefix: '<mark>'
+    suffix: '</mark>'
+    excerpt: true
+    excerpt_always: true
+    excerpt_length: 256
+    exclude_fields: {  }
+    highlight: always
+    highlight_partial: false
+  html_filter:
+    weights:
+      preprocess_index: -47
+      preprocess_query: -46
+    all_fields: false
+    fields:
+      - rendered_item
+    title: true
+    alt: true
+    tags:
+      b: 2
+      h1: 5
+      h2: 3
+      h3: 2
+      string: 2
+  ignore_character:
+    weights:
+      preprocess_index: -46
+      preprocess_query: -45
+    all_fields: false
+    fields:
+      - author
+      - rendered_item
+      - title
+      - type
+    ignorable: "['¿¡!?,.:;éèàùîëï]"
+    ignorable_classes:
+      - Pc
+      - Pd
+      - Pe
+      - Pf
+      - Pi
+      - Po
+      - Ps
+  ignorecase:
+    weights:
+      preprocess_index: -49
+      preprocess_query: -48
+    all_fields: false
+    fields:
+      - rendered_item
+      - title
+  language_with_fallback: {  }
+  rendered_item:
+    weights:
+      add_properties: 0
+      pre_index_save: -10
+  stopwords:
+    weights:
+      preprocess_index: -44
+      preprocess_query: -43
+    all_fields: false
+    fields:
+      - rendered_item
+      - title
+    stopwords:
+      - a
+      - abord
+      - afin
+      - ah
+      - ai
+      - aie
+      - ainsi
+      - allaient
+      - allo
+      - allons
+      - allô
+      - alors
+      - après
+      - assez
+      - attendu
+      - au
+      - aucun
+      - aucune
+      - aucuns
+      - aujourd
+      - "aujourd'hui"
+      - auquel
+      - aura
+      - auront
+      - aussi
+      - autre
+      - autres
+      - aux
+      - auxquelles
+      - auxquels
+      - avaient
+      - avais
+      - avait
+      - avant
+      - avec
+      - avoir
+      - ayant
+      - b
+      - bah
+      - beaucoup
+      - bien
+      - bigre
+      - bon
+      - boum
+      - bravo
+      - brrr
+      - c
+      - car
+      - ce
+      - ceci
+      - cela
+      - celle
+      - celle-ci
+      - celle-là
+      - celles
+      - celles-ci
+      - celles-là
+      - celui
+      - celui-ci
+      - celui-là
+      - cent
+      - cependant
+      - certain
+      - certaine
+      - certaines
+      - certains
+      - certes
+      - ces
+      - cet
+      - cette
+      - ceux
+      - ceux-ci
+      - ceux-là
+      - chacun
+      - chaque
+      - cher
+      - chers
+      - chez
+      - chiche
+      - chut
+      - chère
+      - chères
+      - ci
+      - cinq
+      - cinquantaine
+      - cinquante
+      - cinquantième
+      - cinquième
+      - clac
+      - clic
+      - combien
+      - comme
+      - comment
+      - compris
+      - concernant
+      - contre
+      - couic
+      - crac
+      - d
+      - da
+      - dans
+      - de
+      - debout
+      - dedans
+      - dehors
+      - delà
+      - depuis
+      - derrière
+      - des
+      - desquelles
+      - desquels
+      - dessous
+      - dessus
+      - deux
+      - deuxième
+      - deuxièmement
+      - devant
+      - devers
+      - devra
+      - devrait
+      - différent
+      - différente
+      - différentes
+      - différents
+      - dire
+      - divers
+      - diverse
+      - diverses
+      - dix
+      - dix-huit
+      - dix-neuf
+      - dix-sept
+      - dixième
+      - doit
+      - doivent
+      - donc
+      - dont
+      - dos
+      - douze
+      - douzième
+      - dring
+      - droite
+      - du
+      - duquel
+      - durant
+      - dès
+      - début
+      - désormais
+      - e
+      - effet
+      - eh
+      - elle
+      - elle-même
+      - elles
+      - elles-mêmes
+      - en
+      - encore
+      - entre
+      - envers
+      - environ
+      - es
+      - essai
+      - est
+      - et
+      - etant
+      - etc
+      - etre
+      - eu
+      - euh
+      - eux
+      - eux-mêmes
+      - excepté
+      - f
+      - fais
+      - faisaient
+      - faisant
+      - fait
+      - faites
+      - façon
+      - feront
+      - fi
+      - flac
+      - floc
+      - fois
+      - font
+      - force
+      - g
+      - gens
+      - h
+      - ha
+      - haut
+      - hein
+      - hem
+      - hep
+      - hi
+      - ho
+      - holà
+      - hop
+      - hormis
+      - hors
+      - hou
+      - houp
+      - hue
+      - hui
+      - huit
+      - huitième
+      - hum
+      - hurrah
+      - hé
+      - hélas
+      - i
+      - ici
+      - il
+      - ils
+      - importe
+      - j
+      - je
+      - jusqu
+      - jusque
+      - juste
+      - k
+      - l
+      - la
+      - laquelle
+      - las
+      - le
+      - lequel
+      - les
+      - lesquelles
+      - lesquels
+      - leur
+      - leurs
+      - longtemps
+      - lorsque
+      - lui
+      - lui-même
+      - là
+      - lès
+      - m
+      - ma
+      - maint
+      - maintenant
+      - mais
+      - malgré
+      - me
+      - merci
+      - mes
+      - mien
+      - mienne
+      - miennes
+      - miens
+      - mille
+      - mince
+      - mine
+      - moi
+      - moi-même
+      - moins
+      - mon
+      - mot
+      - moyennant
+      - même
+      - mêmes
+      - 'n'
+      - na
+      - ne
+      - neuf
+      - neuvième
+      - ni
+      - nombreuses
+      - nombreux
+      - nommés
+      - non
+      - nos
+      - notre
+      - nous
+      - nous-mêmes
+      - nouveaux
+      - nul
+      - néanmoins
+      - nôtre
+      - nôtres
+      - o
+      - oh
+      - ohé
+      - ollé
+      - olé
+      - 'on'
+      - ont
+      - onze
+      - onzième
+      - ore
+      - ou
+      - ouf
+      - ouias
+      - oust
+      - ouste
+      - outre
+      - o|
+      - où
+      - p
+      - paf
+      - pan
+      - par
+      - parce
+      - parmi
+      - parole
+      - partant
+      - particulier
+      - particulière
+      - particulièrement
+      - pas
+      - passé
+      - pendant
+      - personne
+      - personnes
+      - peu
+      - peut
+      - peuvent
+      - peux
+      - pff
+      - pfft
+      - pfut
+      - pif
+      - pièce
+      - plein
+      - plouf
+      - plupart
+      - plus
+      - plusieurs
+      - plutôt
+      - pouah
+      - pour
+      - pourquoi
+      - premier
+      - première
+      - premièrement
+      - proche
+      - près
+      - psitt
+      - puisque
+      - q
+      - qu
+      - quand
+      - quant
+      - quant-à-soi
+      - quanta
+      - quarante
+      - quatorze
+      - quatre
+      - quatre-vingt
+      - quatrième
+      - quatrièmement
+      - que
+      - quel
+      - quelconque
+      - quelle
+      - quelles
+      - "quelqu'un"
+      - quelque
+      - quelques
+      - quels
+      - qui
+      - quiconque
+      - quinze
+      - quoi
+      - quoique
+      - r
+      - revoici
+      - revoilà
+      - rien
+      - s
+      - sa
+      - sacrebleu
+      - sans
+      - sapristi
+      - sauf
+      - se
+      - seize
+      - selon
+      - sept
+      - septième
+      - sera
+      - seront
+      - ses
+      - seulement
+      - si
+      - sien
+      - sienne
+      - siennes
+      - siens
+      - sinon
+      - six
+      - sixième
+      - soi
+      - soi-même
+      - soit
+      - soixante
+      - son
+      - sont
+      - sous
+      - soyez
+      - stop
+      - suis
+      - suivant
+      - sujet
+      - sur
+      - surtout
+      - t
+      - ta
+      - tac
+      - tandis
+      - tant
+      - te
+      - tel
+      - telle
+      - tellement
+      - telles
+      - tels
+      - tenant
+      - tes
+      - tic
+      - tien
+      - tienne
+      - tiennes
+      - tiens
+      - toc
+      - toi
+      - toi-même
+      - ton
+      - touchant
+      - toujours
+      - tous
+      - tout
+      - toute
+      - toutes
+      - treize
+      - trente
+      - trois
+      - troisième
+      - troisièmement
+      - trop
+      - très
+      - tsoin
+      - tsouin
+      - tu
+      - té
+      - u
+      - un
+      - une
+      - unes
+      - uns
+      - v
+      - va
+      - vais
+      - valeur
+      - vas
+      - vers
+      - via
+      - vif
+      - vifs
+      - vingt
+      - vivat
+      - vive
+      - vives
+      - vlan
+      - voici
+      - voie
+      - voient
+      - voilà
+      - vont
+      - vos
+      - votre
+      - vous
+      - vous-mêmes
+      - vu
+      - vé
+      - vôtre
+      - vôtres
+      - w
+      - x
+      - 'y'
+      - z
+      - zut
+      - à
+      - â
+      - ça
+      - ès
+      - étaient
+      - étais
+      - était
+      - étant
+      - état
+      - étions
+      - été
+      - être
+      - ô
+  tokenizer:
+    weights:
+      preprocess_index: -45
+      preprocess_query: -44
+    all_fields: false
+    fields:
+      - rendered_item
+    spaces: ''
+    ignored: ._-
+    overlap_cjk: 1
+    minimum_word_size: '3'
+  transliteration:
+    weights:
+      preprocess_index: -48
+      preprocess_query: -47
+    all_fields: false
+    fields:
+      - rendered_item
+      - title
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  cron_limit: 50
+  index_directly: true
+  track_changes_in_references: true
+server: default_server

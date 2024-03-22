@@ -1,0 +1,28 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_pictogramme
+    - media.type.dsfr_pictogramme
+    - paragraphs.paragraphs_type.dsfr_tile
+id: paragraph.dsfr_tile.field_dsfr_pictogramme
+field_name: field_dsfr_pictogramme
+entity_type: paragraph
+bundle: dsfr_tile
+label: Pictogramme
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      dsfr_pictogramme: dsfr_pictogramme
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

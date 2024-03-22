@@ -1,0 +1,18 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titre
+    - paragraphs.paragraphs_type.dsfr_highlight
+id: paragraph.dsfr_highlight.field_titre
+field_name: field_titre
+entity_type: paragraph
+bundle: dsfr_highlight
+label: Titre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
