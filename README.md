@@ -16,6 +16,7 @@ It is strictly forbidden to use the DSFR outside of the French State's websites 
   - [Introduction](#Introduction)
   - [Requirements](#Requirements)
   - [Installation](#Installation)
+  - [Installation using Docker](#Installation-using-Docker)
   - [Configuration](#Configuration)
   - [Supported DSFR library version](#Supported-DSFR-library-version)
   - [Licence](#Licence)
@@ -55,6 +56,66 @@ $settings['config_sync_directory'] = '../config/sync';
 ```
 
 Go to the site address and launch the installation from the interface by choosing the DSFR Kickstart profile or use drush via the command:
+
+```
+drush si --existing-config
+
+```
+
+## Installation using Docker
+
+Wodby Docker-based Drupal stack https://github.com/wodby/docker4drupal
+
+1.Download and unpack docker4drupal.tar.gz from the latest stable release to your project root
+
+2.Delete compose.override.yml as it's used to deploy vanilla Drupal
+
+3.Ensure NGINX_SERVER_ROOT (or APACHE_DOCUMENT_ROOT) is correct, by default set to /var/www/html/web for composer-based projects where Drupal is in web subdirectory
+
+4.Ensure database access settings in your settings.php corresponds to values in .env file
+```
+git clone https://github.com/wodby/docker4drupal.git
+cd docker4drupal
+git clone https://git.drupalcode.org/project/dsfr_kickstart.git my_website
+rm compose.override.yml
+```
+create a new compose.override.yml file with the following content:
+
+```
+services:
+  php:
+    volumes:
+    - ./my_website:/var/www/html
+
+  crond:
+    volumes:
+    - ./my_website:/var/www/html
+
+  nginx:
+    volumes:
+    - ./my_website:/var/www/html
+
+```
+launch the docker containers and install the Drupal instance from the php container
+```
+docker compose up -d
+```
+enter the PHP container of the stack and launch the installation of the DSFR Kickstart distribution
+```
+docker exec -ti my_drupal10_project_php bash
+composer install
+cp web/sites/default/default.settings.php web/sites/default/settings.php
+chmod ugo+w web/sites/default/files
+chmod ugo+w web/sites/default/files/translations
+chmod ugo+w web/sites/default/settings.php
+```
+
+add to web/sites/default/settings.php the following line
+```
+$settings['config_sync_directory'] = '../config/sync';
+```
+
+Go to the site address http://drupal.docker.localhost:8000/ and launch the installation from the interface by choosing the DSFR Kickstart profile "Installer DSFR Kickstart en utilisant une configuration existante." or use drush via the command:
 
 ```
 drush si --existing-config
