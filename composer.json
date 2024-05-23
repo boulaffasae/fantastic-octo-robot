@@ -69,7 +69,8 @@
         "drupal/webform_views": "^5.2",
         "drupal/wpf": "^1.1",
         "drush/drush": "^12",
-        "predis/predis": "^2.2"
+        "predis/predis": "^2.2",
+        "wikimedia/composer-merge-plugin": "*"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -84,7 +85,8 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "cweagans/composer-patches": true,
             "phpstan/extension-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "wikimedia/composer-merge-plugin": true
         },
         "sort-packages": true
     },
@@ -142,6 +144,11 @@
                 "      https://www.drupal.org/getting-involved",
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
+            ]
+        },
+        "merge-plugin": {
+            "include": [
+                "web/modules/contrib/webform/composer.libraries.json"
             ]
         }
     },
