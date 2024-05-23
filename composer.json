@@ -65,6 +65,7 @@
         "drupal/tamper": "^1.0@alpha",
         "drupal/toolbar_visibility": "^2.1",
         "drupal/twig_tweak": "^3.2",
+        "drupal/webform": "^6.2",
         "drupal/wpf": "^1.1",
         "drush/drush": "^12",
         "predis/predis": "^2.2"
