@@ -1,0 +1,24 @@
+uuid: b4123c80-4cd7-447c-b2c6-72acfbce45e6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_ckeditor5_restricte
+    - filter.format.restricted_html_dsfr
+    - paragraphs.paragraphs_type.divers
+  module:
+    - text
+id: paragraph.divers.field_dsfr_p_ckeditor5_restricte
+field_name: field_dsfr_p_ckeditor5_restricte
+entity_type: paragraph
+bundle: divers
+label: dsfr_p_ckeditor5_restricted
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - restricted_html_dsfr
+field_type: text_long

@@ -1,0 +1,19 @@
+uuid: 7228b1de-5992-42f8-98d9-238b0158e565
+langcode: fr
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_dsfr_p_ckeditor5_restricte
+field_name: field_dsfr_p_ckeditor5_restricte
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

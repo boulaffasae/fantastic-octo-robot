@@ -1,12 +1,10 @@
-uuid: f4dde240-8a9e-430a-92fc-86172e4d7644
+uuid: e8175b62-33e6-408f-a702-756c3e5f9b8b
 langcode: fr
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: oz6NyPDAB4HB6N9hgH2LwNVtCd-sXbMG1fbn5KsRIDI
-name: 'HTML restreint'
-format: restricted_html
-weight: -6
+name: 'Restricted HTML DSFR'
+format: restricted_html_dsfr
+weight: -8
 filters:
   filter_autop:
     id: filter_autop
@@ -20,7 +18,7 @@ filters:
     status: true
     weight: -10
     settings:
-      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id>'
+      allowed_html: '<br> <p> <strong> <em> <u> <s> <a href> <ul> <ol> <li>'
       filter_html_help: true
       filter_html_nofollow: false
   filter_url:

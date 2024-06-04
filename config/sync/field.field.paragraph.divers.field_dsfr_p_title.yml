@@ -1,0 +1,19 @@
+uuid: f57e813c-a25a-4b56-b363-d13c7e340771
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_title
+    - paragraphs.paragraphs_type.divers
+id: paragraph.divers.field_dsfr_p_title
+field_name: field_dsfr_p_title
+entity_type: paragraph
+bundle: divers
+label: dsfr_p_title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

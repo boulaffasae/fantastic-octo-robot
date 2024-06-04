@@ -1,0 +1,10 @@
+uuid: 8d983ac5-0b81-4e32-a1ed-fbfb55d16320
+langcode: fr
+status: true
+dependencies: {  }
+id: divers
+label: Divers
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
