@@ -4,11 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.divers.field_dsfr_p_ckeditor5
-    - field.field.paragraph.divers.field_dsfr_p_ckeditor5_restricte
     - field.field.paragraph.divers.field_dsfr_p_image
     - field.field.paragraph.divers.field_dsfr_p_link
     - field.field.paragraph.divers.field_dsfr_p_long_text
     - field.field.paragraph.divers.field_dsfr_p_media_image
+    - field.field.paragraph.divers.field_dsfr_p_message
     - field.field.paragraph.divers.field_dsfr_p_title
     - paragraphs.paragraphs_type.divers
   module:
@@ -26,13 +26,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
-    region: content
-  field_dsfr_p_ckeditor5_restricte:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
     region: content
   field_dsfr_p_image:
     type: image
@@ -72,6 +65,13 @@ content:
       link: false
     third_party_settings: {  }
     weight: 5
+    region: content
+  field_dsfr_p_message:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
     region: content
   field_dsfr_p_title:
     type: string

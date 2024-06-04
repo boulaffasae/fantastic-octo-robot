@@ -1,12 +1,12 @@
-uuid: 7228b1de-5992-42f8-98d9-238b0158e565
+uuid: 717b8048-5845-4e7b-b960-998dac726153
 langcode: fr
 status: true
 dependencies:
   module:
     - paragraphs
     - text
-id: paragraph.field_dsfr_p_ckeditor5_restricte
-field_name: field_dsfr_p_ckeditor5_restricte
+id: paragraph.field_dsfr_p_message
+field_name: field_dsfr_p_message
 entity_type: paragraph
 type: text_long
 settings: {  }

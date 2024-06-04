@@ -1,18 +1,18 @@
-uuid: b4123c80-4cd7-447c-b2c6-72acfbce45e6
+uuid: 305c5586-ef93-4ca3-975a-dfcaa8c20d2d
 langcode: fr
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_dsfr_p_ckeditor5_restricte
+    - field.storage.paragraph.field_dsfr_p_message
     - filter.format.restricted_html_dsfr
     - paragraphs.paragraphs_type.divers
   module:
     - text
-id: paragraph.divers.field_dsfr_p_ckeditor5_restricte
-field_name: field_dsfr_p_ckeditor5_restricte
+id: paragraph.divers.field_dsfr_p_message
+field_name: field_dsfr_p_message
 entity_type: paragraph
 bundle: divers
-label: dsfr_p_ckeditor5_restricted
+label: dsfr_p_message
 description: ''
 required: false
 translatable: false
