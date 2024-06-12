@@ -2362,7 +2362,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dsfr_core.git",
-                "reference": "a0d0de7fe785218d56e8079425578e5b3ffb0bc0"
+                "reference": "5251c1322ab6b72a201ba42b117a351b2c466104"
             },
             "require": {
                 "drupal/core": "^9 || ^10",
@@ -2375,8 +2375,8 @@
                     "dev-2.1.x": "2.1.x-dev"
                 },
                 "drupal": {
-                    "version": "2.1.10-beta1+27-dev",
-                    "datestamp": "1718029910",
+                    "version": "2.1.10-beta1+28-dev",
+                    "datestamp": "1718202961",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -2455,7 +2455,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dsfr_paragraph.git",
-                "reference": "fccaa13d0a7945901dfd8827be295f0173e28f39"
+                "reference": "de94ae406f9911e08de94a306947f03ebeed91fa"
             },
             "require": {
                 "drupal/core": "^9 || ^10",
@@ -2470,7 +2470,7 @@
                 },
                 "drupal": {
                     "version": "2.1.x-dev",
-                    "datestamp": "1718196105",
+                    "datestamp": "1718202896",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -2503,7 +2503,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dsfr_twig_components.git",
-                "reference": "2af3900c47d9c268466b38ed4f09533b880f09f5"
+                "reference": "8f7687642af2e402563216de75fab019f9d6dad8"
             },
             "require": {
                 "drupal/core": "^9 || ^10",
@@ -2516,7 +2516,7 @@
                 },
                 "drupal": {
                     "version": "2.1.x-dev",
-                    "datestamp": "1718031300",
+                    "datestamp": "1718203147",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
