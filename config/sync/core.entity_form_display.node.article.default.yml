@@ -5,15 +5,14 @@ dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
-    - field.field.node.article.field_composant_paragraphs
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.media_library
     - node.type.article
   module:
     - image
-    - layout_paragraphs
     - path
+    - publication_date
 _core:
   default_config_hash: ewbd6G2uX456-bgwseM2Q-KQG3RkASoyHmTh-XR3oLU
 id: node.article.default
@@ -26,16 +25,6 @@ content:
     weight: 4
     region: content
     settings: {  }
-    third_party_settings: {  }
-  field_composant_paragraphs:
-    type: layout_paragraphs
-    weight: 1
-    region: content
-    settings:
-      preview_view_mode: default
-      nesting_depth: 0
-      require_layouts: 1
-      empty_message: ''
     third_party_settings: {  }
   field_image:
     type: image_image
