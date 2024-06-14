@@ -2317,7 +2317,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dsfr.git",
-                "reference": "00e1de57f9dffe231b7643249c53e70a9eb0e84c"
+                "reference": "d31439b5baa572916ecd8d918b1cfac68e11bd0a"
             },
             "require": {
                 "drupal/core": "^9 || ^10"
@@ -2328,8 +2328,8 @@
                     "dev-2.1.x": "2.1.x-dev"
                 },
                 "drupal": {
-                    "version": "2.1.11-rc1+9-dev",
-                    "datestamp": "1718183543",
+                    "version": "2.1.11-rc2+1-dev",
+                    "datestamp": "1718199777",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -2362,7 +2362,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dsfr_core.git",
-                "reference": "5251c1322ab6b72a201ba42b117a351b2c466104"
+                "reference": "f5df69559caac0834808b7445c9ae482c1d065e2"
             },
             "require": {
                 "drupal/core": "^9 || ^10",
@@ -2375,8 +2375,8 @@
                     "dev-2.1.x": "2.1.x-dev"
                 },
                 "drupal": {
-                    "version": "2.1.10-beta1+28-dev",
-                    "datestamp": "1718202961",
+                    "version": "2.1.10-beta1+36-dev",
+                    "datestamp": "1718354392",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -2455,9 +2455,10 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dsfr_paragraph.git",
-                "reference": "de94ae406f9911e08de94a306947f03ebeed91fa"
+                "reference": "680c2cca2560630e27ee5f987b97e7c22aefb70f"
             },
             "require": {
+                "drupal/block_field": "*",
                 "drupal/core": "^9 || ^10",
                 "drupal/dsfr_core": "*",
                 "drupal/dsfr_twig_components": "*",
@@ -2470,7 +2471,7 @@
                 },
                 "drupal": {
                     "version": "2.1.x-dev",
-                    "datestamp": "1718202896",
+                    "datestamp": "1718354446",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -2503,7 +2504,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dsfr_twig_components.git",
-                "reference": "8f7687642af2e402563216de75fab019f9d6dad8"
+                "reference": "e7822787743bffe37ea74480f570d7fc8d17824e"
             },
             "require": {
                 "drupal/core": "^9 || ^10",
@@ -2516,7 +2517,7 @@
                 },
                 "drupal": {
                     "version": "2.1.x-dev",
-                    "datestamp": "1718203147",
+                    "datestamp": "1718354348",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
