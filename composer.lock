@@ -2317,10 +2317,10 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dsfr.git",
-                "reference": "24ff94c0f3887c15910f114aff0239a3a242e835"
+                "reference": "4f7f3ec4b88d705b346d19326b755f62bb7cfd73"
             },
             "require": {
-                "drupal/core": "^9 || ^10"
+                "drupal/core": "^9 || ^10 || ^11"
             },
             "type": "drupal-theme",
             "extra": {
@@ -2328,8 +2328,8 @@
                     "dev-2.1.x": "2.1.x-dev"
                 },
                 "drupal": {
-                    "version": "2.1.11-rc2+5-dev",
-                    "datestamp": "1718826820",
+                    "version": "2.1.11-rc2+12-dev",
+                    "datestamp": "1719232570",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -2362,7 +2362,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dsfr_core.git",
-                "reference": "2eb04f48e41425f72106e5f42200dd2a45e54b12"
+                "reference": "e0a844baa5c9248061f3bbfcb4563eb3a4bcf319"
             },
             "require": {
                 "drupal/core": "^9 || ^10",
@@ -2375,8 +2375,8 @@
                     "dev-2.1.x": "2.1.x-dev"
                 },
                 "drupal": {
-                    "version": "2.1.10-beta1+40-dev",
-                    "datestamp": "1718719950",
+                    "version": "2.1.10-beta1+41-dev",
+                    "datestamp": "1719233584",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
