@@ -18,7 +18,8 @@ docker-compose.yml
 /web/sites/default/*
 /private/
 /web/libraries/*
-
+/web/sites/development.services.yml
+/web/sites/example.sites.php
 
 # Ignore IDE files
 /.idea/
