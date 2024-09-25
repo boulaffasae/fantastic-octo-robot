@@ -1,0 +1,27 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html_dsfr
+  module:
+    - ckeditor5
+format: restricted_html_dsfr
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - bold
+      - italic
+      - underline
+      - strikethrough
+      - bulletedList
+      - numberedList
+      - link
+  plugins:
+    ckeditor5_list:
+      properties:
+        reversed: false
+        startIndex: false
+      multiBlock: false
+image_upload:
+  status: false

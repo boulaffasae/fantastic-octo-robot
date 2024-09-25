@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - webform
+id: webform_delete_action
+label: 'Supprimer le webform'
+type: webform
+plugin: webform_delete_action
+configuration: {  }

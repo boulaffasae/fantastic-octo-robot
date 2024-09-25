@@ -3,7 +3,7 @@ status: true
 dependencies: {  }
 name: 'HTML restreint'
 format: restricted_html
-weight: -7
+weight: -6
 filters:
   filter_autop:
     id: filter_autop

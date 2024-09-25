@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - webform
+id: webform_submission_delete_action
+label: 'Supprimer la soumission'
+type: webform_submission
+plugin: webform_submission_delete_action
+configuration: {  }

@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - webform
+id: webform_open_action
+label: 'Ouvrir le webform'
+type: webform
+plugin: webform_open_action
+configuration: {  }

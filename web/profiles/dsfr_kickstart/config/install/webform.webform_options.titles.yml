@@ -1,0 +1,11 @@
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+id: titles
+label: Titres
+category: Démographique
+likert: false
+options: "Miss : Mlle\r\nMs : Mme\r\nMr : M.\r\nMrs : Mme\r\nDr : Dr\n"

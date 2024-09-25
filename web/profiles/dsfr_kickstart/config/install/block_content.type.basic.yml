@@ -3,5 +3,5 @@ status: true
 dependencies: {  }
 id: basic
 label: 'Bloc simple'
-revision: 0
+revision: false
 description: 'Un bloc simple contient un titre et un corps.'

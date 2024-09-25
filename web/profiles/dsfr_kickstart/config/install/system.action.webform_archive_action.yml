@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - webform
+id: webform_archive_action
+label: 'Archiver le webform'
+type: webform
+plugin: webform_archive_action
+configuration: {  }

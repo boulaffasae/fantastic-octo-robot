@@ -3,7 +3,7 @@ status: true
 dependencies: {  }
 name: 'Texte brut'
 format: plain_text
-weight: -6
+weight: -5
 filters:
   filter_autop:
     id: filter_autop

@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - webform
+id: webform_unarchive_action
+label: 'Restaurer le webform'
+type: webform
+plugin: webform_unarchive_action
+configuration: {  }

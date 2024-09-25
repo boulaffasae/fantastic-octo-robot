@@ -1,0 +1,11 @@
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+id: days
+label: Jours
+category: 'Date et heure'
+likert: false
+options: "Sunday: Dimanche\r\nMonday: Lundi\r\nTuesday: Mardi\r\nWednesday: Mercredi\r\nThursday: Jeudi\r\nFriday: Vendredi\r\nSaturday: Samedi\n"

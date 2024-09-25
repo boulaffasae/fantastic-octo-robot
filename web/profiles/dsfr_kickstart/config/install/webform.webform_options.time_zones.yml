@@ -1,0 +1,11 @@
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+id: time_zones
+label: 'Fuseaux horaires'
+category: 'Date et heure'
+likert: false
+options: ''

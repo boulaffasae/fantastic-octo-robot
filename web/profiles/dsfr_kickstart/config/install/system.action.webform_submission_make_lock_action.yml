@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - webform
+id: webform_submission_make_lock_action
+label: 'Verrouiller la soumission'
+type: webform_submission
+plugin: webform_submission_make_lock_action
+configuration: {  }

@@ -1,0 +1,11 @@
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+id: languages
+label: Langues
+category: Langue
+likert: false
+options: ''

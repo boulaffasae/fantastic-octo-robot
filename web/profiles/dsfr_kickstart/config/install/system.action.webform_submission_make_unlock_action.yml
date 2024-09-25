@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - webform
+id: webform_submission_make_unlock_action
+label: 'Déverrouiller la soumission'
+type: webform_submission
+plugin: webform_submission_make_unlock_action
+configuration: {  }

@@ -1,0 +1,11 @@
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+id: marital_status
+label: 'Statut marital'
+category: Démographique
+likert: false
+options: "Single: Célibataire\r\nMarried: Marié\r\nDivorced: Divorcé\r\nWidowed: Veuf(ve)\n"
