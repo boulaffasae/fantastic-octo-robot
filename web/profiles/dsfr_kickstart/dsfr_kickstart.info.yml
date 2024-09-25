@@ -61,6 +61,8 @@ dependencies:
   - form_options_attributes:form_options_attributes
   - dsfr_core:dsfr_core
   - dsfr_menu:dsfr_menu
+  - dsfr_paragraph:dsfr_paragraph
+  - dsfr_twig_components:dsfr_twig_components
   - gin_toolbar:gin_toolbar
   - gin_login:gin_login
   - symfony_mailer:symfony_mailer
@@ -72,6 +74,8 @@ dependencies:
   - search_api:search_api
   - search_api_db:search_api_db
   - pathauto:pathauto
+  - webform:webform
+  - publication_date:publication_date
 
 themes:
   - claro
