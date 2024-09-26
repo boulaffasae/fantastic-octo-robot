@@ -1,0 +1,22 @@
+uuid: bef31a56-698c-4805-b302-56736bcb6b79
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_font_size
+    - paragraphs.paragraphs_type.dsfr_link
+  module:
+    - options
+id: paragraph.dsfr_link.field_dsfr_p_font_size
+field_name: field_dsfr_p_font_size
+entity_type: paragraph
+bundle: dsfr_link
+label: 'Font size'
+description: ''
+required: false
+translatable: true
+default_value:
+  value: 0
+default_value_callback: ''
+settings: {  }
+field_type: list_string

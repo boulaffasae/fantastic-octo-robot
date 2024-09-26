@@ -1,0 +1,19 @@
+uuid: a748c9b1-7ee3-4f7d-8922-859b7b5cca42
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_tooltip
+    - paragraphs.paragraphs_type.dsfr_tooltip
+id: paragraph.dsfr_tooltip.field_dsfr_p_tooltip
+field_name: field_dsfr_p_tooltip
+entity_type: paragraph
+bundle: dsfr_tooltip
+label: Info-bulle
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

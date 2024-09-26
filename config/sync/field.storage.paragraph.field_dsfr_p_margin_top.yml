@@ -1,0 +1,123 @@
+uuid: 416c3f75-d540-49a0-a378-90480cdae2de
+langcode: fr
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_dsfr_p_margin_top
+field_name: field_dsfr_p_margin_top
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 0-5v
+      label: '0,5v (2px)'
+    -
+      value: 1v
+      label: '1v (4px)'
+    -
+      value: 1-5v
+      label: '1,5v (6px)'
+    -
+      value: 2v
+      label: '2v (8px)'
+    -
+      value: 3v
+      label: '3v (12px)'
+    -
+      value: 4v
+      label: '4v (16px)'
+    -
+      value: 5v
+      label: '5v (20px)'
+    -
+      value: 6v
+      label: '6v (24px)'
+    -
+      value: 7v
+      label: '7v (28px)'
+    -
+      value: 8v
+      label: '8v (32px)'
+    -
+      value: 9v
+      label: '9v (36px)'
+    -
+      value: 10v
+      label: '10v (40px)'
+    -
+      value: 11v
+      label: '11v (44px)'
+    -
+      value: 12v
+      label: '12v (48px)'
+    -
+      value: 13v
+      label: '13v (52px)'
+    -
+      value: 14v
+      label: '14v (56px)'
+    -
+      value: 15v
+      label: '15v (60px)'
+    -
+      value: 16v
+      label: '16v (64px)'
+    -
+      value: 17v
+      label: '17v (68px)'
+    -
+      value: 18v
+      label: '18v (72px)'
+    -
+      value: 19v
+      label: '19v (76px)'
+    -
+      value: 20v
+      label: '20v (80px)'
+    -
+      value: 21v
+      label: '21v (84px)'
+    -
+      value: 22v
+      label: '22v (88px)'
+    -
+      value: 23v
+      label: '23v (92px)'
+    -
+      value: 24v
+      label: '24v (96px)'
+    -
+      value: 25v
+      label: '25v (100px)'
+    -
+      value: 26v
+      label: '26v (104px)'
+    -
+      value: 27v
+      label: '27v (108px)'
+    -
+      value: 28v
+      label: '28v (112px)'
+    -
+      value: 29v
+      label: '29v (116px)'
+    -
+      value: 30v
+      label: '30v (120px)'
+    -
+      value: 31v
+      label: '31v (124px)'
+    -
+      value: 32v
+      label: '32v (128px)'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

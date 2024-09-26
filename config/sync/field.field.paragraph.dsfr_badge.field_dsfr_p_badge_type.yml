@@ -1,0 +1,22 @@
+uuid: 5dad3b7e-dc44-4882-9e12-97d9ff5309ed
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_badge_type
+    - paragraphs.paragraphs_type.dsfr_badge
+  module:
+    - options
+id: paragraph.dsfr_badge.field_dsfr_p_badge_type
+field_name: field_dsfr_p_badge_type
+entity_type: paragraph
+bundle: dsfr_badge
+label: 'Badge type'
+description: ''
+required: true
+translatable: true
+default_value:
+  value: new
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,21 @@
+uuid: ef7aacf4-5891-4b47-9d08-c240a7eb1dfb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_margin_bottom
+    - paragraphs.paragraphs_type.dsfr_franceconnect
+  module:
+    - options
+id: paragraph.dsfr_franceconnect.field_dsfr_p_margin_bottom
+field_name: field_dsfr_p_margin_bottom
+entity_type: paragraph
+bundle: dsfr_franceconnect
+label: 'Marge du bas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,62 @@
+uuid: 28cffb27-7bee-41cc-9927-1689d162597c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_badge.field_dsfr_p_badge_type
+    - field.field.paragraph.dsfr_badge.field_dsfr_p_color
+    - field.field.paragraph.dsfr_badge.field_dsfr_p_label
+    - field.field.paragraph.dsfr_badge.field_dsfr_p_show_icon
+    - field.field.paragraph.dsfr_badge.field_dsfr_p_small
+    - paragraphs.paragraphs_type.dsfr_badge
+  module:
+    - options
+id: paragraph.dsfr_badge.default
+targetEntityType: paragraph
+bundle: dsfr_badge
+mode: default
+content:
+  field_dsfr_p_badge_type:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_dsfr_p_color:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_dsfr_p_label:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_dsfr_p_show_icon:
+    type: boolean
+    label: hidden
+    settings:
+      format: boolean
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_dsfr_p_small:
+    type: boolean
+    label: hidden
+    settings:
+      format: boolean
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

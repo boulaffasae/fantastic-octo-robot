@@ -1,0 +1,30 @@
+uuid: 1af10662-34d4-43a1-97dc-507d11647b40
+langcode: fr
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_dsfr_p_tag_type
+field_name: field_dsfr_p_tag_type
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: 'Par défaut'
+    -
+      value: '1'
+      label: 'Can be selected'
+    -
+      value: '2'
+      label: 'Can be closed'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

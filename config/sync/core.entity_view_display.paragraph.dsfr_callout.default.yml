@@ -1,0 +1,71 @@
+uuid: fb9f82de-68c5-4148-9f1c-9ee5a71cec0c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_callout.field_dsfr_p_color
+    - field.field.paragraph.dsfr_callout.field_dsfr_p_link
+    - field.field.paragraph.dsfr_callout.field_dsfr_p_margin_bottom
+    - field.field.paragraph.dsfr_callout.field_dsfr_p_margin_top
+    - field.field.paragraph.dsfr_callout.field_dsfr_p_message
+    - field.field.paragraph.dsfr_callout.field_dsfr_p_title
+    - paragraphs.paragraphs_type.dsfr_callout
+  module:
+    - link
+    - options
+    - text
+id: paragraph.dsfr_callout.default
+targetEntityType: paragraph
+bundle: dsfr_callout
+mode: default
+content:
+  field_dsfr_p_color:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_dsfr_p_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_dsfr_p_margin_bottom:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_dsfr_p_margin_top:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_dsfr_p_message:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_dsfr_p_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

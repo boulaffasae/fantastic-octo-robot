@@ -1,0 +1,21 @@
+uuid: 7ed95682-0d85-46db-af54-cb2658348daa
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_arrow_left
+    - paragraphs.paragraphs_type.dsfr_tag
+id: paragraph.dsfr_tag.field_dsfr_p_arrow_left
+field_name: field_dsfr_p_arrow_left
+entity_type: paragraph
+bundle: dsfr_tag
+label: 'Arrow icon before label'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

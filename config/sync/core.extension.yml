@@ -22,6 +22,10 @@ module:
   cool_editor_tabs: 0
   datetime: 0
   dblog: 0
+  dsfr_core: 0
+  dsfr_menu: 0
+  dsfr_paragraph: 0
+  dsfr_twig_components: 0
   dynamic_page_cache: 0
   easy_breadcrumb: 0
   editor: 0

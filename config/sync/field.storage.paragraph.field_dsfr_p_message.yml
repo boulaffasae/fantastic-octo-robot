@@ -1,0 +1,19 @@
+uuid: ff679f1d-a793-40a0-aa9e-5e45f8aa37e0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_dsfr_p_message
+field_name: field_dsfr_p_message
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,42 @@
+uuid: eb74f9cb-bdd3-4939-910e-0bed78cc6dad
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_buttons.field_dsfr_p_buttons
+    - field.field.paragraph.dsfr_buttons.field_dsfr_p_margin_bottom
+    - field.field.paragraph.dsfr_buttons.field_dsfr_p_margin_top
+    - paragraphs.paragraphs_type.dsfr_buttons
+  module:
+    - entity_reference_revisions
+    - options
+id: paragraph.dsfr_buttons.default
+targetEntityType: paragraph
+bundle: dsfr_buttons
+mode: default
+content:
+  field_dsfr_p_buttons:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_dsfr_p_margin_bottom:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_dsfr_p_margin_top:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

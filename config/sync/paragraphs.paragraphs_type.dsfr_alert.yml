@@ -1,0 +1,12 @@
+uuid: aad3f12c-f2fa-492f-9eb6-5c7678ad92e3
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:4fd3f79c-2919-4e7a-ae41-ee55a35e0c3d'
+id: dsfr_alert
+label: Alerte
+icon_uuid: 4fd3f79c-2919-4e7a-ae41-ee55a35e0c3d
+icon_default: null
+description: "Alerts can be used to draw the user's attention to a piece of information without interrupting the task in hand."
+behavior_plugins: {  }

@@ -1,0 +1,21 @@
+uuid: 5c4e8fff-90c4-4578-b5d9-090f7b60f8e6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_margin_bottom
+    - paragraphs.paragraphs_type.dsfr_quote
+  module:
+    - options
+id: paragraph.dsfr_quote.field_dsfr_p_margin_bottom
+field_name: field_dsfr_p_margin_bottom
+entity_type: paragraph
+bundle: dsfr_quote
+label: 'Marge du bas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

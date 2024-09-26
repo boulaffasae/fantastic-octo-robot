@@ -1,0 +1,12 @@
+uuid: 75a7b687-685b-41f1-800b-d0e1c0d79319
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:2c95759c-4a3d-44a7-91ec-f309ce415256'
+id: dsfr_code
+label: Code
+icon_uuid: 2c95759c-4a3d-44a7-91ec-f309ce415256
+icon_default: null
+description: null
+behavior_plugins: {  }

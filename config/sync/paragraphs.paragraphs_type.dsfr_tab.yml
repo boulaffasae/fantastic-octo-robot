@@ -1,0 +1,10 @@
+uuid: 6adcc62d-0f63-4145-8e70-164f0dd23e39
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_tab
+label: Onglet
+icon_uuid: null
+icon_default: null
+description: null
+behavior_plugins: {  }

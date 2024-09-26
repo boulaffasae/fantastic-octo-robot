@@ -1,0 +1,22 @@
+uuid: d8b2574b-07e0-41a8-b15d-4db04fa407f8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_ckeditor5
+    - paragraphs.paragraphs_type.dsfr_tab
+  module:
+    - text
+id: paragraph.dsfr_tab.field_dsfr_p_ckeditor5
+field_name: field_dsfr_p_ckeditor5
+entity_type: paragraph
+bundle: dsfr_tab
+label: Texte
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

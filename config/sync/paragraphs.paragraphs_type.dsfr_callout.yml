@@ -1,0 +1,12 @@
+uuid: 46c72bf1-6979-4620-a243-08002d75f617
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:fbf723e9-39ee-497f-9e9a-00dae4d59fa1'
+id: dsfr_callout
+label: 'Mise en avant (Callout)'
+icon_uuid: fbf723e9-39ee-497f-9e9a-00dae4d59fa1
+icon_default: null
+description: 'Callout allows the user to quickly distinguish information that complements the content consulted.'
+behavior_plugins: {  }

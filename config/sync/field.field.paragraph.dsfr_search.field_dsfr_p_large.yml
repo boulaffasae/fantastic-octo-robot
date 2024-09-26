@@ -1,0 +1,22 @@
+uuid: 1a08cbdd-dfdf-43cf-92e6-fe1f4535339a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_large
+    - paragraphs.paragraphs_type.dsfr_search
+id: paragraph.dsfr_search.field_dsfr_p_large
+field_name: field_dsfr_p_large
+entity_type: paragraph
+bundle: dsfr_search
+label: 'Large size'
+description: ''
+required: false
+translatable: true
+default_value:
+  value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

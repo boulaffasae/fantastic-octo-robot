@@ -1,0 +1,12 @@
+uuid: e94850f7-8ed6-43d5-ad04-0a9f98162eb1
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:884d5a88-3629-4d89-9484-96b90db8204e'
+id: dsfr_tooltip
+label: Info-bulle
+icon_uuid: 884d5a88-3629-4d89-9484-96b90db8204e
+icon_default: null
+description: null
+behavior_plugins: {  }
