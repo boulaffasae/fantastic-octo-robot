@@ -1,0 +1,11 @@
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:a93cba71-459e-487c-816f-43583474f4c0'
+id: dsfr_buttons
+label: Boutons
+icon_uuid: a93cba71-459e-487c-816f-43583474f4c0
+icon_default: null
+description: null
+behavior_plugins: {  }

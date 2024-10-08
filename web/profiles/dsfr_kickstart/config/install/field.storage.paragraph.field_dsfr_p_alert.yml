@@ -1,0 +1,32 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_dsfr_p_alert
+field_name: field_dsfr_p_alert
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: info
+      label: Information
+    -
+      value: success
+      label: Success
+    -
+      value: warning
+      label: Avertissement
+    -
+      value: error
+      label: Erreur
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

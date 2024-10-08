@@ -1,0 +1,46 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_code.field_dsfr_p_code_type
+    - field.field.paragraph.dsfr_code.field_dsfr_p_margin_bottom
+    - field.field.paragraph.dsfr_code.field_dsfr_p_margin_top
+    - field.field.paragraph.dsfr_code.field_dsfr_p_text
+    - paragraphs.paragraphs_type.dsfr_code
+  module:
+    - options
+id: paragraph.dsfr_code.default
+targetEntityType: paragraph
+bundle: dsfr_code
+mode: default
+content:
+  field_dsfr_p_code_type:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_dsfr_p_margin_bottom:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_dsfr_p_margin_top:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_dsfr_p_text:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

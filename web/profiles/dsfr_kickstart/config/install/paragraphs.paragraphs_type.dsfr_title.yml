@@ -1,0 +1,11 @@
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:79898f92-78f0-4b1a-b310-667671350d22'
+id: dsfr_title
+label: Intertitle
+icon_uuid: 79898f92-78f0-4b1a-b310-667671350d22
+icon_default: null
+description: null
+behavior_plugins: {  }

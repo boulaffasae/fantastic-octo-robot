@@ -1,6 +1,0 @@
-langcode: fr
-status: true
-dependencies: {  }
-id: contrib_modules
-label: 'Modules contribués'
-description: 'Configurations for some contributed modules'

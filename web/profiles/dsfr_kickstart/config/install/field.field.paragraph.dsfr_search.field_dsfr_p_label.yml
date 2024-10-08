@@ -1,0 +1,19 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_label
+    - paragraphs.paragraphs_type.dsfr_search
+id: paragraph.dsfr_search.field_dsfr_p_label
+field_name: field_dsfr_p_label
+entity_type: paragraph
+bundle: dsfr_search
+label: Libellé
+description: ''
+required: true
+translatable: true
+default_value:
+  value: Rechercher
+default_value_callback: ''
+settings: {  }
+field_type: string

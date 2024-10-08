@@ -1,0 +1,9 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_tab
+label: Onglet
+icon_uuid: null
+icon_default: null
+description: null
+behavior_plugins: {  }

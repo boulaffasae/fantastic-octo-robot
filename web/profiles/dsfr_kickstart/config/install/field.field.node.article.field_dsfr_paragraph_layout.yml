@@ -1,0 +1,130 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dsfr_paragraph_layout
+    - node.type.article
+    - paragraphs.paragraphs_type.dsfr_accordions
+    - paragraphs.paragraphs_type.dsfr_alert
+    - paragraphs.paragraphs_type.dsfr_badges
+    - paragraphs.paragraphs_type.dsfr_block
+    - paragraphs.paragraphs_type.dsfr_buttons
+    - paragraphs.paragraphs_type.dsfr_callout
+    - paragraphs.paragraphs_type.dsfr_ckeditor
+    - paragraphs.paragraphs_type.dsfr_code
+    - paragraphs.paragraphs_type.dsfr_franceconnect
+    - paragraphs.paragraphs_type.dsfr_highlight
+    - paragraphs.paragraphs_type.dsfr_layout
+    - paragraphs.paragraphs_type.dsfr_link
+    - paragraphs.paragraphs_type.dsfr_quote
+    - paragraphs.paragraphs_type.dsfr_search
+    - paragraphs.paragraphs_type.dsfr_tabs
+    - paragraphs.paragraphs_type.dsfr_tags
+    - paragraphs.paragraphs_type.dsfr_title
+    - paragraphs.paragraphs_type.dsfr_tooltip
+  module:
+    - entity_reference_revisions
+id: node.article.field_dsfr_paragraph_layout
+field_name: field_dsfr_paragraph_layout
+entity_type: node
+bundle: article
+label: 'DSFR Components'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      dsfr_layout: dsfr_layout
+      dsfr_ckeditor: dsfr_ckeditor
+      dsfr_title: dsfr_title
+      dsfr_highlight: dsfr_highlight
+      dsfr_accordions: dsfr_accordions
+      dsfr_tabs: dsfr_tabs
+      dsfr_quote: dsfr_quote
+      dsfr_link: dsfr_link
+      dsfr_callout: dsfr_callout
+      dsfr_alert: dsfr_alert
+      dsfr_badges: dsfr_badges
+      dsfr_tooltip: dsfr_tooltip
+      dsfr_buttons: dsfr_buttons
+      dsfr_franceconnect: dsfr_franceconnect
+      dsfr_search: dsfr_search
+      dsfr_block: dsfr_block
+      dsfr_tags: dsfr_tags
+      dsfr_code: dsfr_code
+    negate: 0
+    target_bundles_drag_drop:
+      dsfr_accordion:
+        weight: 31
+        enabled: false
+      dsfr_accordions:
+        weight: 30
+        enabled: true
+      dsfr_alert:
+        weight: 75
+        enabled: true
+      dsfr_badge:
+        weight: 81
+        enabled: false
+      dsfr_badges:
+        weight: 80
+        enabled: true
+      dsfr_block:
+        weight: 500
+        enabled: true
+      dsfr_button:
+        weight: 101
+        enabled: false
+      dsfr_buttons:
+        weight: 100
+        enabled: true
+      dsfr_callout:
+        weight: 70
+        enabled: true
+      dsfr_ckeditor:
+        weight: 1
+        enabled: true
+      dsfr_code:
+        weight: 510
+        enabled: true
+      dsfr_franceconnect:
+        weight: 105
+        enabled: true
+      dsfr_highlight:
+        weight: 15
+        enabled: true
+      dsfr_layout:
+        weight: 0
+        enabled: true
+      dsfr_link:
+        weight: 59
+        enabled: true
+      dsfr_quote:
+        weight: 50
+        enabled: true
+      dsfr_search:
+        weight: 110
+        enabled: true
+      dsfr_tab:
+        weight: 36
+        enabled: false
+      dsfr_tabs:
+        weight: 35
+        enabled: true
+      dsfr_tag:
+        weight: 506
+        enabled: false
+      dsfr_tags:
+        weight: 505
+        enabled: true
+      dsfr_title:
+        weight: 10
+        enabled: true
+      dsfr_tooltip:
+        weight: 85
+        enabled: true
+field_type: entity_reference_revisions

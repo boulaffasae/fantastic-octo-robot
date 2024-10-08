@@ -1,0 +1,21 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_small
+    - paragraphs.paragraphs_type.dsfr_tag
+id: paragraph.dsfr_tag.field_dsfr_p_small
+field_name: field_dsfr_p_small
+entity_type: paragraph
+bundle: dsfr_tag
+label: 'Small size'
+description: ''
+required: false
+translatable: true
+default_value:
+  value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

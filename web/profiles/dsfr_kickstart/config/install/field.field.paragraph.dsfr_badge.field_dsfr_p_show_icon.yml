@@ -1,0 +1,21 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_show_icon
+    - paragraphs.paragraphs_type.dsfr_badge
+id: paragraph.dsfr_badge.field_dsfr_p_show_icon
+field_name: field_dsfr_p_show_icon
+entity_type: paragraph
+bundle: dsfr_badge
+label: "Afficher l'icône"
+description: ''
+required: false
+translatable: true
+default_value:
+  value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

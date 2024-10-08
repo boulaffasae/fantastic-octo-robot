@@ -1,0 +1,11 @@
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:f7c7d9e0-dfa9-4559-a0f7-71fa608a7604'
+id: dsfr_search
+label: Rechercher
+icon_uuid: f7c7d9e0-dfa9-4559-a0f7-71fa608a7604
+icon_default: null
+description: null
+behavior_plugins: {  }

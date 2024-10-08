@@ -1,0 +1,11 @@
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:34c53f6d-ffc7-4dec-b899-a656287bd1fb'
+id: dsfr_highlight
+label: Surligner
+icon_uuid: 34c53f6d-ffc7-4dec-b899-a656287bd1fb
+icon_default: null
+description: 'Highlighting enables the user to distinguish and locate information easily. Highlighting highlights information that is already present in the rest of the content: either a reformulation or a repetition of the text.'
+behavior_plugins: {  }
