@@ -86,7 +86,8 @@
             "cweagans/composer-patches": true,
             "phpstan/extension-installer": true,
             "php-http/discovery": true,
-            "wikimedia/composer-merge-plugin": true
+            "wikimedia/composer-merge-plugin": true,
+            "tbachert/spi": true
         },
         "sort-packages": true
     },
