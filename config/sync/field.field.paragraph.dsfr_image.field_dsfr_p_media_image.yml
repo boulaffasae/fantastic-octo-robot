@@ -1,0 +1,23 @@
+uuid: 65fcd1d6-42ca-412b-b6c1-f32763a4944c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_media_image
+    - paragraphs.paragraphs_type.dsfr_image
+id: paragraph.dsfr_image.field_dsfr_p_media_image
+field_name: field_dsfr_p_media_image
+entity_type: paragraph
+bundle: dsfr_image
+label: 'Media image'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+field_type: entity_reference
