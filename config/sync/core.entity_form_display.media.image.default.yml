@@ -1,17 +1,19 @@
-uuid: 7a1bda8e-6f92-4b52-bf0c-27b54311a5c9
-langcode: fr
+uuid: adee102e-8c0a-4609-bda4-932a1bc59d6c
+langcode: en
 status: true
 dependencies:
   config:
-    - field.field.media.dsfr_media_image.field_media_image
+    - field.field.media.image.field_media_image
     - image.style.thumbnail
-    - media.type.dsfr_media_image
+    - media.type.image
   module:
     - image
     - path
-id: media.dsfr_media_image.default
+_core:
+  default_config_hash: JSY4-JPyNZBiYYo6imdRYF6_SdtWQexPndrLvn3-vw4
+id: media.image.default
 targetEntityType: media
-bundle: dsfr_media_image
+bundle: image
 mode: default
 content:
   created:
@@ -27,21 +29,6 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
-    third_party_settings: {  }
-  langcode:
-    type: language_select
-    weight: 2
-    region: content
-    settings:
-      include_locked: true
-    third_party_settings: {  }
-  name:
-    type: string_textfield
-    weight: -5
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
   path:
     type: path
@@ -66,4 +53,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  name: true
