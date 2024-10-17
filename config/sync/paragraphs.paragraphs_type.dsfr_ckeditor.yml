@@ -1,0 +1,12 @@
+uuid: 1f0900aa-0f00-430f-9ece-b0bbe6e14c4b
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:f4151f11-ba24-4991-9ae7-ea95e733d44c'
+id: dsfr_ckeditor
+label: 'Éditeur de texte'
+icon_uuid: f4151f11-ba24-4991-9ae7-ea95e733d44c
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIwIDJDMjAuNTUyMyAyIDIxIDIuNDQ3NzIgMjEgM1Y2Ljc1N0wxOSA4Ljc1N1Y0SDVWMjBIMTlWMTcuMjQyTDIxIDE1LjI0MlYyMUMyMSAyMS41NTIzIDIwLjU1MjMgMjIgMjAgMjJINEMzLjQ0NzcyIDIyIDMgMjEuNTUyMyAzIDIxVjNDMyAyLjQ0NzcyIDMuNDQ3NzIgMiA0IDJIMjBaTTIxLjc3ODIgOC44MDc2MUwyMy4xOTI0IDEwLjIyMThMMTUuNDE0MiAxOEwxMy45OTc5IDE3Ljk5NzlMMTQgMTYuNTg1OEwyMS43NzgyIDguODA3NjFaTTEzIDEyVjE0SDhWMTJIMTNaTTE2IDhWMTBIOFY4SDE2WiI+PC9wYXRoPjwvc3ZnPg=='
+description: 'CKEditor text editor offering a range of advanced features for creating and editing text content.'
+behavior_plugins: {  }

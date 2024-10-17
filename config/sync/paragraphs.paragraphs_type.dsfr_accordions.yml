@@ -1,0 +1,12 @@
+uuid: 0813ff7b-74ce-43ed-8279-3d6bfcc0cf47
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:ce03081f-089d-463d-9a1f-0388ce242c2b'
+id: dsfr_accordions
+label: Accordions
+icon_uuid: ce03081f-089d-463d-9a1f-0388ce242c2b
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxIDNDMjEuNTUyMyAzIDIyIDMuNDQ3NzIgMjIgNFYyMEMyMiAyMC41NTIzIDIxLjU1MjMgMjEgMjEgMjFIM0MyLjQ0NzcyIDIxIDIgMjAuNTUyMyAyIDIwVjRDMiAzLjQ0NzcyIDIuNDQ3NzIgMyAzIDNIMjFaTTQgMTBWMTlIMjBWMTBINFpNNCA4SDIwVjVINFY4WiI+PC9wYXRoPjwvc3ZnPg=='
+description: ''
+behavior_plugins: {  }

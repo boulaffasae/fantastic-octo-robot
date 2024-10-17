@@ -1,0 +1,72 @@
+uuid: 657cded2-46c6-44cc-89cf-ab59ef1d104b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - style_selector
+id: paragraph.field_dsfr_p_color
+field_name: field_dsfr_p_color
+entity_type: paragraph
+type: style_selector_css_class
+settings:
+  allowed_values:
+    -
+      value: color-default
+      label: 'Color by default'
+    -
+      value: blue-ecume
+      label: 'Blue Ecume'
+    -
+      value: blue-cumulus
+      label: 'Blue Cumulus'
+    -
+      value: green-archipel
+      label: 'Green Archipel'
+    -
+      value: green-menthe
+      label: 'Green Menthe'
+    -
+      value: green-emeraude
+      label: 'Green Emeraude'
+    -
+      value: green-bourgeon
+      label: 'Green Bourgeon'
+    -
+      value: green-tilleul-verveine
+      label: 'Green Tilleul Verveine'
+    -
+      value: yellow-tournesol
+      label: 'Yellow Tournesol'
+    -
+      value: yellow-moutarde
+      label: 'Yellow Moutarde'
+    -
+      value: brown-cafe-creme
+      label: 'Brown Cafe Creme'
+    -
+      value: brown-caramel
+      label: 'Brown Caramel'
+    -
+      value: brown-opera
+      label: 'Brown Opera'
+    -
+      value: pink-macaron
+      label: 'Pink Macaron'
+    -
+      value: pink-tuile
+      label: 'Pink Tuile'
+    -
+      value: purple-glycine
+      label: 'Purple Glycine'
+    -
+      value: beige-gris-galet
+      label: 'Beige Gris Galet'
+  allowed_values_function: ''
+module: style_selector
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

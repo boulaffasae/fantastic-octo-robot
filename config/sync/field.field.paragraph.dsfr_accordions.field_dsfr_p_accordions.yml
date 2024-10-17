@@ -1,0 +1,25 @@
+uuid: da9e76f1-7909-48ce-81c4-2299c13da737
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_accordions
+    - paragraphs.paragraphs_type.dsfr_accordions
+  module:
+    - entity_reference_revisions
+id: paragraph.dsfr_accordions.field_dsfr_p_accordions
+field_name: field_dsfr_p_accordions
+entity_type: paragraph
+bundle: dsfr_accordions
+label: Accordions
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      dsfr_accordion: dsfr_accordion
+field_type: entity_reference_revisions

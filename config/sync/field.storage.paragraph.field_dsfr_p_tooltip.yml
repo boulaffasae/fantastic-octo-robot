@@ -1,0 +1,21 @@
+uuid: 85b600c8-2e36-4f03-90c2-cb8ab68a6c75
+langcode: fr
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_dsfr_p_tooltip
+field_name: field_dsfr_p_tooltip
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: 54d10e29-346c-47f3-ad45-193d7977f236
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_placeholder
+    - paragraphs.paragraphs_type.dsfr_search
+id: paragraph.dsfr_search.field_dsfr_p_placeholder
+field_name: field_dsfr_p_placeholder
+entity_type: paragraph
+bundle: dsfr_search
+label: Placeholder
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

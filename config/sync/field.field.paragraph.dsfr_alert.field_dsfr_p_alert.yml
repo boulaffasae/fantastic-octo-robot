@@ -1,0 +1,22 @@
+uuid: 4b79ce3a-8d22-4256-9ced-367e570b51c5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_alert
+    - paragraphs.paragraphs_type.dsfr_alert
+  module:
+    - options
+id: paragraph.dsfr_alert.field_dsfr_p_alert
+field_name: field_dsfr_p_alert
+entity_type: paragraph
+bundle: dsfr_alert
+label: 'Alert type'
+description: ''
+required: true
+translatable: true
+default_value:
+  value: warning
+default_value_callback: ''
+settings: {  }
+field_type: list_string

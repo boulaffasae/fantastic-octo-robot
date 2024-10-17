@@ -1,0 +1,21 @@
+uuid: 73772fd9-da2f-4187-a5d8-0cc398742375
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_plus
+    - paragraphs.paragraphs_type.dsfr_franceconnect
+id: paragraph.dsfr_franceconnect.field_dsfr_p_plus
+field_name: field_dsfr_p_plus
+entity_type: paragraph
+bundle: dsfr_franceconnect
+label: 'France-connect plus'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

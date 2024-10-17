@@ -1,0 +1,22 @@
+uuid: cb1218ef-4657-4c80-bd23-0c6479141bf5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_title_style
+    - paragraphs.paragraphs_type.dsfr_title
+  module:
+    - options
+id: paragraph.dsfr_title.field_dsfr_p_title_style
+field_name: field_dsfr_p_title_style
+entity_type: paragraph
+bundle: dsfr_title
+label: 'Title style'
+description: ''
+required: true
+translatable: true
+default_value:
+  value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

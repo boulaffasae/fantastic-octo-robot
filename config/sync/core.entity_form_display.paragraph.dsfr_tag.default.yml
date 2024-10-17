@@ -1,0 +1,48 @@
+uuid: 9a48d2c1-dfcd-425c-a8a9-ba9dae4a7299
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_tag.field_dsfr_p_arrow_left
+    - field.field.paragraph.dsfr_tag.field_dsfr_p_link
+    - field.field.paragraph.dsfr_tag.field_dsfr_p_small
+    - field.field.paragraph.dsfr_tag.field_dsfr_p_tag_type
+    - paragraphs.paragraphs_type.dsfr_tag
+  module:
+    - link
+id: paragraph.dsfr_tag.default
+targetEntityType: paragraph
+bundle: dsfr_tag
+mode: default
+content:
+  field_dsfr_p_arrow_left:
+    type: boolean_checkbox
+    weight: 2
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_dsfr_p_link:
+    type: link_default
+    weight: 0
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_dsfr_p_small:
+    type: boolean_checkbox
+    weight: 1
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_dsfr_p_tag_type:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

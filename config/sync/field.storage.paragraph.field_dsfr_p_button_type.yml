@@ -1,0 +1,33 @@
+uuid: 47938eaf-0fa8-42f2-b2c2-277b80dc2d71
+langcode: fr
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_dsfr_p_button_type
+field_name: field_dsfr_p_button_type
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: none
+      label: Primary
+    -
+      value: secondary
+      label: Secondary
+    -
+      value: tertiary
+      label: Tertiary
+    -
+      value: tertiary-no-outline
+      label: 'Tertiary no outline'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

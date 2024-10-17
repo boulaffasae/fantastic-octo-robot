@@ -1,0 +1,21 @@
+uuid: b68d5e4d-6089-4215-8019-15f951f20ce7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_compact
+    - paragraphs.paragraphs_type.dsfr_alert
+id: paragraph.dsfr_alert.field_dsfr_p_compact
+field_name: field_dsfr_p_compact
+entity_type: paragraph
+bundle: dsfr_alert
+label: Compact
+description: 'Compact mode reduces internal margins and only the title is displayed (not bold).'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

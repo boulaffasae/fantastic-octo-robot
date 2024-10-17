@@ -1,0 +1,42 @@
+uuid: 900f6952-77c9-44f2-b184-c9642e4c600a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_tags.field_dsfr_p_margin_bottom
+    - field.field.paragraph.dsfr_tags.field_dsfr_p_margin_top
+    - field.field.paragraph.dsfr_tags.field_dsfr_p_tags
+    - paragraphs.paragraphs_type.dsfr_tags
+  module:
+    - entity_reference_revisions
+    - options
+id: paragraph.dsfr_tags.default
+targetEntityType: paragraph
+bundle: dsfr_tags
+mode: default
+content:
+  field_dsfr_p_margin_bottom:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_dsfr_p_margin_top:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_dsfr_p_tags:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

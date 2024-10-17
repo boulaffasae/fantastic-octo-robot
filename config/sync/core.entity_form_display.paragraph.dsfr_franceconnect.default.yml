@@ -1,0 +1,36 @@
+uuid: 4abad12e-b4ea-471c-ad51-a1812fa322c8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_franceconnect.field_dsfr_p_margin_bottom
+    - field.field.paragraph.dsfr_franceconnect.field_dsfr_p_margin_top
+    - field.field.paragraph.dsfr_franceconnect.field_dsfr_p_plus
+    - paragraphs.paragraphs_type.dsfr_franceconnect
+id: paragraph.dsfr_franceconnect.default
+targetEntityType: paragraph
+bundle: dsfr_franceconnect
+mode: default
+content:
+  field_dsfr_p_margin_bottom:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_dsfr_p_margin_top:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_dsfr_p_plus:
+    type: boolean_checkbox
+    weight: 0
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

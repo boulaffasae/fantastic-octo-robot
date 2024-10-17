@@ -1,0 +1,45 @@
+uuid: d9006634-4ecb-4670-b448-6559fe8bd92e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_button.field_dsfr_p_button_type
+    - field.field.paragraph.dsfr_button.field_dsfr_p_disabled
+    - field.field.paragraph.dsfr_button.field_dsfr_p_font_size
+    - field.field.paragraph.dsfr_button.field_dsfr_p_label
+    - paragraphs.paragraphs_type.dsfr_button
+id: paragraph.dsfr_button.default
+targetEntityType: paragraph
+bundle: dsfr_button
+mode: default
+content:
+  field_dsfr_p_button_type:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_dsfr_p_disabled:
+    type: boolean_checkbox
+    weight: 3
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_dsfr_p_font_size:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_dsfr_p_label:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

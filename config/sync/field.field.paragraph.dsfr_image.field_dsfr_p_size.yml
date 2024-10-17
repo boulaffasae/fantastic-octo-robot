@@ -1,0 +1,22 @@
+uuid: 6317e29d-1c6a-4d63-ac86-0728862125fa
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_size
+    - paragraphs.paragraphs_type.dsfr_image
+  module:
+    - options
+id: paragraph.dsfr_image.field_dsfr_p_size
+field_name: field_dsfr_p_size
+entity_type: paragraph
+bundle: dsfr_image
+label: Taille
+description: ''
+required: false
+translatable: true
+default_value:
+  value: 0
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,21 @@
+uuid: de1a3274-67d7-4915-9ff0-2b47ae717344
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_margin_top
+    - paragraphs.paragraphs_type.dsfr_code
+  module:
+    - options
+id: paragraph.dsfr_code.field_dsfr_p_margin_top
+field_name: field_dsfr_p_margin_top
+entity_type: paragraph
+bundle: dsfr_code
+label: 'Marge du haut'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

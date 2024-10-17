@@ -1,0 +1,10 @@
+uuid: 763671ad-f417-48d4-846b-1babb50dc0f0
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_tag
+label: Étiquette
+icon_uuid: null
+icon_default: null
+description: null
+behavior_plugins: {  }

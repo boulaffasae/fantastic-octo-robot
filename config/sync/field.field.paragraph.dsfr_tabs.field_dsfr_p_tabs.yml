@@ -1,0 +1,25 @@
+uuid: bdef29fb-6490-4ec5-becc-283838a937f1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_tabs
+    - paragraphs.paragraphs_type.dsfr_tabs
+  module:
+    - entity_reference_revisions
+id: paragraph.dsfr_tabs.field_dsfr_p_tabs
+field_name: field_dsfr_p_tabs
+entity_type: paragraph
+bundle: dsfr_tabs
+label: Onglets
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      dsfr_tab: dsfr_tab
+field_type: entity_reference_revisions

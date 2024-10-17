@@ -1,0 +1,18 @@
+uuid: f1e5eb51-c3b2-47f9-8797-24b1e538d719
+langcode: fr
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_dsfr_p_compact
+field_name: field_dsfr_p_compact
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

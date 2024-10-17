@@ -1,0 +1,12 @@
+uuid: 77061ab3-b0e1-4902-8d6b-042c1aa8ce68
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:85ef6a22-444f-4a1a-ad13-efde0edeff6c'
+id: dsfr_quote
+label: Citation
+icon_uuid: 85ef6a22-444f-4a1a-ad13-efde0edeff6c
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE0IDNhOCA4IDAgMSAxIDAgMTZ2My41Yy01LTItMTItNS0xMi0xMS41YTggOCAwIDAgMSA4LThoNFptMCAyaC00YTYgNiAwIDAgMC02IDZjMCAzLjYxIDIuNDYyIDUuOTY2IDggOC40OFYxN2gyYTYgNiAwIDEgMCAwLTEyWm0tMiAyLjUtMi41MDYgMy43NUwxMiAxNUg5LjI5NUw2Ljc1IDExLjI1IDkuMjk1IDcuNUgxMlptNC41IDAtMi41MDYgMy43NUwxNi41IDE1aC0yLjcwNWwtMi41NDUtMy43NSAyLjU0NS0zLjc1SDE2LjVaIi8+PC9zdmc+'
+description: 'A quotation allows you to cite a text in an editorial page. The quotation can come from an extract of an oral speech by a third party, or from a written text.'
+behavior_plugins: {  }

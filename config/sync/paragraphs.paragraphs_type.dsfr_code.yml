@@ -1,0 +1,12 @@
+uuid: 7d26d369-c2b6-4543-a56d-b8b4762590d1
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:9917a64c-6245-4a39-a58f-c594189760bc'
+id: dsfr_code
+label: Code
+icon_uuid: 9917a64c-6245-4a39-a58f-c594189760bc
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij48cGF0aCBkPSJNMjEgM2ExIDEgMCAwIDEgMSAxdjE2YTEgMSAwIDAgMS0xIDFIM2ExIDEgMCAwIDEtMS0xVjRhMSAxIDAgMCAxIDEtMWgxOFptLTEgMkg0djE0aDE2VjVabS01LjExNiAyLTMuNjQgMTBIOS4xMTZsMy42NC0xMGgyLjEyOFptMS41OCAxLjQ2NEwyMCAxMmwtMy41MzYgMy41MzYtMS40MTQtMS40MTVMMTcuMTcyIDEyIDE1LjA1IDkuODc5bDEuNDE0LTEuNDE1Wm0tOC45MjggMEw4Ljk1IDkuODggNi44MjggMTJsMi4xMjIgMi4xMjEtMS40MTQgMS40MTVMNCAxMmwzLjUzNi0zLjUzNloiLz48L3N2Zz4='
+description: ''
+behavior_plugins: {  }

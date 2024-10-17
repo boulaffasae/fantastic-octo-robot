@@ -1,0 +1,23 @@
+uuid: 581c7729-7db1-4812-9b54-2e27ce7b9ca9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_block
+    - paragraphs.paragraphs_type.dsfr_block
+  module:
+    - block_field
+id: paragraph.dsfr_block.field_dsfr_p_block
+field_name: field_dsfr_p_block
+entity_type: paragraph
+bundle: dsfr_block
+label: bloc
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  selection: blocks
+  selection_settings: {  }
+field_type: block_field

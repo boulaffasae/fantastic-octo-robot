@@ -1,0 +1,21 @@
+uuid: 20f58108-bcb2-40c3-b5ef-4f01356cfbcf
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dsfr_p_margin_bottom
+    - paragraphs.paragraphs_type.dsfr_search
+  module:
+    - options
+id: paragraph.dsfr_search.field_dsfr_p_margin_bottom
+field_name: field_dsfr_p_margin_bottom
+entity_type: paragraph
+bundle: dsfr_search
+label: 'Marge du bas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

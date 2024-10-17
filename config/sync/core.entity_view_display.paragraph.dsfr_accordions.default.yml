@@ -1,0 +1,42 @@
+uuid: b0c4114f-de3a-4170-b023-e34c7743f715
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dsfr_accordions.field_dsfr_p_accordions
+    - field.field.paragraph.dsfr_accordions.field_dsfr_p_margin_bottom
+    - field.field.paragraph.dsfr_accordions.field_dsfr_p_margin_top
+    - paragraphs.paragraphs_type.dsfr_accordions
+  module:
+    - entity_reference_revisions
+    - options
+id: paragraph.dsfr_accordions.default
+targetEntityType: paragraph
+bundle: dsfr_accordions
+mode: default
+content:
+  field_dsfr_p_accordions:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_dsfr_p_margin_bottom:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_dsfr_p_margin_top:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

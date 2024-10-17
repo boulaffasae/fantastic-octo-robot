@@ -1,0 +1,10 @@
+uuid: 328eacdd-ffe7-48a0-bba4-cdaf11a00d44
+langcode: fr
+status: true
+dependencies: {  }
+id: dsfr_button
+label: Bouton
+icon_uuid: null
+icon_default: null
+description: null
+behavior_plugins: {  }
