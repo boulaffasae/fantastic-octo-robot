@@ -1,16 +1,5 @@
 _core:
-  default_config_hash: fgMox1rcvTA6HWQF4z-YnT8FMCoVKwDCr25fuTRrSxc
-langcode: fr
-favicon:
-  path: ''
-  use_default: false
-features:
-  comment_user_picture: true
-  comment_user_verification: true
-  favicon: false
-  node_user_picture: true
-logo:
-  use_default: true
+  default_config_hash: UfB9dcTzWKp36EMnEvc9PyHCiVgSKh27EAzLic2lK2s
 general:
   institution: 'République <br> Française'
 header:
@@ -21,18 +10,25 @@ header:
   settings: true
 navigation:
   container: false
+info_important:
+  message: ''
+  show: false
+  close: false
 hero:
   container: false
   margin:
-    top: '3'
-    bottom: '3'
+    top: 3
+    bottom: 3
 breadcrumb:
-  Position: '0'
+  position: 0
+  margin:
+    top: 1
+    bottom: 1
 content:
   container: false
   margin:
-    top: '3'
-    bottom: '6'
+    top: 3
+    bottom: 6
 footer_top:
   container: false
 footer:
@@ -41,57 +37,62 @@ footer:
     img: true
   last_line: true
 code:
-  gdpr: 1
+  gdpr: 0
   newsletter: 0
   w3c: false
   external_lib: 0
   components:
-    accordion: false
-    alert: false
-    badge: false
-    breadcrumb: false
-    button: false
-    callout: false
-    card: false
-    checkbox: false
-    connect: false
-    consent: false
-    content: false
-    display: false
-    download: false
-    follow: false
-    footer: false
-    form: false
-    header: false
-    highlight: false
-    input: false
-    link: false
-    logo: false
-    modal: false
-    navigation: false
-    notice: false
-    pagination: false
-    quote: false
-    radio: false
-    search: false
-    segmented: false
-    select: false
-    share: false
-    sidemenu: false
-    skiplink: false
-    stepper: false
-    summary: false
-    tab: false
-    table: false
-    tag: false
-    tile: false
-    toggle: false
-    tooltip: false
-    transcription: false
-    upload: false
-    utility: false
-    translate: 0
-info_important:
-  message: ''
-  show: 0
-  close: 0
+    accordion: true
+    alert: true
+    badge: true
+    breadcrumb: true
+    button: true
+    callout: true
+    card: true
+    checkbox: true
+    connect: true
+    consent: true
+    content: true
+    display: true
+    download: true
+    follow: true
+    footer: true
+    form: true
+    header: true
+    highlight: true
+    input: true
+    link: true
+    logo: true
+    modal: true
+    navigation: true
+    notice: true
+    pagination: true
+    quote: true
+    radio: true
+    search: true
+    segmented: true
+    select: true
+    share: true
+    sidemenu: true
+    skiplink: true
+    stepper: true
+    summary: true
+    tab: true
+    table: true
+    tag: true
+    tile: true
+    toggle: true
+    tooltip: true
+    transcription: true
+    translate: true
+    upload: true
+    utility: true
+features:
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: false
+logo:
+  use_default: true
+favicon:
+  use_default: false
