@@ -1,5 +1,19 @@
 _core:
   default_config_hash: UfB9dcTzWKp36EMnEvc9PyHCiVgSKh27EAzLic2lK2s
+favicon:
+  path: ''
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: false
+  node_user_picture: true
+logo:
+  use_default: true
+info_important:
+  message: ''
+  show: false
+  close: false
 general:
   institution: 'République <br> Française'
 header:
@@ -7,13 +21,9 @@ header:
   logo:
     img: false
     text: false
-  settings: true
+  settings: false
 navigation:
   container: false
-info_important:
-  message: ''
-  show: false
-  close: false
 hero:
   container: false
   margin:
@@ -37,7 +47,7 @@ footer:
     img: true
   last_line: true
 code:
-  gdpr: 0
+  gdpr: 1
   newsletter: 0
   w3c: false
   external_lib: 0
@@ -87,12 +97,3 @@ code:
     translate: true
     upload: true
     utility: true
-features:
-  node_user_picture: true
-  comment_user_picture: true
-  comment_user_verification: true
-  favicon: false
-logo:
-  use_default: true
-favicon:
-  use_default: false
