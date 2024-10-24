@@ -1,5 +1,6 @@
 _core:
-  default_config_hash: UfB9dcTzWKp36EMnEvc9PyHCiVgSKh27EAzLic2lK2s
+  default_config_hash: fgMox1rcvTA6HWQF4z-YnT8FMCoVKwDCr25fuTRrSxc
+langcode: fr
 favicon:
   path: ''
   use_default: false
@@ -10,10 +11,6 @@ features:
   node_user_picture: true
 logo:
   use_default: true
-info_important:
-  message: ''
-  show: false
-  close: false
 general:
   institution: 'République <br> Française'
 header:
@@ -21,24 +18,21 @@ header:
   logo:
     img: false
     text: false
-  settings: false
+  settings: true
 navigation:
   container: false
 hero:
   container: false
   margin:
-    top: 3
-    bottom: 3
+    top: '3'
+    bottom: '3'
 breadcrumb:
-  position: 0
-  margin:
-    top: 1
-    bottom: 1
+  Position: '0'
 content:
   container: false
   margin:
-    top: 3
-    bottom: 6
+    top: '3'
+    bottom: '6'
 footer_top:
   container: false
 footer:
@@ -52,48 +46,52 @@ code:
   w3c: false
   external_lib: 0
   components:
-    accordion: true
-    alert: true
-    badge: true
-    breadcrumb: true
-    button: true
-    callout: true
-    card: true
-    checkbox: true
-    connect: true
-    consent: true
-    content: true
-    display: true
-    download: true
-    follow: true
-    footer: true
-    form: true
-    header: true
-    highlight: true
-    input: true
-    link: true
-    logo: true
-    modal: true
-    navigation: true
-    notice: true
-    pagination: true
-    quote: true
-    radio: true
-    search: true
-    segmented: true
-    select: true
-    share: true
-    sidemenu: true
-    skiplink: true
-    stepper: true
-    summary: true
-    tab: true
-    table: true
-    tag: true
-    tile: true
-    toggle: true
-    tooltip: true
-    transcription: true
-    translate: true
-    upload: true
-    utility: true
+    accordion: false
+    alert: false
+    badge: false
+    breadcrumb: false
+    button: false
+    callout: false
+    card: false
+    checkbox: false
+    connect: false
+    consent: false
+    content: false
+    display: false
+    download: false
+    follow: false
+    footer: false
+    form: false
+    header: false
+    highlight: false
+    input: false
+    link: false
+    logo: false
+    modal: false
+    navigation: false
+    notice: false
+    pagination: false
+    quote: false
+    radio: false
+    search: false
+    segmented: false
+    select: false
+    share: false
+    sidemenu: false
+    skiplink: false
+    stepper: false
+    summary: false
+    tab: false
+    table: false
+    tag: false
+    tile: false
+    toggle: false
+    tooltip: false
+    transcription: false
+    upload: false
+    utility: false
+    translate: 0
+info_important:
+  message: ''
+  show: 0
+  close: 0
