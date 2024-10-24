@@ -2,13 +2,13 @@ langcode: fr
 status: true
 dependencies:
   content:
-    - 'file:file:37cea150-3ac3-4e61-bdb0-3401998a75da'
+    - 'file:file:6bc29c56-5fec-4899-9d6b-4204dfc52091'
   module:
     - layout_paragraphs
 id: dsfr_layout
 label: 'Mise en page'
-icon_uuid: 37cea150-3ac3-4e61-bdb0-3401998a75da
-icon_default: null
+icon_uuid: 6bc29c56-5fec-4899-9d6b-4204dfc52091
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxIDIwQzIxIDIwLjU1MjMgMjAuNTUyMyAyMSAyMCAyMUg0QzMuNDQ3NzIgMjEgMyAyMC41NTIzIDMgMjBWNEMzIDMuNDQ3NzIgMy40NDc3MiAzIDQgM0gyMEMyMC41NTIzIDMgMjEgMy40NDc3MiAyMSA0VjIwWk0xMSA1SDVWMTlIMTFWNVpNMTkgMTNIMTNWMTlIMTlWMTNaTTE5IDVIMTNWMTFIMTlWNVoiPjwvcGF0aD48L3N2Zz4='
 description: 'Layout available to accommodate components.'
 behavior_plugins:
   layout_paragraphs:

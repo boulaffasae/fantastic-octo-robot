@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.node.search_index
     - field.field.node.article.body
     - field.field.node.article.comment
-    - field.field.node.article.field_dsfr_paragraph_layout
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - node.type.article
@@ -43,7 +42,6 @@ content:
     weight: 1
     region: content
 hidden:
-  field_dsfr_paragraph_layout: true
   field_image: true
   langcode: true
   links: true

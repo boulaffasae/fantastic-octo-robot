@@ -2,10 +2,10 @@ langcode: fr
 status: true
 dependencies:
   content:
-    - 'file:file:b57d2ff1-95a0-4ef4-b039-cf9e826d14f2'
+    - 'file:file:4f142e25-a3cb-46a4-abef-f340b889efec'
 id: dsfr_tabs
 label: Onglets
-icon_uuid: b57d2ff1-95a0-4ef4-b039-cf9e826d14f2
-icon_default: null
-description: null
+icon_uuid: 4f142e25-a3cb-46a4-abef-f340b889efec
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTYgN1Y0QzYgMy40NDc3MiA2LjQ0NzcyIDMgNyAzSDEzLjQxNDJMMTUuNDE0MiA1SDIxQzIxLjU1MjMgNSAyMiA1LjQ0NzcyIDIyIDZWMTZDMjIgMTYuNTUyMyAyMS41NTIzIDE3IDIxIDE3SDE4VjIwQzE4IDIwLjU1MjMgMTcuNTUyMyAyMSAxNyAyMUgzQzIuNDQ3NzIgMjEgMiAyMC41NTIzIDIgMjBWOEMyIDcuNDQ3NzIgMi40NDc3MiA3IDMgN0g2Wk02IDlINFYxOUgxNlYxN0g2VjlaTTggNVYxNUgyMFY3SDE0LjU4NThMMTIuNTg1OCA1SDhaIj48L3BhdGg+PC9zdmc+'
+description: ''
 behavior_plugins: {  }

@@ -2,10 +2,10 @@ langcode: fr
 status: true
 dependencies:
   content:
-    - 'file:file:a93cba71-459e-487c-816f-43583474f4c0'
+    - 'file:file:c15bd2e1-f642-427b-9109-21068c0d3b28'
 id: dsfr_buttons
 label: Boutons
-icon_uuid: a93cba71-459e-487c-816f-43583474f4c0
-icon_default: null
-description: null
+icon_uuid: c15bd2e1-f642-427b-9109-21068c0d3b28
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij48cGF0aCBkPSJtOC40MSAxLjYzMyAxMS41MzcgMTEuMjMyLTQuNTU4LjYzM2gtLjAwMWwyLjU1MiA3LjAxNC00LjY5OCAxLjcxLTIuNTUzLTcuMDE0LTMuODk5IDIuNDQ1IDEuNjItMTYuMDJabTEuNTcyIDQuMzIzLS43OSA3LjgzIDIuNTMtMS41ODcgMi43MTUgNy40Ni45NC0uMzQzLTIuNzE1LTcuNDYgMi45Ni0uNDEtNS42NC01LjQ5WiIvPjwvc3ZnPg=='
+description: ''
 behavior_plugins: {  }

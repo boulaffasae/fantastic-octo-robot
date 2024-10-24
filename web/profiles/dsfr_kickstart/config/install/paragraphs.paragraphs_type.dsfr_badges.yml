@@ -2,10 +2,10 @@ langcode: fr
 status: true
 dependencies:
   content:
-    - 'file:file:c9d4197e-2257-48d7-8e63-e1f0cfcd32a9'
+    - 'file:file:13c580a8-c999-4b2e-ac24-637282f03d82'
 id: dsfr_badges
 label: Badges
-icon_uuid: c9d4197e-2257-48d7-8e63-e1f0cfcd32a9
-icon_default: null
-description: null
+icon_uuid: 13c580a8-c999-4b2e-ac24-637282f03d82
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEzIDB2OWg4TDExIDI0di05SDRsOS0xNVptLTIgNy4yMkw3LjUzMiAxM0gxM3Y0LjM5NEwxNy4yNjMgMTFIMTFWNy4yMloiLz48L3N2Zz4='
+description: ''
 behavior_plugins: {  }

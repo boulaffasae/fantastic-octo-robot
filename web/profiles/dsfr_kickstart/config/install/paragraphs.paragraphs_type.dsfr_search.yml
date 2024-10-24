@@ -2,10 +2,10 @@ langcode: fr
 status: true
 dependencies:
   content:
-    - 'file:file:f7c7d9e0-dfa9-4559-a0f7-71fa608a7604'
+    - 'file:file:c6d6132f-5698-40df-805d-897e0a4b7eba'
 id: dsfr_search
 label: Rechercher
-icon_uuid: f7c7d9e0-dfa9-4559-a0f7-71fa608a7604
-icon_default: null
-description: null
+icon_uuid: c6d6132f-5698-40df-805d-897e0a4b7eba
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij48cGF0aCBkPSJtMTguMDMxIDE2LjYxNyA0LjI4MyA0LjI4Mi0xLjQxNSAxLjQxNS00LjI4Mi00LjI4M0E4Ljk2IDguOTYgMCAwIDEgMTEgMjBjLTQuOTY4IDAtOS00LjAzMi05LTlzNC4wMzItOSA5LTkgOSA0LjAzMiA5IDlhOC45NiA4Ljk2IDAgMCAxLTEuOTY5IDUuNjE3Wm0tMi4wMDYtLjc0MkE2Ljk3NyA2Ljk3NyAwIDAgMCAxOCAxMWMwLTMuODY4LTMuMTMzLTctNy03LTMuODY4IDAtNyAzLjEzMi03IDcgMCAzLjg2NyAzLjEzMiA3IDcgN2E2Ljk3NyA2Ljk3NyAwIDAgMCA0Ljg3NS0xLjk3NWwuMTUtLjE1WiIvPjwvc3ZnPg=='
+description: ''
 behavior_plugins: {  }
