@@ -49,6 +49,7 @@
         "drupal/layout_paragraphs": "^2.0",
         "drupal/media_revisions_ui": "^2.1",
         "drupal/nbsp": "^3.0",
+        "drupal/paragraph_view_mode": "^3.1",
         "drupal/paragraphs": "^1.15",
         "drupal/pathauto": "^1.12",
         "drupal/publication_date": "^2.0@beta",
