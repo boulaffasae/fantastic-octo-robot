@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4cc0a0465c51d8d745f07e9f3d9d9474",
+    "content-hash": "27effe325475a1ac368f4eeba2d308f5",
     "packages": [
         {
             "name": "algolia/places",
@@ -4324,6 +4324,51 @@
             }
         },
         {
+            "name": "drupal/search_api_attachments",
+            "version": "9.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/search_api_attachments.git",
+                "reference": "9.0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/search_api_attachments-9.0.5.zip",
+                "reference": "9.0.5",
+                "shasum": "cc2576944932b5d0293852fed7273120aef08869"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10",
+                "drupal/search_api": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "9.0.5",
+                    "datestamp": "1730820831",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "izus",
+                    "homepage": "https://www.drupal.org/user/514568"
+                }
+            ],
+            "description": "Extract and index file fields content.",
+            "homepage": "https://www.drupal.org/project/search_api_attachments",
+            "support": {
+                "source": "https://git.drupalcode.org/project/search_api_attachments"
+            }
+        },
+        {
             "name": "drupal/simple_styleguide",
             "version": "2.0.2",
             "source": {
@@ -4867,6 +4912,58 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/twig_tweak",
                 "issues": "https://www.drupal.org/project/issues/twig_tweak"
+            }
+        },
+        {
+            "name": "drupal/view_modes_display",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/view_modes_display.git",
+                "reference": "3.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/view_modes_display-3.0.0.zip",
+                "reference": "3.0.0",
+                "shasum": "0a27c4bcb9596784dcb99ebd43a3a70d7cded520"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.0",
+                    "datestamp": "1682169896",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "pvhee",
+                    "homepage": "https://www.drupal.org/user/108811"
+                },
+                {
+                    "name": "zach.bimson",
+                    "homepage": "https://www.drupal.org/user/1644060"
+                }
+            ],
+            "description": "Preview view modes for every entity type",
+            "homepage": "https://www.drupal.org/project/view_modes_display",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/view_modes_display",
+                "issues": "http://drupal.org/project/issues/view_modes_display"
             }
         },
         {
