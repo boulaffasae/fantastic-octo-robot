@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media
+id: media.search_index
+label: 'Index de recherche'
+description: ''
+targetEntityType: media
+cache: true

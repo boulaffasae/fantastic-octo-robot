@@ -58,6 +58,7 @@ module:
   responsive_image: 0
   save_edit: 0
   search_api: 0
+  search_api_attachments: 0
   search_api_db: 0
   simple_styleguide: 0
   style_selector: 0
@@ -72,6 +73,7 @@ module:
   token: 0
   toolbar: 0
   user: 0
+  view_modes_display: 0
   views_ui: 0
   webform: 0
   webform_ui: 0
