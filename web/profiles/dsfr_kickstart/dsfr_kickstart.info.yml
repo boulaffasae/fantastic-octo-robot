@@ -74,6 +74,7 @@ dependencies:
   - pathauto:pathauto
   - webform:webform
   - publication_date:publication_date
+  - search_api_attachments:search_api_attachments
 
 themes:
   - claro
