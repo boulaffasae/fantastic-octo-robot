@@ -43,7 +43,7 @@
         "drupal/feeds_tamper": "^2.0@beta",
         "drupal/form_options_attributes": "^2.0",
         "drupal/franceconnect": "^1.0@alpha",
-        "drupal/gin": "^3.0@RC",
+        "drupal/gin": "3.x-dev@dev",
         "drupal/gin_lb": "^1.0@RC",
         "drupal/gin_login": "^2.0",
         "drupal/gin_toolbar": "^1.0@RC",
