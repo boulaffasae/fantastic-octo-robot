@@ -10,7 +10,6 @@ dependencies:
     - contact
     - filter
     - media
-    - simple_styleguide
     - system
 _core:
   default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
@@ -22,7 +21,6 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
-  - 'access style guide'
   - 'use text format restricted_html'
   - 'use text format restricted_html_dsfr'
   - 'view media'

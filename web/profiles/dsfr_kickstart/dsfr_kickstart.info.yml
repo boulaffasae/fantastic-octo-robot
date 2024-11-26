@@ -66,7 +66,6 @@ dependencies:
   - dsfr_twig_components:dsfr_twig_components
   - gin_toolbar:gin_toolbar
   - gin_login:gin_login
-  - gin_lb:gin_lb
   - symfony_mailer:symfony_mailer
   - svg_image_field:svg_image_field
   - block_field:block_field
