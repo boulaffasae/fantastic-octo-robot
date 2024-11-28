@@ -27,8 +27,8 @@ dependencies:
   - drupal:language
   - drupal:link
   - drupal:locale
-  - drupal:media
-  - drupal:media_library
+#  - drupal:media
+#  - drupal:media_library
   - drupal:menu_link_content
   - drupal:menu_ui
   - drupal:node
@@ -65,7 +65,7 @@ dependencies:
   - dsfr_paragraph:dsfr_paragraph
   - dsfr_twig_components:dsfr_twig_components
   - gin_toolbar:gin_toolbar
-  - gin_login:gin_login
+#  - gin_login:gin_login
   - symfony_mailer:symfony_mailer
   - svg_image_field:svg_image_field
   - block_field:block_field
