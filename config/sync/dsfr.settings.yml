@@ -13,6 +13,11 @@ logo:
   use_default: true
 general:
   institution: 'République <br> Française'
+  mourning: false
+  version:
+    name: Beta
+    color: yellow-tournesol
+    only: 0
 header:
   container: false
   logo:
@@ -24,15 +29,18 @@ navigation:
 hero:
   container: false
   margin:
-    top: '3'
-    bottom: '3'
+    top: 3
+    bottom: 3
 breadcrumb:
-  Position: '0'
+  position: 0
+  margin:
+    top: 0
+    bottom: 0
 content:
   container: false
   margin:
-    top: '3'
-    bottom: '6'
+    top: 3
+    bottom: 6
 footer_top:
   container: false
 footer:
@@ -88,9 +96,9 @@ code:
     toggle: false
     tooltip: false
     transcription: false
+    translate: false
     upload: false
     utility: false
-    translate: 0
 info_important:
   message: ''
   show: 0
