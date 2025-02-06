@@ -1,6 +1,6 @@
 name: DSFR Kickstart
 type: profile
-core_version_requirement: ^10
+core_version_requirement: ^10 || ^11
 description: "It is recommended to install from an existing configuration, add the following option to your settings.php file $settings['config_sync_directory'] = '../config/sync'; if you don't see the option below"
 version: VERSION
 dependencies:
