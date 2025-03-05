@@ -23,7 +23,11 @@ header:
   logo:
     img: false
     text: false
-  settings: true
+  settings:
+    visible: 1
+    label: "Paramètres d'affichage"
+  search:
+    label: ''
 navigation:
   container: false
 hero:
@@ -99,6 +103,7 @@ code:
     translate: false
     upload: false
     utility: false
+    password: 0
 info_important:
   message: ''
   show: 0
