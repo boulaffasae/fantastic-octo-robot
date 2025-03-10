@@ -20,7 +20,6 @@
         "drupal/admin_dialogs": "^1.0",
         "drupal/admin_theme": "^1.1",
         "drupal/antibot": "^2.0",
-        "drupal/back_to_top": "^3.0",
         "drupal/block_field": "^1.0@RC",
         "drupal/book": "^2.0@alpha",
         "drupal/cancel_button": "^1.4",
