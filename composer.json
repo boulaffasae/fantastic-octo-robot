@@ -66,7 +66,6 @@
         "drupal/tacjs": "^6.4",
         "drupal/tamper": "^1.0@alpha",
         "drupal/twig_tweak": "^3.2",
-        "drupal/view_modes_display": "^3.0",
         "drupal/webform": "^6.3@beta",
         "drupal/webform_views": "^5.2",
         "drupal/wpf": "^1.1",
