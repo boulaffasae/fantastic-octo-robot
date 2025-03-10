@@ -54,9 +54,9 @@ dependencies:
   - config_split:config_split
   - paragraphs:paragraphs
   - layout_paragraphs:layout_paragraphs
-  - simple_styleguide:simple_styleguide
+#  - simple_styleguide:simple_styleguide
   - cool_editor_tabs:cool_editor_tabs
-  - toolbar_visibility:toolbar_visibility
+#  - toolbar_visibility:toolbar_visibility
   - save_edit:save_edit
   - wpf:wpf
   - form_options_attributes:form_options_attributes
