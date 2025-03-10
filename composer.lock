@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e2174b2aab977e42c192a6d879e6c8fe",
+    "content-hash": "2ff0814becf859e185fa3c0dae7ed120",
     "packages": [
         {
             "name": "algolia/places",
@@ -1514,56 +1514,6 @@
             "homepage": "https://www.drupal.org/project/block_field",
             "support": {
                 "source": "https://git.drupalcode.org/project/block_field"
-            }
-        },
-        {
-            "name": "drupal/block_scheduler",
-            "version": "2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/block_scheduler.git",
-                "reference": "2.0.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/block_scheduler-2.0.1.zip",
-                "reference": "2.0.1",
-                "shasum": "34d00a6c414f7c9fba2af06f1b3047e740d7d59d"
-            },
-            "require": {
-                "drupal/core": "^8.8 || ^9 || ^10"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "2.0.1",
-                    "datestamp": "1657626746",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "George Anderson (geoanders)",
-                    "homepage": "https://www.drupal.org/u/geoanders",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "nishkris",
-                    "homepage": "https://www.drupal.org/user/329224"
-                }
-            ],
-            "description": "Module adds block visibility conditions for scheduling blocks.",
-            "homepage": "https://drupal.org/project/block_scheduler",
-            "support": {
-                "source": "https://git.drupalcode.org/project/block_scheduler",
-                "issues": "https://drupal.org/project/issues/block_scheduler"
             }
         },
         {
