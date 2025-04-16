@@ -1,9 +1,11 @@
-uuid: aa40f7b1-455c-4bcf-bbe8-9d47fc125e58
+uuid: d3c86ffa-6251-4fad-beda-0001a8bd097d
 langcode: fr
 status: true
 dependencies:
   module:
     - file
+_core:
+  default_config_hash: iSk0h2gxEqAPaQv5PvPnbCSxw9eGqGuPeJ2QFTRom8w
 id: file.token
 label: Token
 description: ''

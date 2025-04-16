@@ -1,11 +1,11 @@
-uuid: 2b19b442-90fa-46c2-b8fb-34442d2847b8
+uuid: f8318062-9287-408c-9c47-e36a3c32c1fa
 langcode: fr
 status: true
 dependencies:
   theme:
     - dsfr
 _core:
-  default_config_hash: ukzBV43jrq5dT5QyLEeRhyWgTcEYOiAxMvv1lMjUDhk
+  default_config_hash: bL_OAsEfzMcKBI-kZIcn9xCjT7mlPtG5kCVriwpQT64
 id: dsfr_local_tasks
 theme: dsfr
 region: content

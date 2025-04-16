@@ -1,9 +1,9 @@
-uuid: b15994aa-0618-4ef0-a413-7f19220ad09f
+uuid: 9873f894-7e8b-4960-aaa5-739659fd78f1
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: JlhtZGzrKvb_1TFIVW-o2lEEoeutUxHkdpZ1WzIkJMY
+  default_config_hash: 36oaIMBh8IyrTa6ypW_NyG4Uf6zSn7wg156o459UuvA
 id: sendmail
 label: Sendmail
 plugin: sendmail

@@ -1,4 +1,4 @@
-uuid: 1fd1b7fd-e992-4a15-86fe-6968f8090586
+uuid: 2c2b7b22-fbcb-45ce-9c16-60b9cf64388b
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: KfYqMSrFJ5iGtDzvy_rGUeRUJ4KyM7Xt-tWtYx9WjiM
+  default_config_hash: '-dR7g1EXD2Pxt-4ZpMkxQ60k22b0ilIzFZRYyhMDhAU'
 id: state_names
 label: 'Noms des États'
 category: Géographique

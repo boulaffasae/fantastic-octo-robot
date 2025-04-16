@@ -1,6 +1,6 @@
 langcode: fr
 _core:
-  default_config_hash: nNcqzC75Ga_iQShU0PBJRKk48eiw1ArP7A3xAL5Lveg
+  default_config_hash: Bb6E6Sq5wxvEy6FBmDfZAZbRWIHCtiibKey9XxF2BUA
 button_value: 'Sauvegarder & Modifier'
 button_weight: '-1'
 unpublish: false
@@ -10,6 +10,6 @@ hide_default_publish: false
 hide_default_preview: false
 hide_default_delete: false
 node_types:
-  article: article
+  article: '0'
   page: '0'
 dropbutton: true

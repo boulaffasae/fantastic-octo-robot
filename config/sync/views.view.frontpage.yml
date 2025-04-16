@@ -1,4 +1,4 @@
-uuid: 228957e5-8d48-4588-af86-6e1817ecdb43
+uuid: 98753b3d-fd4c-4483-a903-5c170151d21d
 langcode: fr
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: 6eeliKIydPjqyv5V__QqTfahvJMWkHjOVUUuUIdB1ik
+  default_config_hash: okY_PPp-0-rFgbUgxFwvGZRb2IXIVNJb8B0lW53phx4
 id: frontpage
 label: "Page d'accueil"
 module: node

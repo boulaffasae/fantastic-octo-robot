@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: HFvd4DKap289dCYENHK8w6vYLF-SuwlJ1hZOxBD--v8
+langcode: fr
+back_to_top_prevent_on_mobile: true
+back_to_top_prevent_in_admin: true
+back_to_top_prevent_in_front: false
+back_to_top_button_trigger: 100.0
+back_to_top_speed: 1200.0
+back_to_top_button_place: 2
+back_to_top_button_text: '↑ Haut de page'
+back_to_top_button_type: text
+back_to_top_bg_color: '#001491'
+back_to_top_border_color: '#CCCCCC'
+back_to_top_hover_color: '#8f8f8f'
+back_to_top_text_color: '#FFFFFF'

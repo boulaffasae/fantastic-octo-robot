@@ -1,9 +1,11 @@
-uuid: ab7a9982-b60e-4c1c-8382-c00f7f2f945f
+uuid: c5c2c1b3-fd2e-4b9d-a6a7-6aa87c101dfa
 langcode: fr
 status: true
 dependencies:
   module:
     - user
+_core:
+  default_config_hash: HP2ueDAIhkKLtamG2MheWOuzOWehTAXbSwRJmwo0TUM
 id: user.token
 label: Token
 description: ''

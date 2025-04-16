@@ -1,4 +1,4 @@
-uuid: f4df3f99-99bb-44b5-820a-1a11f04daca1
+uuid: 7181a562-757d-4810-b8b3-75bcced77016
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: 8mYO8ewsZX3LVfNga69jXa0RNO0LNN8-EGkXLhSAMBU
+  default_config_hash: LfabAxd7vZdBnRdTe4xip_M9fX7uuHviT_9cFpRozKY
 id: state_codes
 label: 'Codes des États'
 category: Géographique

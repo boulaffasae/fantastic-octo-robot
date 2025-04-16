@@ -1,4 +1,4 @@
-uuid: e7c284bf-38cf-45fd-9c3b-925b1a325c4e
+uuid: 065ad57e-afb8-4858-b1e5-c517de79ffec
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: d4mxS_CxdzHZK4WaGQf1H3m-Uubm5HPbu9U4ydzscuo
+  default_config_hash: 85YvQE0Pe-jCp1DQKNqS3hgnvd7lvwI0g_4cpKK_1Og
 id: state_province_names
 label: 'Noms des États et provinces'
 category: Géographique

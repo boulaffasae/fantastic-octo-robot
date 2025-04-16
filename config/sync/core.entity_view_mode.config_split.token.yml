@@ -1,9 +1,11 @@
-uuid: c90dd92b-6856-485b-b1b1-4e497a894e84
+uuid: 77ba0d42-823b-45f4-9aaa-a5b235934fd1
 langcode: fr
 status: true
 dependencies:
   module:
     - config_split
+_core:
+  default_config_hash: LDnV9huDuzeeHDwB_ApE1t3gQS3tMH43SrrY1hjBMGg
 id: config_split.token
 label: Token
 description: ''

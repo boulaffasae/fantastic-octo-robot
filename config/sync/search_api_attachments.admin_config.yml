@@ -1,5 +1,5 @@
 _core:
-  default_config_hash: iEqfsY3NCYdxBTF8YdyhDbgPo9BC6xaHaMoXOU0dQBk
+  default_config_hash: CS5_GDLAqXOI6u8ikWOVk0_MXVhOqI4bCeblHaoU17s
 extraction_method: tika_server_extractor
 tika_extractor_configuration:
   java_path: java

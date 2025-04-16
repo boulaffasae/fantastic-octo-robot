@@ -1,9 +1,9 @@
-uuid: 943b4c03-f409-414a-8d4b-3fbd7730fd0e
+uuid: a5fbca18-060d-4fbb-8379-6449a43a8313
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: yoNVreoTdTZTY7GuE8fI9Jmxqdz8vlo4ZJKixMNSosw
+  default_config_hash: BDaKju6AsyvEY49VGsECWPeh6cqzgaibNhtLHmxQnYA
 name: Étiquettes
 vid: tags
 description: 'Utilisez les étiquettes pour regrouper les articles sur des sujets similaires dans des catégories.'

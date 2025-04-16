@@ -1,4 +1,4 @@
-uuid: a79873e2-2a42-4073-b466-4740be7cb478
+uuid: 4797c729-a751-4a54-9cf0-5d6874dcc245
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - file
     - user
 _core:
-  default_config_hash: DaGeEDJMcbbQtgV96AuPeZ-0irMc_Oa6Zzh2U3Kmul8
+  default_config_hash: Ha1JHxwSbuFH9gZXvk7cIjbSViqxecMQveaQoaUBiBc
 id: files
 label: Fichiers
 module: file

@@ -1,4 +1,4 @@
-uuid: d49f2446-cb15-4110-8aeb-3ed50ef91974
+uuid: 68f1175e-fd35-4744-b3d4-465d9546beac
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - comment
     - user
 _core:
-  default_config_hash: CgXkKY33fd-yaHz89du2hSw6MJOoIeNUJ-VHE5BiSdQ
+  default_config_hash: 948x23pKznnZTGG21reY8rBi0XWchMT3Oa4Lfx71u00
 id: comment
 label: Commentaires
 module: comment

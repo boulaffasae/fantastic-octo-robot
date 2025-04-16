@@ -1,21 +1,19 @@
 _core:
-  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
-langcode: fr
+  default_config_hash: 4GIX5Esnc_umpXUBj4IIocRX7Mt5fPhm4AgXfE3E56E
 module:
-  admin_theme: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
   block_content: 0
   block_field: 0
   breakpoint: 0
-  cancel_button: 0
   ckeditor5: 0
-  ckeditor5_fullscreen: 0
   coffee: 0
   comment: 0
   config: 0
+  config_filter: 0
   config_split: 0
+  config_translation: 0
   contact: 0
   contextual: 0
   cool_editor_tabs: 0
@@ -25,7 +23,6 @@ module:
   dsfr_menu: 0
   dsfr_twig_components: 0
   dynamic_page_cache: 0
-  easy_breadcrumb: 0
   editor: 0
   entity_reference_revisions: 0
   field: 0
@@ -35,9 +32,11 @@ module:
   form_options_attributes: 0
   gin_toolbar: 0
   image: 0
+  inline_form_errors: 0
   language: 0
   layout_builder: 0
   layout_discovery: 0
+  layout_paragraphs: 0
   link: 0
   locale: 0
   media: 0
@@ -52,7 +51,6 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
-  phpass: 0
   responsive_image: 0
   save_edit: 0
   search_api: 0
@@ -60,10 +58,9 @@ module:
   search_api_db: 0
   style_selector: 0
   svg_image_field: 0
-  svg_image_field_media_bundle: 0
   symfony_mailer: 0
+  syslog: 0
   system: 0
-  tacjs: 0
   taxonomy: 0
   telephone: 0
   text: 0
@@ -72,16 +69,15 @@ module:
   user: 0
   views_ui: 0
   webform: 0
-  webform_ui: 0
-  webform_views: 0
   wpf: 0
   pathauto: 1
+  content_translation: 10
   views: 10
+  paragraphs: 11
   publication_date: 99
-  minimal: 1000
+  dsfr_kickstart: 1000
 theme:
   claro: 0
-  gin: 0
-  stable9: 0
   dsfr: 0
-profile: minimal
+  gin: 0
+profile: dsfr_kickstart

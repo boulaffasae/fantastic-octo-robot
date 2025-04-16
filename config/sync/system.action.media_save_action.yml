@@ -1,11 +1,11 @@
-uuid: 140a9067-3e91-4c21-aadd-c249eb25ee76
+uuid: c5bef325-06b8-4217-9700-9be4217fa3e7
 langcode: fr
 status: true
 dependencies:
   module:
     - media
 _core:
-  default_config_hash: VVyUA6PIaVeGtcIbgEWqJ6SYDiJdReBeojFswURFpKs
+  default_config_hash: xYSJx7f92ckUycDpMygPEJQnT28nzl6h2Xnj6llSxUg
 id: media_save_action
 label: 'Enregistrement de média'
 type: media

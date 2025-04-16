@@ -1,4 +1,4 @@
-uuid: 7db54236-bf1d-45bd-b35d-6bbe8015c1fa
+uuid: 116c8362-9f4f-4c2f-9dc3-28c1266d1469
 langcode: fr
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - media.type.dsfr_media_document
   module:
     - search_api_attachments
+_core:
+  default_config_hash: mFIjvRMF09jv1UkoDXV8g2TZOpv4Rg_tUHFupq2s1Yo
 id: media.dsfr_media_document.search_index
 targetEntityType: media
 bundle: dsfr_media_document

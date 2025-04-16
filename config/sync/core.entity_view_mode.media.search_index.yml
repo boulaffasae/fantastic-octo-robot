@@ -1,9 +1,11 @@
-uuid: 8a9a896d-1447-4aa8-9d89-655fd38d1763
+uuid: d8f8e552-9955-4530-9aca-3c7db2688e6c
 langcode: fr
 status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: 7IoychLKGlh7IIgPZOcx46gIT9TewL_XxVaW3o8txBg
 id: media.search_index
 label: 'Index de recherche'
 description: ''

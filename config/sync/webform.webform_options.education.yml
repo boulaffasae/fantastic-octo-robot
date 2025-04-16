@@ -1,4 +1,4 @@
-uuid: 6c80c76c-5363-45c1-ba05-d6aa0837f87e
+uuid: f51b8b28-dc04-410e-af60-0de98be348f5
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: mII4acOv33s-j8PINywrCag4OITbeJGxdPO373dnHHw
+  default_config_hash: zrqyFAyhJjt7qp4byrjSmzprnmU8zpgt2_VenI7aPLQ
 id: education
 label: Éducation
 category: Démographique

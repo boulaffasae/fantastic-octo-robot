@@ -5,7 +5,6 @@ url:
   source: path_prefix
   prefixes:
     fr: fr
-    en: ''
     '': null
   domains:
     fr: ''

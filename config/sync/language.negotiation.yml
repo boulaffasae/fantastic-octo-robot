@@ -1,5 +1,5 @@
 _core:
-  default_config_hash: uEePITI9tV6WqzmsTb7MfPCi5yPWXSxAN1xeLcYFQbM
+  default_config_hash: BbxR5I5v506ZPigq2j5YUMMxJNsr6qWXRYGPc3GEwYQ
 langcode: fr
 session:
   parameter: language
@@ -7,7 +7,6 @@ url:
   source: path_prefix
   prefixes:
     fr: fr
-    en: ''
     '': null
   domains:
     fr: ''

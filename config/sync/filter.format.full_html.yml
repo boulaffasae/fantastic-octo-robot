@@ -1,4 +1,4 @@
-uuid: 29eda03c-0de1-4f85-a3c9-eadf5e2c2a66
+uuid: 1b077c0b-6c3a-4a8d-9716-a9788ffb06e5
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
     - media
     - nbsp
 _core:
-  default_config_hash: WNeK5FbcY8pXgEpbD_KgRzlF1-5PL3BJXwqaBctPTqw
+  default_config_hash: h6k3qDso21Jirx61q6OFT_xodimZyjfNJV0UkpyAaZY
 name: 'HTML complet'
 format: full_html
 weight: -9

@@ -1,7 +1,9 @@
-uuid: 8a0fe985-6943-4dc2-8f25-35d7d09302e7
+uuid: ecd1dbcf-ad02-4b50-b233-d4d95ee710e9
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: fF8zab0LX-5aGJ9hOz-I2vkUKNYLn2szaWSPEhoG0RM
 name: dsfr_wide
 label: 'DSFR Large (1090)'
 effects:

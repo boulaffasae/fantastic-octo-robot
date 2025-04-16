@@ -1,11 +1,11 @@
-uuid: 977b6d67-d267-49e1-bd8c-fef59dae1d22
+uuid: 1996e269-16cb-4499-b6ac-a5842052a704
 langcode: fr
 status: true
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: LhdsoZPL_pFas2fjaAWue4zvrQ_tEVofLYtcNec-JGM
+  default_config_hash: Eof8vQEa14eRdxTbhzWRWfIBRymaT5nbNj5lylYdhrQ
 id: node_save_action
 label: 'Enregistrer un contenu'
 type: node

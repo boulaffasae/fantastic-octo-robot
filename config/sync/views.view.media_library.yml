@@ -1,4 +1,4 @@
-uuid: e9befce3-4dc8-4391-a881-577b23f90f0b
+uuid: 2deb5166-cd66-4ead-99bf-aec20822fe4e
 langcode: fr
 status: true
 dependencies:
@@ -14,7 +14,7 @@ dependencies:
     module:
       - media_library
 _core:
-  default_config_hash: GDIFCs-lTKQIMvaNZ95zofFcqpTxDYakxx02_zZFkmM
+  default_config_hash: pxnOKOzwcgd6jik_0Diihc8uGGUGG4xX74DKFH8gXxc
 id: media_library
 label: 'Media library'
 module: views

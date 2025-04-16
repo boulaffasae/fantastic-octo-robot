@@ -1,4 +1,4 @@
-uuid: 8a2e994f-a4b2-4ed9-a309-63b0b40c9620
+uuid: a85a6b6d-3d44-44a9-a691-643af92ef553
 langcode: fr
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - media.type.dsfr_media_document
   module:
     - file
+_core:
+  default_config_hash: uYSL7aJAa9JKinCJm79JMbxLRALSWM1nPiB-0Sq2FXM
 id: media.dsfr_media_document.field_media_file
 field_name: field_media_file
 entity_type: media

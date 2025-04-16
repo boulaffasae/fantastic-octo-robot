@@ -1,11 +1,11 @@
-uuid: 6552cbde-62d7-4d45-a237-834f693860a4
+uuid: 78fbba5e-8493-4e31-acf5-140fab7f05fe
 langcode: fr
 status: true
 dependencies:
   module:
     - media
 _core:
-  default_config_hash: nh83qNNrmWE-CDdHz2MdFOAk60T9mzv3R-MaKfZR2jw
+  default_config_hash: tc3_bJaOIUxji8ijUzWIk1s5WzqAhYI7rWBfsrUR2kI
 id: media_publish_action
 label: 'Publication de média'
 type: media

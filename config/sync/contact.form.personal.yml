@@ -1,9 +1,9 @@
-uuid: 8011cce5-75ee-439c-a0e6-a931da62f210
+uuid: d3fb7d4d-5f14-4ece-8a5d-0d3311b2a661
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+  default_config_hash: WGwhO4bQQh-OpJMtDLj_cNzPmeI2pcVgW1Wcl8GXcN4
 id: personal
 label: 'Formulaire de contact personnel'
 recipients: {  }

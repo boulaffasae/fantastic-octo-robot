@@ -1,4 +1,4 @@
-uuid: 9595487e-0453-4ba6-b591-1966b62831a8
+uuid: 467c88f1-e7d5-43ab-bcc1-a6d0cfcd40c4
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: qBS2TmfAJB37Qn3TnrNM8x4AWimmDapcizzRllgo0fo
+  default_config_hash: awu6adPE6dG9JgY10TpW2xe1NE4Ez72dPESYn-pq5yQ
 id: likert_would_you
 label: 'Likert : Le feriez-vous'
 category: Likert

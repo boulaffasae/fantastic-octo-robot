@@ -1,11 +1,11 @@
-uuid: 85068dbe-0079-4a11-81da-3de148e8f98f
+uuid: e031edaa-5a6e-47cb-be2a-dc3f20395fc3
 langcode: fr
 status: true
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
+  default_config_hash: JBXXB85zcBDzmsxIW6n7FFxKefA2OWsm_AU_KbpuQLE
 id: node_unpromote_action
 label: "Retirer un contenu de la page d'accueil"
 type: node

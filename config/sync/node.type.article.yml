@@ -1,4 +1,4 @@
-uuid: 6ec0fd26-e3ab-47e1-9a91-0924b508ceff
+uuid: e7f04089-c9c2-4a10-b5d8-f8b05280d3a0
 langcode: fr
 status: true
 dependencies:
@@ -9,7 +9,7 @@ third_party_settings:
     available_menus: {  }
     parent: ''
 _core:
-  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
+  default_config_hash: iWoHFElz8LPxCAhaV-FxOKofFKuQMYeR5UtBvAa5lpk
 name: Article
 type: article
 description: 'Utilisez les <em>articles</em> pour des contenus possédant une temporalité tels que des actualités, des communiqués de presse ou des billets de blog.'

@@ -1,11 +1,11 @@
-uuid: 9a33769b-e27a-4468-a0b1-95aeef1ad376
+uuid: 1ba2bf61-6b74-46f2-b62f-06f909ff8f5d
 langcode: fr
 status: true
 dependencies:
   module:
     - user
 _core:
-  default_config_hash: suDsVMgawXoQt4rfmdfpr05EVX3z3KyfDDTYgeSM898
+  default_config_hash: 8zIH459c-C6lTDCR86rQb-A8BJNHtdt2U9JYBxoLokk
 id: who_s_online
 label: 'Bloc "Qui est connecté"'
 module: user

@@ -1,7 +1,9 @@
-uuid: 614af18e-ab2e-4198-b8a4-0cab0f324351
+uuid: 40bd73ce-5afb-4797-9c20-84205f1944bd
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 4O3vuCTKdT0AxTwnlzBPCczmaVtEoCrL_bm9xa9TUhg
 name: dsfr_medium
 label: 'DSFR Moyen (220x220)'
 effects:

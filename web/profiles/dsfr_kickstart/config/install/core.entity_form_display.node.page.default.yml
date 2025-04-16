@@ -6,6 +6,7 @@ dependencies:
     - node.type.page
   module:
     - path
+    - publication_date
     - text
 id: node.page.default
 targetEntityType: node

@@ -1,4 +1,4 @@
-uuid: 2f731fff-0c5c-4e9d-86cf-9029a9204af0
+uuid: cfdf8224-da11-499b-a8d2-1cb38c74edaa
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: Mb_L3vE-0IBZH5s2rjpk2LNn0QHClQP9AARQdCmVLt4
+  default_config_hash: 47j4k5YOKoYO5a-1q0oC39xyOSWiWMAvvLwdg5EG5XY
 id: translations
 label: Traductions
 category: Langue

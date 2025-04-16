@@ -1,7 +1,9 @@
-uuid: e8175b62-33e6-408f-a702-756c3e5f9b8b
+uuid: af42cec4-15d4-40eb-b447-c2cd1f0a19ac
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 1wkx60F3ibtO8mZtU-K6-C8vJw6FGX_f20hvc6PysL8
 name: 'Restricted HTML DSFR'
 format: restricted_html_dsfr
 weight: -8

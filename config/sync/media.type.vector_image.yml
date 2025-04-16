@@ -1,11 +1,11 @@
-uuid: b66641da-51a1-41f2-b7fe-2e355e8ae3da
+uuid: 43955a99-93c8-4d49-9d34-307dd4aefb57
 langcode: fr
 status: true
 dependencies:
   module:
     - svg_image_field
 _core:
-  default_config_hash: v5c8O8vxfxo-4NPpEVij5v6ldfxskwVecrIZqCA-QyI
+  default_config_hash: iCc9050LuFLgjka2P_6N4h-YpH8J8-Zt62WuHnFdPkY
 id: vector_image
 label: 'Vector Image'
 description: 'A locally hosted Scalable Vector Graphics file.'

@@ -1,11 +1,11 @@
-uuid: 76bf8216-e6ad-49a8-8940-504c7a0bb94b
+uuid: 3bfda8c7-88c3-4fcf-8f01-368e9fac969c
 langcode: fr
 status: true
 dependencies:
   module:
     - webform
 _core:
-  default_config_hash: TBnl4vapW7sy5bRi7TcF-ueJnvz7aZNLif95ifvhfTQ
+  default_config_hash: DBjP0aERtpoVeYXpk7_Vyf3YgNbxkSRC3kM4b40-joc
 id: webform_submission_delete_action
 label: 'Supprimer la soumission'
 type: webform_submission

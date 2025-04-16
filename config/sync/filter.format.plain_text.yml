@@ -1,9 +1,9 @@
-uuid: 45b28e07-cb15-4fc4-a6a1-5467c5323f01
+uuid: 15ab2530-3bd6-4428-b25f-258fd4273f13
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: NIKBt6kw_uPhNI0qtR2DnRf7mSOgAQdx7Q94SKMjXbQ
+  default_config_hash: byAUCb5VC0h1MLbnnTGJyDLpMmS6ywpsGUfuuQkxeYA
 name: 'Texte brut'
 format: plain_text
 weight: -5

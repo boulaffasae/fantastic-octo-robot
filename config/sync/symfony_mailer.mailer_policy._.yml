@@ -1,9 +1,9 @@
-uuid: bb5048c9-0054-4d27-8a67-25cb02e390bd
+uuid: 1e636144-f3fe-412b-ad2f-294df3b4789b
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: oUtf135g-IPzmggtfsOOX5ZINxbSe5Kno64BN2NUKn0
+  default_config_hash: jnNBT6G0SfZE2JETsN8EB26m4wDDOapUUIq-H_31WOc
 id: _
 configuration:
   mailer_url_to_absolute: {  }

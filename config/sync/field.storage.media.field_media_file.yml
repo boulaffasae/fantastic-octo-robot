@@ -1,10 +1,12 @@
-uuid: 9e28ec44-10c9-41b3-b194-34f4705394a8
+uuid: d3a22b34-9f5a-4052-b978-6e4f1f4535cd
 langcode: fr
 status: true
 dependencies:
   module:
     - file
     - media
+_core:
+  default_config_hash: TPvwb0_xuckAleOVYKVT54MTX36AP3yVZabYa5jM71Q
 id: media.field_media_file
 field_name: field_media_file
 entity_type: media

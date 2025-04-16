@@ -1,9 +1,9 @@
-uuid: 401d072f-6283-45a9-bee9-44d1517b50e7
+uuid: 3cfa9bf7-351e-4ef0-9439-d0d4cacf6b51
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: u5MXordtBE3SIs1x4qEUEBUFctQ0jjSn2vbPtgxvXuM
+  default_config_hash: MCGpUkevH6hKGWr2jfgz4kGab9K2X2aDeLuqkFxT4oQ
 name: 'Email HTML'
 format: email_html
 weight: -4

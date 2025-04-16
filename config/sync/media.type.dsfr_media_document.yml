@@ -1,7 +1,9 @@
-uuid: 58bb39e7-eaf4-48d1-9a52-f4c76f19117f
+uuid: 5608d010-f042-4181-b73b-25828af6a94f
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: rJUQvI8k1z-8edzX2jSqn2DhfQYjO0bUyzBXPAMEpbo
 id: dsfr_media_document
 label: Document
 description: ''

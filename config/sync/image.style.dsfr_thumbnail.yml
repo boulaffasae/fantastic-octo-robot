@@ -1,7 +1,9 @@
-uuid: c4f63485-0d65-4476-996e-b1fe9c081324
+uuid: 876884b1-10cb-44a2-a1a3-14e09bb9044a
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Lu7uZusoYZiTIOzaE3wP9WNf75Nc9C8LlpZQue9qo4Q
 name: dsfr_thumbnail
 label: 'DSFR Vignette (100x100)'
 effects:

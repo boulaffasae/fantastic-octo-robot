@@ -1,4 +1,4 @@
-uuid: bcc4d843-8d4c-4f43-98b7-03e09b09bb45
+uuid: c6839577-f911-4d24-999c-8463806fb447
 langcode: fr
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - image.style.dsfr_thumbnail
     - image.style.dsfr_wide
     - image.style.large
+_core:
+  default_config_hash: omTkh5TF4Ctsnsv7I3kl-Jc6UXkNLyNZQiNaHr7Hhjc
 id: dsfr
 label: "DSFR (styles d'images adaptatifs)"
 image_style_mappings:

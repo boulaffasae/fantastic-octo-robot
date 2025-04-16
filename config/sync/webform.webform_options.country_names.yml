@@ -1,4 +1,4 @@
-uuid: 188ec98a-4922-4b66-89ab-49dec3b7bdf7
+uuid: 76756633-e415-4ae9-9814-90799b0f8809
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: zsfFP124dAM-sJkuEfnwaA7DN6o3-IsaXLgdNmObbYg
+  default_config_hash: wNPsAUTduO9kGSWiaUP6cGs9k3DZg14_tkSU-DN2eYo
 id: country_names
 label: 'Noms des pays'
 category: Géographique

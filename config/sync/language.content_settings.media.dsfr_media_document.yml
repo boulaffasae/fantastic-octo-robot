@@ -1,9 +1,11 @@
-uuid: 66e6d118-2987-4841-8886-02fb4759bae6
+uuid: 9e7dd783-a240-4e80-ab13-17f5e4ad27d6
 langcode: fr
 status: true
 dependencies:
   config:
     - media.type.dsfr_media_document
+_core:
+  default_config_hash: egMq3koLwMXlBgubNBCMuWjxh9kVb6IezH3hZUWajac
 id: media.dsfr_media_document
 target_entity_type_id: media
 target_bundle: dsfr_media_document

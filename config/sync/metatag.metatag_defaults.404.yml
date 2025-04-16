@@ -1,9 +1,9 @@
-uuid: 1ad0a54d-4e53-401a-9242-9c8fe47ce3da
+uuid: 0b1cee03-f9e2-427f-98de-5dde2febd874
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: puBstSLDz8mbaWU357zaqQDBGMGsJzG0j-TQNQkjg20
+  default_config_hash: 0-kQhX7Fa8jwetOJ_q43oOtdPiAT7Kv4QM34aFZUL5c
 id: '404'
 label: 'Page 404 non trouvée'
 tags:

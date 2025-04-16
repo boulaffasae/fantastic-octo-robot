@@ -1,7 +1,9 @@
-uuid: b399ada2-ab21-4bec-bd68-972816ecf5a3
+uuid: 5541ad8f-8cee-4547-9426-9925b0ea7f2d
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 6dP2i0qBVs1y_39bT1DV9-aoYnDhJHihZGzGBXEBT2A
 name: 'Important HTML'
 format: important_html
 weight: -7

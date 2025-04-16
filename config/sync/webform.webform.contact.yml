@@ -1,4 +1,4 @@
-uuid: 3f64cb23-fa17-44fc-b1bb-e8bdadcec5e3
+uuid: 314153fc-4852-4c33-a710-713f04cfd272
 langcode: fr
 status: open
 dependencies:
@@ -6,10 +6,10 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: _je-MWeeJB6gfm6iECiqjcyNetfMFbn-YIInYwZ1gIk
-weight: 0
+  default_config_hash: kxAqNbljYAastgPnz9H19dNuEfjgn1W_a_E-S-A_lGs
 open: null
 close: null
+weight: 0
 uid: null
 template: false
 archive: false
@@ -228,9 +228,9 @@ access:
 handlers:
   email_confirmation:
     id: email
-    handler_id: email_confirmation
     label: 'Courriel de confirmation'
     notes: ''
+    handler_id: email_confirmation
     status: true
     conditions: {  }
     weight: 1
@@ -265,9 +265,9 @@ handlers:
       debug: false
   email_notification:
     id: email
-    handler_id: email_notification
     label: 'Notification par courriel'
     notes: ''
+    handler_id: email_notification
     status: true
     conditions: {  }
     weight: 2

@@ -1,0 +1,19 @@
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - dsfr
+id: dsfr_powered
+theme: dsfr
+region: footer_last
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

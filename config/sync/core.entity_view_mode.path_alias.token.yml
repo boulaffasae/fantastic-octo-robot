@@ -1,9 +1,11 @@
-uuid: 0ce100e2-0376-4374-b649-1f0d89aa4121
+uuid: 5a3c1f5f-093a-4842-84e8-7f0e92bd3c11
 langcode: fr
 status: true
 dependencies:
   module:
     - path_alias
+_core:
+  default_config_hash: MsME9jISQ4ZPWsqVspvkIdMrzdUCguo82bI1PwNbCCs
 id: path_alias.token
 label: Token
 description: ''

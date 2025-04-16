@@ -1,11 +1,11 @@
-uuid: 2654cfb3-e091-4c14-8ee9-1fa5674fd066
+uuid: b830f091-1dd8-4430-87e3-bc50280e0e7a
 langcode: fr
 status: true
 dependencies:
   module:
     - webform
 _core:
-  default_config_hash: OmnschvBLb9ZJn0iVyBd2odf8U8Nt0INjRbRMixZw9U
+  default_config_hash: 9niZBMh5vpik9Z4AT8NI0nT__0JYmEeMgF0aDHJa_jI
 id: webform_archive_action
 label: 'Archiver le webform'
 type: webform

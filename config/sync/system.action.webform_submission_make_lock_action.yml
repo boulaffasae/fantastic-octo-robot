@@ -1,11 +1,11 @@
-uuid: 48725dbc-1710-4f64-bdfb-d0dd023818bd
+uuid: a8428772-0df9-4f22-bfea-8d12685348de
 langcode: fr
 status: true
 dependencies:
   module:
     - webform
 _core:
-  default_config_hash: MKmZlPRk3OJKNcYdYxSeZGQUh7LMah6MRShfkzch4bk
+  default_config_hash: 1kRKqFSSB2rGoJ9SqtYniP-zMfJ4pvnwDHzfGKdf-GM
 id: webform_submission_make_lock_action
 label: 'Verrouiller la soumission'
 type: webform_submission

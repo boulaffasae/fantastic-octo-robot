@@ -1,7 +1,9 @@
-uuid: 2fbffb6e-d17a-46c2-a8a0-b63349752d68
+uuid: b65c2383-4a14-4d2a-9cca-60632fc514e9
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: O4g4w-xvRCfURx3JWUL56-502_Qst-2ZEoStH1oFrUM
 id: smtp
 label: SMTP
 plugin: smtp

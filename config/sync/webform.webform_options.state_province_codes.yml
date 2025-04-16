@@ -1,4 +1,4 @@
-uuid: eb31b5b1-db5a-478f-8145-943e7c347287
+uuid: ff0f3566-c4a2-4a31-8b22-cda45af9d1fe
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: ziWv9xVss1UBnP_R38EqduZOprwOAifpxjXhyOPzmys
+  default_config_hash: QL9CHnKDAUE5FtlKyq9canzMOpZxaHLmWTaAzIfEsMU
 id: state_province_codes
 label: 'Codes des États et provinces'
 category: Géographique
