@@ -1,9 +1,9 @@
-uuid: fc139923-8bfc-4692-b98e-13428b61f317
+uuid: 66884834-be05-4b13-ae53-165723e05eb4
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: a5zfVaCYEbvRqsx02o28KCC66QqDV2vcj7hd3UIW9_4
+  default_config_hash: zglzjmYxi0G0ag9MZ02y0LSJOdpWRwJxyP_OvFojFyo
 id: basic
 label: 'Bloc simple'
 revision: false

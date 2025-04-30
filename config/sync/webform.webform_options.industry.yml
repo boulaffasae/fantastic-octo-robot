@@ -1,4 +1,4 @@
-uuid: 8bf963ad-1bf9-4865-8a5c-7395cc657109
+uuid: e931bd6a-3319-4fb9-9f73-e0fe9ca4ca7e
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: '-1Bl3pxsLIn5ezeIJIHiv6cvqHR8ESJC_7KeovqMyfA'
+  default_config_hash: s_SXZn2HbRGvTex-TLOCxz2oOnMYqtEZh8HD4_318QI
 id: industry
 label: Secteur
 category: Démographique

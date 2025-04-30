@@ -1,16 +1,17 @@
-uuid: a0235e8c-c344-495d-bb34-f365d36e0a37
+uuid: fca7a67f-391d-4595-bec8-8977bccac344
 langcode: fr
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.search_index
     - field.storage.node.field_tags
     - search_api.server.default_server
+    - core.entity_view_mode.node.search_index
   module:
     - node
     - user
+    - search_api
 _core:
-  default_config_hash: ZdUKDKKC0J34Okme4CN-ooApsfO5fWLfMaO0Q97ebbQ
+  default_config_hash: 3aiqici40Ky7H7_FK6JBlEawsJtrD7MGX3dQh3xgqoc
 id: default_index
 name: 'Index de contenu par défaut'
 description: 'Index de contenu par défaut'
@@ -725,5 +726,4 @@ options:
   cron_limit: 50
   index_directly: true
   track_changes_in_references: true
-  delete_on_fail: true
 server: default_server

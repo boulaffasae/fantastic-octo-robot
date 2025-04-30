@@ -1,4 +1,4 @@
-uuid: 310ec6c7-58c7-4711-b4a7-5b9883868775
+uuid: a8d83177-74a1-488f-bcf8-4667773bebc7
 langcode: fr
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
     - path
     - svg_image_field
 _core:
-  default_config_hash: crLrz84Tt4Y3va_v4BmH14HHHTpcyiqTA51zEJ3rG1Y
+  default_config_hash: syhNGU_sYhNfNs0om8AgHZU01jPMUbmhupnHoQgYdsQ
 id: media.vector_image.default
 targetEntityType: media
 bundle: vector_image

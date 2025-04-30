@@ -1,4 +1,4 @@
-uuid: 240fe7e3-e93e-4803-aa34-3518ba038b42
+uuid: da84ccb0-0fde-4463-ac26-d73f919fb180
 langcode: fr
 status: true
 dependencies:
@@ -14,7 +14,7 @@ dependencies:
     - media
     - system
 _core:
-  default_config_hash: XGnCEYphAvoUsXaPJiq4uPDko8Y5sfmDL5N0iVuG7wU
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
 id: authenticated
 label: 'Utilisateur authentifié'
 weight: 1

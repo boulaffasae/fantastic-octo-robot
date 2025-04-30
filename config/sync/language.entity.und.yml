@@ -1,9 +1,9 @@
-uuid: cd8b825f-fc4f-46ee-9e24-13a42a106a1a
+uuid: 815dd625-ef92-434d-9743-de2ba6adbd5f
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: d5UEcbtfmQlQ8BYP99zaQDMFGFCMX4zOzrSx6YAr9v8
+  default_config_hash: eNX6lLCKDaY83nCMh20My---y03KbiFlv802DKCCpvg
 id: und
 label: 'Non spécifié'
 direction: ltr

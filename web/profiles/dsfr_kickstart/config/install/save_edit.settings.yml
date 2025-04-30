@@ -8,6 +8,6 @@ hide_default_publish: false
 hide_default_preview: false
 hide_default_delete: false
 node_types:
-  article: '0'
+  article: article
   page: '0'
 dropbutton: true

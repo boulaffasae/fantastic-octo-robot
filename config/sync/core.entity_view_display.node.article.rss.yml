@@ -1,4 +1,4 @@
-uuid: daf23fb1-203f-4362-8580-d08cd880c119
+uuid: 6c5f4713-f11a-4b64-ba3b-baa38618285f
 langcode: fr
 status: false
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
   module:
     - user
 _core:
-  default_config_hash: zznIbw68_DGWbQH4uic4z5k7VAerbv3c7uJw9INQt3A
+  default_config_hash: 2rIr6K5Q0UQ9khg0zE_CK-PtJH76UL-BDDZcZnZzwCc
 id: node.article.rss
 targetEntityType: node
 bundle: article

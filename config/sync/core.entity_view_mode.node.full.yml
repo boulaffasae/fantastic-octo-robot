@@ -1,11 +1,11 @@
-uuid: 36f8eaf5-02f1-4565-a449-ff3abccd3794
+uuid: 9d2abbfc-a5c0-4fdf-9963-2d9fd781ed53
 langcode: fr
 status: false
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: ZxHEDx5PRpC-1aTBpa7E3tB9Y-nRutUjfQDGjzxT4E8
+  default_config_hash: ElrtInxGjZd7GaapJ5O9n-ugi2hG2IxFivtgn0tHOsk
 id: node.full
 label: 'Contenu complet'
 description: ''

@@ -1,9 +1,9 @@
-uuid: c789343b-172d-4b1a-9b36-0461acbc1775
+uuid: 2d0b41d5-e656-4e20-8641-e822175468ee
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: cn9qvALMOYLSsh__5Y_7NieNph811GzHUkkxs5GE52c
+  default_config_hash: OeKGIkmZA_c-t6QLH81WNQx8gDCc1MRmxaTuQgxBByU
 id: administrator
 label: Administrateur
 weight: 3

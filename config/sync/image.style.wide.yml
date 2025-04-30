@@ -1,9 +1,9 @@
-uuid: 56cb50b5-5937-4949-8f71-58495824a3e3
+uuid: e5e35bb5-6384-4abc-8e9e-a4763ed83c9b
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: whureKe0wWppD8HXUF8_VCEnkHdOULtj2Zmc913_qc8
+  default_config_hash: LswCVLg8z4Zk1u6pV1Dpj1qUj5YY2CQ7_ojx7bJQ8qk
 name: wide
 label: 'Large (1090)'
 effects:

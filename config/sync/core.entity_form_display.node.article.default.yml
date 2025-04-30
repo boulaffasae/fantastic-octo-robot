@@ -1,4 +1,4 @@
-uuid: da53b7cb-a1db-4fd0-a1d9-b5df97679f15
+uuid: 8ca39646-8e20-4ae7-acea-99825d51a9dd
 langcode: fr
 status: true
 dependencies:
@@ -14,7 +14,7 @@ dependencies:
     - path
     - publication_date
 _core:
-  default_config_hash: 9oc4fn049DUjlkBdA4a585cp1raOCBPJAA1KgZQu7Ys
+  default_config_hash: ewbd6G2uX456-bgwseM2Q-KQG3RkASoyHmTh-XR3oLU
 id: node.article.default
 targetEntityType: node
 bundle: article

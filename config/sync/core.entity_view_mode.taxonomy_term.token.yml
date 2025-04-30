@@ -1,11 +1,9 @@
-uuid: 7948635d-b29c-4ad6-a2cb-1ae65826dd7c
+uuid: f692dd94-7945-4e33-b423-1a899820cb3a
 langcode: fr
 status: true
 dependencies:
   module:
     - taxonomy
-_core:
-  default_config_hash: ICPt0xF2GEt9ABghsvbsQSpQuKG5aIIKdeeERsUkXis
 id: taxonomy_term.token
 label: Token
 description: ''

@@ -1,4 +1,4 @@
-uuid: 9feb9f44-b33f-41fb-b6e9-1aa346aaa86b
+uuid: 9b880215-25cd-4e71-9559-b416e6529045
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   module:
     - search_api
 _core:
-  default_config_hash: mR5nVamtSKkSiwaxPogPwcJ2tnt1l_ja7qOddzKzYoQ
+  default_config_hash: EeNNkLARDmftWehrk-ew_OW8srW2RgDKI1mZrWxZ-ao
 id: recherche
 label: Recherche
 module: views

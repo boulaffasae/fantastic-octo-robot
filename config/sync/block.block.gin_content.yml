@@ -1,4 +1,4 @@
-uuid: 412d42f0-3dd7-42fe-9bb4-b6e78cdd7cf3
+uuid: c5682842-49c4-44f8-b3e6-f74b98d09548
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - gin
 _core:
-  default_config_hash: ntZphgL69M9QYTNmb_SqIdzaXkbM7arvamufQUZ77_I
+  default_config_hash: hBHXB7hC05XU7pDYzETt-GUcpFlogK1gkjyAsg0Ym58
 id: gin_content
 theme: gin
 region: content

@@ -1,4 +1,4 @@
-uuid: da72289a-ddc6-49d0-8011-cea050881775
+uuid: 6542d517-b82a-46ee-9115-051101743421
 langcode: fr
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   theme:
     - dsfr
 _core:
-  default_config_hash: d13NAN1qEK0hOvM4Yy4Bpb_P5CsfaO5UOsOneH-yiQo
+  default_config_hash: Ab8RsCuj0rnZOqwJh63bRu26lVIorFZOIESiJQrMmNQ
 id: dsfr_account_menu
 theme: dsfr
 region: header_menu

@@ -1,9 +1,9 @@
-langcode: fr
+langcode: en
 status: true
 dependencies: {  }
 id: image
 label: Image
-description: 'Utiliser des images locales en tant que média réutilisable.'
+description: 'Use local images for reusable media.'
 source: image
 queue_thumbnail_downloads: false
 new_revision: true

@@ -1,11 +1,9 @@
-uuid: 1c653ba3-967f-4d64-bc5f-afa26973f61a
+uuid: d4574523-b1f4-4235-8e80-f9b71c6a267b
 langcode: fr
 status: true
 dependencies:
   config:
     - node.type.article
-_core:
-  default_config_hash: umEhtIKroq2DaH1mPYnmkwYZL73Hxy0gPy7A2kIsjTg
 id: node.article
 target_entity_type_id: node
 target_bundle: article

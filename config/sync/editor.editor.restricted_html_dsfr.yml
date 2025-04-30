@@ -1,4 +1,4 @@
-uuid: cce31e8f-b939-4861-89ff-525439429637
+uuid: ec928dbd-0021-4c2c-bfb1-4bc4dda986af
 langcode: fr
 status: true
 dependencies:
@@ -6,8 +6,6 @@ dependencies:
     - filter.format.restricted_html_dsfr
   module:
     - ckeditor5
-_core:
-  default_config_hash: s9X_0_rC7CwjsaVBqCNoZPeYrOtRW7rQyWN5V7V8tRY
 format: restricted_html_dsfr
 editor: ckeditor5
 settings:

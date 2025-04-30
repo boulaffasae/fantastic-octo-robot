@@ -1,4 +1,4 @@
-uuid: a28adf13-a44e-44ad-a15c-8f3b8ee8a395
+uuid: 68685b0f-9ae8-4332-a340-2e9b28313a4f
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: eySiMFNb4Spy-B9xOpD2k_KDCqW7_nsuFyyVWa-xB_0
+  default_config_hash: 8rVcRXLnTAEoWs7zl8du-7RIUnayqUcGYnvb3JT21-o
 id: time_zones
 label: 'Fuseaux horaires'
 category: 'Date et heure'

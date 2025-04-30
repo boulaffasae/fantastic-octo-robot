@@ -1,4 +1,4 @@
-uuid: 488b3446-6c67-4792-b5cc-7b4a187f2457
+uuid: ad894940-af17-45f8-ba7b-8a4158aa68ba
 langcode: fr
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
   module:
     - svg_image_field
 _core:
-  default_config_hash: vYulLB71IvmjvDGQeb8z7ZBUsMBJy2j9uKaj7RulrDc
+  default_config_hash: hpI_MrSmo4Du9EyXVH3KBf9tBJaTKsV3boNlclUxj-E
 id: media.vector_image.field_media_svg
 field_name: field_media_svg
 entity_type: media

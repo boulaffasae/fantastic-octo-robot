@@ -1,9 +1,9 @@
-uuid: b77dc2d6-2913-485c-9b58-a5790127f561
+uuid: 2e048777-7b9d-4c5b-8e69-d52d41002615
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 6c4UnTAyJ3_Tpv19al063p4R4L0dROdN-lWlIdpSbDI
+  default_config_hash: jxfClwZIRXIdcvMrE--WkcZxDGUVoOIE3Sm2NRZlFuE
 id: html_datetime
 label: 'Date et heure HTML'
 locked: true

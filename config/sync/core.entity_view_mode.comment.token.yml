@@ -1,11 +1,9 @@
-uuid: 2b61fc15-d6f9-4e79-88c2-0f2c562cf22d
+uuid: bb6017f1-214d-4fe5-a37f-2eb689a87766
 langcode: fr
 status: true
 dependencies:
   module:
     - comment
-_core:
-  default_config_hash: FNqsGAzKBbLAGMoY8-4TAG9XBhE8fVDD2KEskCl9SVw
 id: comment.token
 label: Token
 description: ''

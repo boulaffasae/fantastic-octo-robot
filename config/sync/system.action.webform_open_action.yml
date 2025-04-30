@@ -1,11 +1,11 @@
-uuid: cfc44bdc-13e7-4d3a-bf75-dddc3097b703
+uuid: fb778043-9f5b-4664-8831-7c492167afe5
 langcode: fr
 status: true
 dependencies:
   module:
     - webform
 _core:
-  default_config_hash: KVrHpjs7_wwn84xao75-h3zBBfuhs4rBqNOLMStVEeI
+  default_config_hash: AK83C-dOZEPruvi6GbkuhihWLnO4VtrbesqSC6izf4o
 id: webform_open_action
 label: 'Ouvrir le webform'
 type: webform

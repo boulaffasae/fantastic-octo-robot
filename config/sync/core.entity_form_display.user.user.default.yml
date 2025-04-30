@@ -1,4 +1,4 @@
-uuid: 46f8c9d1-c2e7-45b1-ad28-ccd34e1638e2
+uuid: db1d78e6-810d-444c-9a23-b5fda834dd94
 langcode: fr
 status: true
 dependencies:
@@ -7,10 +7,9 @@ dependencies:
     - image.style.thumbnail
   module:
     - image
-    - path
     - user
 _core:
-  default_config_hash: rI_WGevMlNDcNa4EHMg12LFujqTXz-nIdpD7CtR8aGw
+  default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
 id: user.user.default
 targetEntityType: user
 bundle: user

@@ -2,12 +2,13 @@ langcode: fr
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.search_index
     - field.storage.node.field_tags
     - search_api.server.default_server
+    - core.entity_view_mode.node.search_index
   module:
     - node
     - user
+    - search_api
 id: default_index
 name: 'Index de contenu par défaut'
 description: 'Index de contenu par défaut'
@@ -722,5 +723,4 @@ options:
   cron_limit: 50
   index_directly: true
   track_changes_in_references: true
-  delete_on_fail: true
 server: default_server

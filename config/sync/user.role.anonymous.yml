@@ -1,4 +1,4 @@
-uuid: a65a3088-43d0-409b-b667-a0be2f1eea7d
+uuid: 115546a8-4d9b-4d8c-9d0a-e97d5c922a60
 langcode: fr
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
     - media
     - system
 _core:
-  default_config_hash: MLm685rP4lyrcOsIS9YNKwptQdrJsxI_0n2p6pGY9M0
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
 id: anonymous
 label: 'Utilisateur anonyme'
 weight: 0

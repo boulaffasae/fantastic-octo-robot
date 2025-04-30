@@ -1,9 +1,9 @@
-uuid: a69eaceb-ce6a-4864-b74d-e4a2657f2806
+uuid: af57fdca-8911-4005-9442-888551a7a87d
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 5rz9lbNEBX3EYlCNIVlUkTqgpDJkkPjUnAM8DisTi-Q
+  default_config_hash: RDCkFL0NDt75Gwioooxo1iuA1S50xTVsBOgX__c6wTw
 id: '403'
 label: 'page 403 accès refusé'
 tags:

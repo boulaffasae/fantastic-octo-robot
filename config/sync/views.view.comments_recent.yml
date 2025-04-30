@@ -1,4 +1,4 @@
-uuid: dd6478de-c0aa-49f3-b55d-2c654d531996
+uuid: 6d525304-4a1e-4c48-9ba9-a12989168d20
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: YDSI-KigJ6ZsVRIgRQN9U9gbU06iz9uya4wY2tUUJzA
+  default_config_hash: S_NN2ubd_NovTfgzbHVlZMmIJJQS-3h9h3inzbaFUMY
 id: comments_recent
 label: 'Commentaires récents'
 module: views

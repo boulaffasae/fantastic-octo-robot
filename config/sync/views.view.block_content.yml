@@ -1,4 +1,4 @@
-uuid: 903400e2-5848-4d03-ae86-d5c404d67b7c
+uuid: 7b3b89d1-781b-4097-858a-a4fbb2b22fcf
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - user
 _core:
-  default_config_hash: zx2L1e7rSPagdaBEN-ffnTfGofAyO4fUBkweiApku58
+  default_config_hash: jvd5Pu6jy-lra4oMr-mR7zuY6CVDv9CaNeoj0Y70gV4
 id: block_content
 label: 'Bibliothèque de blocs personnalisés'
 module: views

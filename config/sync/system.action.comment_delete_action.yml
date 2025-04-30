@@ -1,11 +1,11 @@
-uuid: f7e637ed-1939-4cf1-a9d2-5992f06d595c
+uuid: 47f9f553-2904-487b-85ff-9ebf8360c2e7
 langcode: fr
 status: true
 dependencies:
   module:
     - comment
 _core:
-  default_config_hash: NkgG4sCGlbFD-abPEGBPyz4kmf5BNXLUjh2sxyh-AXk
+  default_config_hash: vpBH8OmL4sdesCdeZLsW8KOutB5gkbreWJbfjhfFKaQ
 id: comment_delete_action
 label: 'Supprimer le commentaire'
 type: comment

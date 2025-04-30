@@ -1,11 +1,11 @@
-uuid: 03fafa0b-cc11-4387-b4ce-71672e12f824
+uuid: 00efc085-854e-4b93-93be-70e87fe42437
 langcode: fr
 status: true
 dependencies:
   theme:
     - gin
 _core:
-  default_config_hash: rNSQXPyMcuUU_zvaIdjeeW9BSphP1BKaHXEOfifYhgw
+  default_config_hash: Hh01DLj9k7UnNdPpOQXHZHW7GHf2OPNDQyCJF7_R9ac
 id: gin_primary_local_tasks
 theme: gin
 region: header

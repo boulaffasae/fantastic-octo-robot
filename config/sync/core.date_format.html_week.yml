@@ -1,9 +1,9 @@
-uuid: e767a2a9-649e-46e1-92ee-f8b39473067d
+uuid: 259d005c-923e-4d80-a49b-2c8e53adca8e
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: IltD_8w7ZrDE5JWxt2_Q-GMXbqcyM-My8cQGi1Y1Kl8
+  default_config_hash: wKD4WsoV_wFgv2vgI4mcAAFSIzrye17ykzdwrnApkfY
 id: html_week
 label: 'Semaine HTML'
 locked: true

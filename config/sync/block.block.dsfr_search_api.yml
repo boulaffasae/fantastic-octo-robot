@@ -1,4 +1,4 @@
-uuid: 0101edda-56fe-4fe4-931d-0875fc647ecf
+uuid: 84de46e7-6300-42d5-86fc-1be73c3689be
 langcode: fr
 status: true
 dependencies:
@@ -8,8 +8,6 @@ dependencies:
     - views
   theme:
     - dsfr
-_core:
-  default_config_hash: 3OHPL9OL2L77B3BNQZcDuVGk2l_bMlmDanNh54CjT1Q
 id: dsfr_search_api
 theme: dsfr
 region: header_search

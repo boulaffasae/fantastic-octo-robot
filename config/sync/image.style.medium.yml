@@ -1,9 +1,9 @@
-uuid: b66f75fe-b735-4719-bb74-9c107a880535
+uuid: 166ce53a-9418-4e13-968b-6f1aad7764db
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: GGpgc3cxQj8FezmlKIa5uCyM9HefGBpj877_VOPgjFw
+  default_config_hash: Y9NmnZHQq20ASSyTNA6JnwtWrJJiSajOehGDtmUFdM0
 name: medium
 label: 'Moyen (220x220)'
 effects:

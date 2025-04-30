@@ -1,4 +1,4 @@
-uuid: e3db5325-808a-4fb3-94cb-be29d17bc52d
+uuid: 38e9a4fd-724c-405b-b5cb-d956aa4eb02e
 langcode: fr
 status: true
 dependencies:
@@ -6,8 +6,6 @@ dependencies:
     - user.role.content_editor
   module:
     - user
-_core:
-  default_config_hash: rLbtOoFghQXq1C_bz28Gjeuo5Qfud7xaf84oioLl9Lo
 id: user_add_role_action.content_editor
 label: 'Add the Content editor role to the selected user(s)'
 type: user

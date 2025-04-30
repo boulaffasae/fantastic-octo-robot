@@ -1,9 +1,9 @@
-uuid: 5e5b12e2-2411-47e3-8e01-c30b8d215d0d
+uuid: 70514cfb-0d9a-4180-a382-a291751719b4
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: J-unuJ5bSVkzB8vupVmLszEC2j7oQ_gqB02EMhAzKc4
+  default_config_hash: cCiWdBHgLwj5omG35lsKc4LkW4MBdmcctkVop4ol5x0
 name: thumbnail
 label: 'Vignette (100x100)'
 effects:

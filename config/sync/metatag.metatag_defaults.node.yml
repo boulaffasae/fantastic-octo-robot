@@ -1,9 +1,9 @@
-uuid: fb647c67-b4f7-428a-b521-47758887320a
+uuid: 593f1f44-4bd3-4dea-a47a-e4e31a5966e1
 langcode: fr
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: yFR7Z11WhyJzXqMd-yfVIMEGY6RvN1Ym3ww2MDX32F0
+  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
 id: node
 label: Contenu
 tags:

@@ -1,4 +1,4 @@
-uuid: e54c496f-8ff6-48e1-803b-9016e1b41217
+uuid: e6d5a6ef-c41a-44af-993d-ed3a507e9b9d
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: oBAEbn6YGwW9EXhkjAQqWLMjK1XSyVYc4M9GBanK0H8
+  default_config_hash: Hbc8n5HtVZVs5fSBSpSbuY07CVvqkKP76csvRHN9pK8
 id: likert_importance
 label: 'Likert: Importance'
 category: Likert

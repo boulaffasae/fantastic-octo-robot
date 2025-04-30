@@ -1,11 +1,9 @@
-uuid: 379ca9f9-3b58-4991-90c8-72d15d376016
+uuid: 301a6ce2-8c05-44a7-aedd-e2c4eecfc374
 langcode: fr
 status: true
 dependencies:
   module:
     - contact
-_core:
-  default_config_hash: 93flDVlWeH83f8nxeqAhKqpUCnkfqjXOhFn_d-nqtyk
 id: contact_message.token
 label: Token
 description: ''

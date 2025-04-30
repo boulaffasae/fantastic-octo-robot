@@ -1,11 +1,9 @@
-uuid: 9ee759c5-88bd-446c-9285-a9ed03ef1974
+uuid: e3ede03b-ae47-495c-9e17-916bf9695517
 langcode: fr
 status: true
 dependencies:
   module:
     - menu_link_content
-_core:
-  default_config_hash: 15nm-k3qvVzdyLLIqTKn8LutC2ysJ0LhjJfWwDi_vYU
 id: menu_link_content.token
 label: Token
 description: ''

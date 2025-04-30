@@ -1,11 +1,9 @@
-uuid: f50823f7-503b-45e0-a2b0-03e0814270e5
+uuid: 82d83952-c2c5-42ea-8a67-ce42942c78f8
 langcode: fr
 status: true
 dependencies:
   module:
     - media
-_core:
-  default_config_hash: V966Q1zwYE4s9Uf3oRkzQ6qaMeDqEE7UjxsnmVOofiE
 id: media.token
 label: Token
 description: ''
