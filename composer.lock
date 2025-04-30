@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "07bc9842b150d7a1e0d14064f3313b07",
+    "content-hash": "02ec4a2d5b3899ba341924bca78d6b37",
     "packages": [
         {
             "name": "algolia/places",
@@ -170,39 +170,37 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.12.0",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19"
+                "reference": "12fb2dfe5e16183de69e784a7b84046c43d97e8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/d20a64ed3c94748397ff5973488761b22f6d3f19",
-                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19",
+                "url": "https://api.github.com/repos/composer/installers/zipball/12fb2dfe5e16183de69e784a7b84046c43d97e8e",
+                "reference": "12fb2dfe5e16183de69e784a7b84046c43d97e8e",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0 || ^2.0"
-            },
-            "replace": {
-                "roundcube/plugin-installer": "*",
-                "shama/baton": "*"
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "composer/composer": "1.6.* || ^2.0",
-                "composer/semver": "^1 || ^3",
-                "phpstan/phpstan": "^0.12.55",
-                "phpstan/phpstan-phpunit": "^0.12.16",
-                "symfony/phpunit-bridge": "^4.2 || ^5",
-                "symfony/process": "^2.3"
+                "composer/composer": "^1.10.27 || ^2.7",
+                "composer/semver": "^1.7.2 || ^3.4.0",
+                "phpstan/phpstan": "^1.11",
+                "phpstan/phpstan-phpunit": "^1",
+                "symfony/phpunit-bridge": "^7.1.1",
+                "symfony/process": "^5 || ^6 || ^7"
             },
             "type": "composer-plugin",
             "extra": {
                 "class": "Composer\\Installers\\Plugin",
                 "branch-alias": {
-                    "dev-main": "1.x-dev"
-                }
+                    "dev-main": "2.x-dev"
+                },
+                "plugin-modifies-install-path": true
             },
             "autoload": {
                 "psr-4": {
@@ -223,7 +221,6 @@
             "description": "A multi-framework Composer library installer",
             "homepage": "https://composer.github.io/installers/",
             "keywords": [
-                "Craft",
                 "Dolibarr",
                 "Eliasis",
                 "Hurad",
@@ -244,7 +241,6 @@
                 "Whmcs",
                 "WolfCMS",
                 "agl",
-                "aimeos",
                 "annotatecms",
                 "attogram",
                 "bitrix",
@@ -253,6 +249,7 @@
                 "cockpit",
                 "codeigniter",
                 "concrete5",
+                "concreteCMS",
                 "croogo",
                 "dokuwiki",
                 "drupal",
@@ -263,7 +260,6 @@
                 "grav",
                 "installer",
                 "itop",
-                "joomla",
                 "known",
                 "kohana",
                 "laravel",
@@ -272,6 +268,7 @@
                 "magento",
                 "majima",
                 "mako",
+                "matomo",
                 "mediawiki",
                 "miaoxing",
                 "modulework",
@@ -291,9 +288,7 @@
                 "silverstripe",
                 "sydes",
                 "sylius",
-                "symfony",
                 "tastyigniter",
-                "typo3",
                 "wordpress",
                 "yawik",
                 "zend",
@@ -301,7 +296,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v1.12.0"
+                "source": "https://github.com/composer/installers/tree/v2.3.0"
             },
             "funding": [
                 {
@@ -317,7 +312,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-13T08:19:44+00:00"
+            "time": "2024-06-24T20:46:46+00:00"
         },
         {
             "name": "composer/semver",
@@ -2326,7 +2321,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dsfr.git",
-                "reference": "f46fc6ce6ef558ca1f24f76874a69e8cef8cb980"
+                "reference": "3f6ca79d2de0f2b414b29d6a0d34991a5215e3b7"
             },
             "require": {
                 "drupal/core": "^10 || ^11"
@@ -2337,8 +2332,8 @@
                     "dev-2.1.x": "2.1.x-dev"
                 },
                 "drupal": {
-                    "version": "2.1.12-rc1+67-dev",
-                    "datestamp": "1744299802",
+                    "version": "2.1.12-rc1+68-dev",
+                    "datestamp": "1745418616",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -5036,17 +5031,17 @@
         },
         {
             "name": "drupal/wpf",
-            "version": "1.2.4",
+            "version": "1.2.6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/wpf.git",
-                "reference": "1.2.4"
+                "reference": "1.2.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/wpf-1.2.4.zip",
-                "reference": "1.2.4",
-                "shasum": "faa7f46b2a91416cf789ba938a001c3826962a83"
+                "url": "https://ftp.drupal.org/files/projects/wpf-1.2.6.zip",
+                "reference": "1.2.6",
+                "shasum": "40ec92abbe1cd1df48f820d08096255d400ba411"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
@@ -5055,8 +5050,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.2.4",
-                    "datestamp": "1721639534",
+                    "version": "1.2.6",
+                    "datestamp": "1745581404",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5095,16 +5090,16 @@
         },
         {
             "name": "drush/drush",
-            "version": "13.5.1",
+            "version": "13.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "16076b24532eb27aaf9e2b8bca1e05a74871c713"
+                "reference": "570a05dce7aea9770f17306808804290764127ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/16076b24532eb27aaf9e2b8bca1e05a74871c713",
-                "reference": "16076b24532eb27aaf9e2b8bca1e05a74871c713",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/570a05dce7aea9770f17306808804290764127ad",
+                "reference": "570a05dce7aea9770f17306808804290764127ad",
                 "shasum": ""
             },
             "require": {
@@ -5231,7 +5226,7 @@
                 "issues": "https://github.com/drush-ops/drush/issues",
                 "security": "https://github.com/drush-ops/drush/security/advisories",
                 "slack": "https://drupal.slack.com/messages/C62H9CWQM",
-                "source": "https://github.com/drush-ops/drush/tree/13.5.1"
+                "source": "https://github.com/drush-ops/drush/tree/13.6.0"
             },
             "funding": [
                 {
@@ -5239,7 +5234,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-04T11:38:40+00:00"
+            "time": "2025-04-22T12:14:13+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -6854,16 +6849,16 @@
         },
         {
             "name": "php-tuf/composer-stager",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-tuf/composer-stager.git",
-                "reference": "abaf3e26110199d999e5bf8f6086ddeeef011c22"
+                "reference": "95ea147ae5eccb4ac19fd9b978549634bb9f46d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-tuf/composer-stager/zipball/abaf3e26110199d999e5bf8f6086ddeeef011c22",
-                "reference": "abaf3e26110199d999e5bf8f6086ddeeef011c22",
+                "url": "https://api.github.com/repos/php-tuf/composer-stager/zipball/95ea147ae5eccb4ac19fd9b978549634bb9f46d4",
+                "reference": "95ea147ae5eccb4ac19fd9b978549634bb9f46d4",
                 "shasum": ""
             },
             "require": {
@@ -6923,7 +6918,7 @@
                 "issues": "https://github.com/php-tuf/composer-stager/issues",
                 "source": "https://github.com/php-tuf/composer-stager"
             },
-            "time": "2024-12-16T11:15:45+00:00"
+            "time": "2025-04-21T15:27:20+00:00"
         },
         {
             "name": "phpowermove/docblock",
@@ -12165,16 +12160,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.13.0",
+            "version": "1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "024473a478be9df5fdaca2c793f2232fe788e414"
+                "reference": "1720ddd719e16cf0db4eb1c6eca108031636d46c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/024473a478be9df5fdaca2c793f2232fe788e414",
-                "reference": "024473a478be9df5fdaca2c793f2232fe788e414",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/1720ddd719e16cf0db4eb1c6eca108031636d46c",
+                "reference": "1720ddd719e16cf0db4eb1c6eca108031636d46c",
                 "shasum": ""
             },
             "require": {
@@ -12213,7 +12208,7 @@
             ],
             "support": {
                 "issues": "https://github.com/myclabs/DeepCopy/issues",
-                "source": "https://github.com/myclabs/DeepCopy/tree/1.13.0"
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.13.1"
             },
             "funding": [
                 {
@@ -12221,7 +12216,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-02-12T12:17:51+00:00"
+            "time": "2025-04-29T12:36:36+00:00"
         },
         {
             "name": "nyholm/psr7-server",
@@ -13234,29 +13229,29 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "a0165c648cab6a80311c74ffc708a07bb53ecc93"
+                "reference": "35f1adb388946d92e6edab2aa2cb2b60e132ebd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/a0165c648cab6a80311c74ffc708a07bb53ecc93",
-                "reference": "a0165c648cab6a80311c74ffc708a07bb53ecc93",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/35f1adb388946d92e6edab2aa2cb2b60e132ebd5",
+                "reference": "35f1adb388946d92e6edab2aa2cb2b60e132ebd5",
                 "shasum": ""
             },
             "require": {
                 "doctrine/instantiator": "^1.2 || ^2.0",
-                "php": "^7.2 || 8.0.* || 8.1.* || 8.2.* || 8.3.* || 8.4.*",
+                "php": "^7.4 || 8.0.* || 8.1.* || 8.2.* || 8.3.* || 8.4.*",
                 "phpdocumentor/reflection-docblock": "^5.2",
-                "sebastian/comparator": "^3.0 || ^4.0 || ^5.0 || ^6.0",
-                "sebastian/recursion-context": "^3.0 || ^4.0 || ^5.0 || ^6.0"
+                "sebastian/comparator": "^3.0 || ^4.0 || ^5.0 || ^6.0 || ^7.0",
+                "sebastian/recursion-context": "^3.0 || ^4.0 || ^5.0 || ^6.0 || ^7.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.40",
                 "phpspec/phpspec": "^6.0 || ^7.0",
-                "phpstan/phpstan": "^1.9",
+                "phpstan/phpstan": "^2.1.13",
                 "phpunit/phpunit": "^8.0 || ^9.0 || ^10.0"
             },
             "type": "library",
@@ -13298,9 +13293,9 @@
             ],
             "support": {
                 "issues": "https://github.com/phpspec/prophecy/issues",
-                "source": "https://github.com/phpspec/prophecy/tree/v1.20.0"
+                "source": "https://github.com/phpspec/prophecy/tree/v1.22.0"
             },
-            "time": "2024-11-19T13:12:41+00:00"
+            "time": "2025-04-29T14:58:06+00:00"
         },
         {
             "name": "phpspec/prophecy-phpunit",
@@ -13454,16 +13449,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.24",
+            "version": "1.12.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "338b92068f58d9f8035b76aed6cf2b9e5624c025"
+                "reference": "e310849a19e02b8bfcbb63147f495d8f872dd96f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/338b92068f58d9f8035b76aed6cf2b9e5624c025",
-                "reference": "338b92068f58d9f8035b76aed6cf2b9e5624c025",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e310849a19e02b8bfcbb63147f495d8f872dd96f",
+                "reference": "e310849a19e02b8bfcbb63147f495d8f872dd96f",
                 "shasum": ""
             },
             "require": {
@@ -13508,7 +13503,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-16T13:01:53+00:00"
+            "time": "2025-04-27T12:20:45+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -15353,32 +15348,32 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "8.17.0",
+            "version": "8.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "ace04a4e2e20c9bc26ad14d6c4c737cde6056ec0"
+                "reference": "9bad414288a59cd5bc55f9a4042784431fb18b8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/ace04a4e2e20c9bc26ad14d6c4c737cde6056ec0",
-                "reference": "ace04a4e2e20c9bc26ad14d6c4c737cde6056ec0",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/9bad414288a59cd5bc55f9a4042784431fb18b8c",
+                "reference": "9bad414288a59cd5bc55f9a4042784431fb18b8c",
                 "shasum": ""
             },
             "require": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2 || ^0.7 || ^1.0",
                 "php": "^7.4 || ^8.0",
                 "phpstan/phpdoc-parser": "^2.1.0",
-                "squizlabs/php_codesniffer": "^3.12.1"
+                "squizlabs/php_codesniffer": "^3.12.2"
             },
             "require-dev": {
                 "phing/phing": "3.0.1",
                 "php-parallel-lint/php-parallel-lint": "1.4.0",
-                "phpstan/phpstan": "2.1.11",
+                "phpstan/phpstan": "2.1.12",
                 "phpstan/phpstan-deprecation-rules": "2.0.1",
                 "phpstan/phpstan-phpunit": "2.0.6",
                 "phpstan/phpstan-strict-rules": "2.0.4",
-                "phpunit/phpunit": "9.6.8|10.5.45|11.4.4|11.5.17|12.1.2"
+                "phpunit/phpunit": "9.6.8|10.5.45|11.4.4|11.5.17|12.1.3"
             },
             "type": "phpcodesniffer-standard",
             "extra": {
@@ -15402,7 +15397,7 @@
             ],
             "support": {
                 "issues": "https://github.com/slevomat/coding-standard/issues",
-                "source": "https://github.com/slevomat/coding-standard/tree/8.17.0"
+                "source": "https://github.com/slevomat/coding-standard/tree/8.17.1"
             },
             "funding": [
                 {
@@ -15414,7 +15409,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-10T06:06:16+00:00"
+            "time": "2025-04-25T18:38:26+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -16170,7 +16165,6 @@
         "drupal/gin_lb": 5,
         "drupal/gin_toolbar": 5,
         "drupal/style_selector": 15,
-        "drupal/symfony_mailer": 5,
         "drupal/tamper": 15,
         "drupal/webform": 10
     },
