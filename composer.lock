@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df81bd8a51b00aefc643fe49ba908590",
+    "content-hash": "9ff5efd9d59e488fe185e6ec14973a7f",
     "packages": [
         {
             "name": "algolia/places",
@@ -5678,17 +5678,11 @@
         },
         {
             "name": "drupal/search_api_typesense",
-            "version": "1.0.1",
+            "version": "dev-1.0.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/search_api_typesense.git",
-                "reference": "1.0.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/search_api_typesense-1.0.1.zip",
-                "reference": "1.0.1",
-                "shasum": "e156d25aa8a37eb8be7ef7ecbf41cc2aa0a33f2c"
+                "reference": "b13ef791b588ce06d9f655db525fb65b06fe7fe3"
             },
             "require": {
                 "drupal/core": ">=10.3 || ^11",
@@ -5712,12 +5706,15 @@
             },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-1.0.x": "1.0.x-dev"
+                },
                 "drupal": {
-                    "version": "1.0.1",
-                    "datestamp": "1741869740",
+                    "version": "1.0.1+3-dev",
+                    "datestamp": "1747668593",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -19333,6 +19330,7 @@
         "drupal/gin": 20,
         "drupal/gin_lb": 5,
         "drupal/gin_toolbar": 5,
+        "drupal/search_api_typesense": 20,
         "drupal/style_selector": 15,
         "drupal/tamper": 15,
         "drupal/webform": 10

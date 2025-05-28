@@ -70,7 +70,7 @@
         "drupal/schema_metatag": "^3.0",
         "drupal/search_api": "^1.30",
         "drupal/search_api_attachments": "^10.0",
-        "drupal/search_api_typesense": "^1.0",
+        "drupal/search_api_typesense": "1.0.x-dev@dev",
         "drupal/simple_styleguide": "^2.0",
         "drupal/style_selector": "^2.0@alpha",
         "drupal/svg_image_field": "^2.3",
