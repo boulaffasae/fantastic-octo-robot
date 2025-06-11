@@ -1,0 +1,25 @@
+uuid: 0b08798d-641c-42ba-8599-14eea5e7cbca
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - easy_email_theme
+_core:
+  default_config_hash: 7qHGiEOaZsaf6t4mZ2K6FOmJwo4r2pBZWEzEVvjyY6E
+id: easy_email_theme_branding
+theme: easy_email_theme
+region: sidebar_first
+weight: -2
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

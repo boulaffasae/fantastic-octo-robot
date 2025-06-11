@@ -1,0 +1,22 @@
+uuid: d6172ed1-ed9b-4ca2-866a-027c45c7d370
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - easy_email_theme
+_core:
+  default_config_hash: ukzBV43jrq5dT5QyLEeRhyWgTcEYOiAxMvv1lMjUDhk
+id: easy_email_theme_local_tasks
+theme: easy_email_theme
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

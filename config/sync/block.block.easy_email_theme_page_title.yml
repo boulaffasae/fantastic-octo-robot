@@ -1,0 +1,20 @@
+uuid: 77fd7864-2ed9-4ef8-a1c3-2b5c8bde4b80
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - easy_email_theme
+_core:
+  default_config_hash: l0z9q-VY8EirAuj80XNRSZt4nqclUO93BZk27PYbpZQ
+id: easy_email_theme_page_title
+theme: easy_email_theme
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  label_display: '0'
+  provider: core
+visibility: {  }

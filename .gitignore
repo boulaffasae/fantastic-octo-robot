@@ -8,6 +8,7 @@ docker-compose.yml
 /web/core/
 /web/modules/contrib/
 /web/themes/contrib/
+/recipes
 
 # Ignore sensitive information
 /web/sites/*/settings.php

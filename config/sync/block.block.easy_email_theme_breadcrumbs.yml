@@ -1,0 +1,22 @@
+uuid: 93c217bc-a7f4-434c-b669-63d99b7093d6
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - easy_email_theme
+_core:
+  default_config_hash: sL2dKOQGMaAb2uO8JL6gdcSybG-t0myyjD0KnbH4HyI
+id: easy_email_theme_breadcrumbs
+theme: easy_email_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: "Fils d'ariane"
+  label_display: '0'
+  provider: system
+visibility: {  }

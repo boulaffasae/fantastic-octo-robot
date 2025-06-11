@@ -1,9 +1,0 @@
-langcode: fr
-status: true
-dependencies: {  }
-id: sendmail
-label: Sendmail
-plugin: sendmail
-configuration:
-  query:
-    command: ''

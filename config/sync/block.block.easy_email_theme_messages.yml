@@ -1,0 +1,22 @@
+uuid: fe5a27c1-7f6c-4949-9156-2efa1ac42f7e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - easy_email_theme
+_core:
+  default_config_hash: YbDH_2TZJpClGkX06DZ9ZZ6gEiuuOMGG_B-aDFvnbPw
+id: easy_email_theme_messages
+theme: easy_email_theme
+region: content
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

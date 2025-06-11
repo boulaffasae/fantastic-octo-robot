@@ -1,0 +1,22 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - easy_email_theme
+id: easy_email_theme_branding
+theme: easy_email_theme
+region: sidebar_first
+weight: -2
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

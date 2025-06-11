@@ -1,0 +1,19 @@
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - easy_email_theme
+id: easy_email_theme_local_tasks
+theme: easy_email_theme
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

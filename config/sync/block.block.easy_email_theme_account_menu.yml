@@ -1,0 +1,27 @@
+uuid: 9c6c311c-43e5-49a6-9274-147a4bfe2d20
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - easy_email_theme
+_core:
+  default_config_hash: Ab8RsCuj0rnZOqwJh63bRu26lVIorFZOIESiJQrMmNQ
+id: easy_email_theme_account_menu
+theme: easy_email_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: "Menu du compte de l'utilisateur"
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

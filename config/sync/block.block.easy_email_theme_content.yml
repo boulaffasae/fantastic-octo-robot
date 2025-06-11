@@ -1,0 +1,22 @@
+uuid: 0a8faea7-4a66-4509-b8a7-d56c09887860
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - easy_email_theme
+_core:
+  default_config_hash: R1sWjC5xDIJr1w7eEkBJ7MvGfgN8gj8VQTpQs9xz0jY
+id: easy_email_theme_content
+theme: easy_email_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

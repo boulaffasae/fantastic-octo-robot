@@ -66,7 +66,11 @@ dependencies:
   - dsfr_twig_components:dsfr_twig_components
   - gin_toolbar:gin_toolbar
 #  - gin_login:gin_login
-  - symfony_mailer:symfony_mailer
+#  - symfony_mailer:symfony_mailer
+  - symfony_mailer_lite:symfony_mailer_lite
+  - easy_email:easy_email
+#  - easy_email_theme:easy_email_theme
+  - easy_email_override:easy_email_override
   - svg_image_field:svg_image_field
   - block_field:block_field
   - nbsp:nbsp
@@ -77,8 +81,12 @@ dependencies:
   - webform:webform
   - publication_date:publication_date
   - search_api_attachments:search_api_attachments
+recipes:
+  - drupal_cms_search
+  - easy_email_express
 
 themes:
   - claro
   - gin
   - dsfr
+  - easy_email_theme

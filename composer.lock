@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15498e898a96fa192bbf09ddbaa351f8",
+    "content-hash": "fb145e1c582e53640fc8d72a75ca89b2",
     "packages": [
         {
             "name": "algolia/places",
@@ -3462,6 +3462,288 @@
             }
         },
         {
+            "name": "drupal/easy_email",
+            "version": "3.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/easy_email.git",
+                "reference": "3.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/easy_email-3.0.4.zip",
+                "reference": "3.0.4",
+                "shasum": "1b42bd118538f5f1a45fe5d8fef68494ab45d4c6"
+            },
+            "require": {
+                "drupal/core": "^10.1 || ^11",
+                "drupal/jquery_ui_resizable": "^2.0",
+                "drupal/token": "^1.0"
+            },
+            "require-dev": {
+                "drupal/commerce": "^2.0",
+                "drupal/commerce_order": "*",
+                "drupal/commerce_price": "*",
+                "drupal/mailsystem": "^4.0",
+                "drupal/symfony_mailer_lite": "^1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.4",
+                    "datestamp": "1735316199",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^10"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "mandclu",
+                    "homepage": "https://www.drupal.org/user/52136"
+                },
+                {
+                    "name": "zengenuity",
+                    "homepage": "https://www.drupal.org/user/326925"
+                }
+            ],
+            "description": "Easy Email is an HTML email system for Drupal, designed to be as simple as possible to configure, with a robust set of features.",
+            "homepage": "https://www.drupal.org/project/easy_email",
+            "support": {
+                "source": "https://git.drupalcode.org/project/easy_email"
+            }
+        },
+        {
+            "name": "drupal/easy_email_express",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/easy_email_express.git",
+                "reference": "324e63083b41dbeab29bf8c480da1b081d864092"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://git.drupalcode.org/api/v4/projects/project%2Feasy_email_express/repository/archive.zip?sha=324e63083b41dbeab29bf8c480da1b081d864092",
+                "reference": "324e63083b41dbeab29bf8c480da1b081d864092",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11",
+                "drupal/easy_email_standard": "^1.0.2",
+                "drupal/easy_email_types_core": "^1.0.3",
+                "drupal/easy_email_types_default": "^1.0.1"
+            },
+            "type": "drupal-recipe",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Easy Email configuration that replaces all core emails with HTML formatted emails.",
+            "homepage": "https://www.drupal.org/project/easy_email_express",
+            "keywords": [
+                "drupal"
+            ],
+            "support": {
+                "issues": "https://www.drupal.org/project/issues/easy_email_express",
+                "source": "https://git.drupalcode.org/project/easy_email_express"
+            },
+            "time": "2024-11-22T14:22:03+00:00"
+        },
+        {
+            "name": "drupal/easy_email_standard",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/easy_email_standard.git",
+                "reference": "80cfbcfdc5d9a84d17a81502aa7189bc011f07c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://git.drupalcode.org/api/v4/projects/project%2Feasy_email_standard/repository/archive.zip?sha=80cfbcfdc5d9a84d17a81502aa7189bc011f07c0",
+                "reference": "80cfbcfdc5d9a84d17a81502aa7189bc011f07c0",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11",
+                "drupal/easy_email": "^3.0.2",
+                "drupal/easy_email_theme": "^1",
+                "drupal/mailsystem": "^4",
+                "drupal/symfony_mailer_lite": "^2.0.1"
+            },
+            "type": "drupal-recipe",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Easy Email module and theme for sending HTML emails from Drupal.",
+            "homepage": "https://www.drupal.org/project/easy_email_standard",
+            "keywords": [
+                "drupal"
+            ],
+            "support": {
+                "issues": "https://www.drupal.org/project/issues/easy_email_standard",
+                "source": "https://git.drupalcode.org/project/easy_email_standard"
+            },
+            "time": "2024-11-20T17:14:09+00:00"
+        },
+        {
+            "name": "drupal/easy_email_text_format",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/easy_email_text_format.git",
+                "reference": "43798ff5924bdeb07ef30531faa2ab8271a3169f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://git.drupalcode.org/api/v4/projects/project%2Feasy_email_text_format/repository/archive.zip?sha=43798ff5924bdeb07ef30531faa2ab8271a3169f",
+                "reference": "43798ff5924bdeb07ef30531faa2ab8271a3169f",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11"
+            },
+            "type": "drupal-recipe",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Text format and editor config for editing HTML body of Easy Email templates.",
+            "homepage": "https://www.drupal.org/project/easy_email_text_format",
+            "keywords": [
+                "drupal"
+            ],
+            "support": {
+                "issues": "https://www.drupal.org/project/issues/easy_email_text_format",
+                "source": "https://git.drupalcode.org/project/easy_email_text_format"
+            },
+            "time": "2024-11-20T16:00:31+00:00"
+        },
+        {
+            "name": "drupal/easy_email_theme",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/easy_email_theme.git",
+                "reference": "1.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/easy_email_theme-1.0.0.zip",
+                "reference": "1.0.0",
+                "shasum": "daaca22af0a2ba337c847be3ad6d6f18eb21f3fa"
+            },
+            "require": {
+                "drupal/core": "^10.2 || ^11"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0",
+                    "datestamp": "1729101397",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "zengenuity",
+                    "homepage": "https://www.drupal.org/user/326925"
+                }
+            ],
+            "description": "A theme for sending HTML emails",
+            "homepage": "https://www.drupal.org/project/easy_email_theme",
+            "support": {
+                "source": "https://git.drupalcode.org/project/easy_email_theme"
+            }
+        },
+        {
+            "name": "drupal/easy_email_types_core",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/easy_email_types_core.git",
+                "reference": "fcbf5253f35f16e94dc92e6fd6b35e6f620effe5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://git.drupalcode.org/api/v4/projects/project%2Feasy_email_types_core/repository/archive.zip?sha=fcbf5253f35f16e94dc92e6fd6b35e6f620effe5",
+                "reference": "fcbf5253f35f16e94dc92e6fd6b35e6f620effe5",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11",
+                "drupal/easy_email": "^3.0.2",
+                "drupal/easy_email_text_format": "^1"
+            },
+            "type": "drupal-recipe",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Easy Email templates that replicate and override the content of emails sent by Drupal core with HTML-formatted versions.",
+            "homepage": "https://www.drupal.org/project/easy_email_types_core",
+            "keywords": [
+                "drupal"
+            ],
+            "support": {
+                "issues": "https://www.drupal.org/project/issues/easy_email_types_core",
+                "source": "https://git.drupalcode.org/project/easy_email_types_core"
+            },
+            "time": "2024-11-22T14:11:05+00:00"
+        },
+        {
+            "name": "drupal/easy_email_types_default",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/easy_email_types_default.git",
+                "reference": "edad52fa8dd7d14b7dbd01e5da250b9d79f20246"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://git.drupalcode.org/api/v4/projects/project%2Feasy_email_types_default/repository/archive.zip?sha=edad52fa8dd7d14b7dbd01e5da250b9d79f20246",
+                "reference": "edad52fa8dd7d14b7dbd01e5da250b9d79f20246",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11",
+                "drupal/easy_email": "^3.0.2",
+                "drupal/easy_email_text_format": "^1.0.2"
+            },
+            "type": "drupal-recipe",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "A default Easy Email template configured to override all emails sent from the site.",
+            "homepage": "https://www.drupal.org/project/easy_email_types_default",
+            "keywords": [
+                "drupal"
+            ],
+            "support": {
+                "issues": "https://www.drupal.org/project/issues/easy_email_types_default",
+                "source": "https://git.drupalcode.org/project/easy_email_types_default"
+            },
+            "time": "2024-11-22T14:16:50+00:00"
+        },
+        {
             "name": "drupal/entity_print",
             "version": "2.16.0",
             "source": {
@@ -4208,6 +4490,163 @@
             ]
         },
         {
+            "name": "drupal/jquery_ui",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/jquery_ui.git",
+                "reference": "8.x-1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/jquery_ui-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "3f893843ec30fed18fa1b0cb326e51880b0cb686"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.7",
+                    "datestamp": "1717002098",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bnjmnm",
+                    "homepage": "https://www.drupal.org/user/2369194"
+                },
+                {
+                    "name": "jjeff",
+                    "homepage": "https://www.drupal.org/user/17190"
+                },
+                {
+                    "name": "lauriii",
+                    "homepage": "https://www.drupal.org/user/1078742"
+                },
+                {
+                    "name": "litwol",
+                    "homepage": "https://www.drupal.org/user/78134"
+                },
+                {
+                    "name": "mfb",
+                    "homepage": "https://www.drupal.org/user/12302"
+                },
+                {
+                    "name": "mfer",
+                    "homepage": "https://www.drupal.org/user/25701"
+                },
+                {
+                    "name": "mikelutz",
+                    "homepage": "https://www.drupal.org/user/2972409"
+                },
+                {
+                    "name": "nod_",
+                    "homepage": "https://www.drupal.org/user/598310"
+                },
+                {
+                    "name": "phenaproxima",
+                    "homepage": "https://www.drupal.org/user/205645"
+                },
+                {
+                    "name": "RobLoach",
+                    "homepage": "https://www.drupal.org/user/61114"
+                },
+                {
+                    "name": "sun",
+                    "homepage": "https://www.drupal.org/user/54136"
+                },
+                {
+                    "name": "webchick",
+                    "homepage": "https://www.drupal.org/user/24967"
+                },
+                {
+                    "name": "Wim Leers",
+                    "homepage": "https://www.drupal.org/user/99777"
+                },
+                {
+                    "name": "zrpnr",
+                    "homepage": "https://www.drupal.org/user/1448368"
+                }
+            ],
+            "description": "Provides jQuery UI library.",
+            "homepage": "https://www.drupal.org/project/jquery_ui",
+            "support": {
+                "source": "https://git.drupalcode.org/project/jquery_ui"
+            }
+        },
+        {
+            "name": "drupal/jquery_ui_resizable",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/jquery_ui_resizable.git",
+                "reference": "2.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/jquery_ui_resizable-2.1.0.zip",
+                "reference": "2.1.0",
+                "shasum": "f1f15c5fe01f11e5348d502e2df836d0c492f507"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10 || ^11",
+                "drupal/jquery_ui": "^1.7"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.0",
+                    "datestamp": "1717031358",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bnjmnm",
+                    "homepage": "https://www.drupal.org/user/2369194"
+                },
+                {
+                    "name": "lauriii",
+                    "homepage": "https://www.drupal.org/user/1078742"
+                },
+                {
+                    "name": "nod_",
+                    "homepage": "https://www.drupal.org/user/598310"
+                },
+                {
+                    "name": "phenaproxima",
+                    "homepage": "https://www.drupal.org/user/205645"
+                },
+                {
+                    "name": "zrpnr",
+                    "homepage": "https://www.drupal.org/user/1448368"
+                }
+            ],
+            "description": "Provides jQuery UI Resizable library.",
+            "homepage": "https://www.drupal.org/project/jquery_ui_resizable",
+            "support": {
+                "source": "https://git.drupalcode.org/project/jquery_ui_resizable"
+            }
+        },
+        {
             "name": "drupal/key",
             "version": "1.20.0",
             "source": {
@@ -4490,17 +4929,27 @@
             }
         },
         {
-            "name": "drupal/mailer_transport",
-            "version": "1.6.1",
-            "require": {
-                "drupal/core": "^10.3 || ^11",
-                "drupal/symfony_mailer": "^1"
+            "name": "drupal/mailsystem",
+            "version": "4.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/mailsystem.git",
+                "reference": "8.x-4.5"
             },
-            "type": "metapackage",
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/mailsystem-8.x-4.5.zip",
+                "reference": "8.x-4.5",
+                "shasum": "e52a814a87b343ab69f8d8ef462a9873c1d01158"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10.1 || ^11"
+            },
+            "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.6.1",
-                    "datestamp": "1749109091",
+                    "version": "8.x-4.5",
+                    "datestamp": "1723379369",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4513,14 +4962,50 @@
             ],
             "authors": [
                 {
-                    "name": "adamps",
-                    "homepage": "https://www.drupal.org/user/2650563"
+                    "name": "berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "emartoni",
+                    "homepage": "https://www.drupal.org/user/3225331"
+                },
+                {
+                    "name": "joseph.olstad",
+                    "homepage": "https://www.drupal.org/user/1321830"
+                },
+                {
+                    "name": "les lim",
+                    "homepage": "https://www.drupal.org/user/84263"
+                },
+                {
+                    "name": "manuel garcia",
+                    "homepage": "https://www.drupal.org/user/213194"
+                },
+                {
+                    "name": "miro_dietiker",
+                    "homepage": "https://www.drupal.org/user/227761"
+                },
+                {
+                    "name": "Nafes",
+                    "homepage": "https://www.drupal.org/user/2489926"
+                },
+                {
+                    "name": "pillarsdotnet",
+                    "homepage": "https://www.drupal.org/user/36148"
+                },
+                {
+                    "name": "renatog",
+                    "homepage": "https://www.drupal.org/user/3326031"
+                },
+                {
+                    "name": "tr",
+                    "homepage": "https://www.drupal.org/user/202830"
                 }
             ],
-            "description": "Placeholder to support upgrade to v2.x",
-            "homepage": "https://www.drupal.org/project/symfony_mailer",
+            "description": "Mail System",
+            "homepage": "https://www.drupal.org/project/mailsystem",
             "support": {
-                "source": "https://git.drupalcode.org/project/symfony_mailer"
+                "source": "https://git.drupalcode.org/project/mailsystem"
             }
         },
         {
@@ -5761,39 +6246,34 @@
             }
         },
         {
-            "name": "drupal/symfony_mailer",
-            "version": "1.6.1",
+            "name": "drupal/symfony_mailer_lite",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/project/symfony_mailer.git",
-                "reference": "1.6.1"
+                "url": "https://git.drupalcode.org/project/symfony_mailer_lite.git",
+                "reference": "2.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/symfony_mailer-1.6.1.zip",
-                "reference": "1.6.1",
-                "shasum": "254b9b6177c83930599d2d0216d40c57f093818a"
+                "url": "https://ftp.drupal.org/files/projects/symfony_mailer_lite-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "912b2ca91b4cbdd3164676b27a5cfdb157e8240f"
             },
             "require": {
-                "drupal/core": "^10.3 || ^11",
-                "drupal/mailer_transport": "*",
+                "drupal/core": "^10.1 || ^11",
+                "drupal/mailsystem": "^4.4",
                 "html2text/html2text": "^4.0.1",
-                "symfony/mailer": "^6.0 || ^7.0",
+                "symfony/mailer": "^6.4 || ^7.1",
                 "tijsverkoyen/css-to-inline-styles": "^2.2"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.6.1",
-                    "datestamp": "1749109091",
+                    "version": "2.0.2",
+                    "datestamp": "1732721047",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^11"
                     }
                 }
             },
@@ -5803,14 +6283,14 @@
             ],
             "authors": [
                 {
-                    "name": "adamps",
-                    "homepage": "https://www.drupal.org/user/2650563"
+                    "name": "zengenuity",
+                    "homepage": "https://www.drupal.org/user/326925"
                 }
             ],
-            "description": "Symfony Mailer",
-            "homepage": "https://www.drupal.org/project/symfony_mailer",
+            "description": "Drupal Symfony Mailer Lite",
+            "homepage": "https://www.drupal.org/project/symfony_mailer_lite",
             "support": {
-                "source": "https://git.drupalcode.org/project/symfony_mailer"
+                "source": "https://git.drupalcode.org/project/symfony_mailer_lite"
             }
         },
         {
