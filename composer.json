@@ -38,6 +38,7 @@
         "drupal/core-composer-scaffold": "^11",
         "drupal/core-project-message": "^11",
         "drupal/core-recommended": "^11",
+        "drupal/custom_book_block": "^2.0",
         "drupal/drupal_cms_search": "^1.1",
         "drupal/dsfr": "2.1.x-dev@dev",
         "drupal/dsfr_core": "2.1.x-dev@dev",

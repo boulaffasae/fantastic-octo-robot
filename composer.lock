@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "223203fc1d34c542316376ec578b9af1",
+    "content-hash": "04e50d9e30d86b32ee4da00b4c1e4dc5",
     "packages": [
         {
             "name": "algolia/places",
@@ -3161,6 +3161,58 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/ctools",
                 "issues": "https://www.drupal.org/project/issues/ctools"
+            }
+        },
+        {
+            "name": "drupal/custom_book_block",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/custom_book_block.git",
+                "reference": "2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/custom_book_block-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "0e40b0146a816dff6bef46e6d14c94e7c58437b8"
+            },
+            "require": {
+                "drupal/book": "^2.0",
+                "drupal/core": "^10.3 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0",
+                    "datestamp": "1738151364",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Martin Anderson-Clutz (mandclu)",
+                    "homepage": "https://www.drupal.org/u/mandclu",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Simon Bäse (simonbaese)",
+                    "homepage": "https://www.drupal.org/u/simonbaese",
+                    "role": "Co-Maintainer"
+                }
+            ],
+            "description": "A more flexible book navigation menu.",
+            "homepage": "https://www.drupal.org/project/custom_book_block",
+            "support": {
+                "source": "https://git.drupalcode.org/project/custom_book_block",
+                "issues": "https://www.drupal.org/project/issues/custom_book_block"
             }
         },
         {
