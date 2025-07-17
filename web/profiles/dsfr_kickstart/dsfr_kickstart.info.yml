@@ -50,8 +50,8 @@ dependencies:
   - drupal:contextual
   # Contrib.
   - coffee:coffee
-  - config_filter:config_filter
-  - config_split:config_split
+#  - config_filter:config_filter
+#  - config_split:config_split
   - paragraphs:paragraphs
   - layout_paragraphs:layout_paragraphs
 #  - simple_styleguide:simple_styleguide
@@ -67,10 +67,10 @@ dependencies:
   - gin_toolbar:gin_toolbar
 #  - gin_login:gin_login
 #  - symfony_mailer:symfony_mailer
-  - symfony_mailer_lite:symfony_mailer_lite
-  - easy_email:easy_email
+#  - symfony_mailer_lite:symfony_mailer_lite
+#  - easy_email:easy_email
 #  - easy_email_theme:easy_email_theme
-  - easy_email_override:easy_email_override
+#  - easy_email_override:easy_email_override
   - svg_image_field:svg_image_field
   - block_field:block_field
   - nbsp:nbsp
@@ -83,10 +83,10 @@ dependencies:
   - search_api_attachments:search_api_attachments
 recipes:
   - drupal_cms_search
-  - easy_email_express
+# - easy_email_express
 
 themes:
   - claro
   - gin
   - dsfr
-  - easy_email_theme
+#  - easy_email_theme

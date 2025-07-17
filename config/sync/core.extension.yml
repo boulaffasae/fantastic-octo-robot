@@ -15,7 +15,6 @@ module:
   coffee: 0
   comment: 0
   config: 0
-  config_split: 0
   contact: 0
   contextual: 0
   cool_editor_tabs: 0
@@ -26,8 +25,6 @@ module:
   dsfr_twig_components: 0
   dynamic_page_cache: 0
   easy_breadcrumb: 0
-  easy_email: 0
-  easy_email_override: 0
   editor: 0
   entity_reference_revisions: 0
   field: 0
@@ -44,7 +41,6 @@ module:
   layout_discovery: 0
   link: 0
   locale: 0
-  mailsystem: 0
   media: 0
   media_library: 0
   menu_link_content: 0
@@ -66,7 +62,6 @@ module:
   style_selector: 0
   svg_image_field: 0
   svg_image_field_media_bundle: 0
-  symfony_mailer_lite: 0
   system: 0
   tacjs: 0
   taxonomy: 0
@@ -89,5 +84,4 @@ theme:
   gin: 0
   stable9: 0
   dsfr: 0
-  easy_email_theme: 0
 profile: minimal
