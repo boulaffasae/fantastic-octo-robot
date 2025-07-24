@@ -95,6 +95,33 @@ services:
     volumes:
     - ./drupal:/var/www/html
 
+  tika:
+    image: logicalspark/docker-tikaserver
+    container_name: "${PROJECT_NAME}_tika"
+#    ports:
+#    - "9998:9998"
+
+#  ollama:
+#    image: ollama/ollama
+#    container_name: "${PROJECT_NAME}_ollama"
+#    depends_on:
+#    - php
+#    labels:
+#    - "traefik.http.routers.${PROJECT_NAME}_ollama.rule=Host(`${PROJECT_BASE_URL}`)"
+  typesense:
+#    image: typesense/typesense:28.0
+#    image: typesense/typesense:29.0.rc26
+    image: typesense/typesense:29.0
+    container_name: "${PROJECT_NAME}_typesense"
+    depends_on:
+    - php
+    restart: on-failure
+    ports:
+      - "8108:8108"
+    volumes:
+      - ./typesense-data:/data
+    command: '--data-dir /data --api-key=xyz --enable-cors'
+
 ```
 Modifying the .env file to use PHP 8.3 instead of PHP 8.4
 ```
