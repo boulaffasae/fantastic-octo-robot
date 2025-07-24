@@ -39,8 +39,8 @@ This profile has no special requirements outside of Composer requirements.
 ## Installation
 
 ```
-git clone https://git.drupalcode.org/project/dsfr_kickstart.git my_website
-cd my_webite
+git clone https://git.drupalcode.org/project/dsfr_kickstart.git drupal
+cd drupal
 composer install
 cp web/sites/default/default.settings.php web/sites/default/settings.php
 
@@ -76,7 +76,7 @@ Wodby Docker-based Drupal stack https://github.com/wodby/docker4drupal
 ```
 git clone https://github.com/wodby/docker4drupal.git
 cd docker4drupal
-git clone https://git.drupalcode.org/project/dsfr_kickstart.git my_website
+git clone https://git.drupalcode.org/project/dsfr_kickstart.git drupal
 rm compose.override.yml
 ```
 create a new compose.override.yml file with the following content:
@@ -85,16 +85,21 @@ create a new compose.override.yml file with the following content:
 services:
   php:
     volumes:
-    - ./my_website:/var/www/html
+    - ./drupal:/var/www/html
 
   crond:
     volumes:
-    - ./my_website:/var/www/html
+    - ./drupal:/var/www/html
 
   nginx:
     volumes:
-    - ./my_website:/var/www/html
+    - ./drupal:/var/www/html
 
+```
+Modifying the .env file to use PHP 8.3 instead of PHP 8.4
+```
+#PHP_TAG=8.4-dev-4.69.2
+PHP_TAG=8.3-dev-4.69.2
 ```
 launch the docker containers and install the Drupal instance from the php container
 ```
@@ -102,7 +107,7 @@ docker compose up -d
 ```
 enter the PHP container of the stack and launch the installation of the DSFR Kickstart distribution
 ```
-docker exec -ti my_drupal10_project_php bash
+docker exec -ti my_drupal11_project_php bash
 composer install
 cp web/sites/default/default.settings.php web/sites/default/settings.php
 chmod ugo+w web/sites/default/files
