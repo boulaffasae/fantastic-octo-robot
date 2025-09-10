@@ -42,6 +42,7 @@
         "drupal/easy_email_override": "^3.0",
         "drupal/easy_email_theme": "^1.0",
         "drupal/gin": "^5.0",
+        "drupal/ldap": "^4.12",
         "drupal/mailsystem": "^4.5",
         "drupal/metatag": "^2.1",
         "drupal/nbsp": "^3.0",
