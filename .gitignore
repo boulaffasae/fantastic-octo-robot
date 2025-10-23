@@ -12,6 +12,7 @@ docker-compose.yml
 
 # Ignore sensitive information
 /web/sites/*/settings.php
+/data
 
 # Ignore Drupal's file directory
 /web/sites/*/files/*
