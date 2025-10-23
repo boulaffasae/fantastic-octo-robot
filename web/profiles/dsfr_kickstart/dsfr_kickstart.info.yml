@@ -81,6 +81,7 @@ dependencies:
   - webform:webform
   - publication_date:publication_date
   - search_api_attachments:search_api_attachments
+  - tacjs:tacjs
 recipes:
   - drupal_cms_search
 # - easy_email_express
