@@ -19,13 +19,18 @@
         }
     ],
     "require": {
+        "choices/choices": "^11.0",
         "composer/installers": "^2.3",
         "drupal/admin_theme": "^1.1",
         "drupal/ai": "^1.1",
+        "drupal/ai_agents": "^1.2",
         "drupal/ai_api_explorer": "^1.1",
         "drupal/ai_ckeditor": "^1.1",
         "drupal/ai_media_image": "^1.0@alpha",
+        "drupal/ai_provider_anthropic": "^1.2",
+        "drupal/ai_provider_litellm": "^1.2",
         "drupal/ai_provider_openai": "^1.1",
+        "drupal/ai_provider_vllm": "^1.0@alpha",
         "drupal/book": "^2.0",
         "drupal/cancel_button": "^1.5",
         "drupal/ckeditor5_fullscreen": "^1.0",
@@ -52,11 +57,12 @@
         "drupal/nbsp": "^3.0",
         "drupal/pathauto": "^1.13",
         "drupal/publication_date": "^3.0",
+        "drupal/redis": "^1.10",
         "drupal/save_edit": "^2.1",
         "drupal/search_api_attachments": "^10.0",
         "drupal/search_api_autocomplete": "^1.10",
         "drupal/search_api_exclude": "^2.0",
-        "drupal/search_api_typesense": "^1.0",
+        "drupal/search_api_typesense": "1.0.x-dev@dev",
         "drupal/simple_search_form": "^1.6",
         "drupal/svg_image_field": "^2.3",
         "drupal/symfony_mailer_lite": "^2.0",
@@ -66,7 +72,8 @@
         "drupal/wpf": "^1.2",
         "drush/drush": "^13.6",
         "npm-asset/tarteaucitronjs": "1.21.0",
-        "oomphinc/composer-installers-extender": "^2.0"
+        "oomphinc/composer-installers-extender": "^2.0",
+        "wikimedia/composer-merge-plugin": "^2.1"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -83,7 +90,8 @@
             "oomphinc/composer-installers-extender": true,
             "php-http/discovery": true,
             "php-tuf/composer-integration": true,
-            "phpstan/extension-installer": true
+            "phpstan/extension-installer": true,
+            "wikimedia/composer-merge-plugin": true
         },
         "sort-packages": true
     },
@@ -92,6 +100,11 @@
             "locations": {
                 "web-root": "web/"
             }
+        },
+        "merge-plugin": {
+            "include": [
+                "web/modules/contrib/webform/composer.libraries.json"
+            ]
         },
         "installer-types": ["npm-asset", "bower-asset"],
         "installer-paths": {
