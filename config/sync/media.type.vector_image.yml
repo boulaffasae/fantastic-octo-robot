@@ -8,7 +8,7 @@ _core:
   default_config_hash: v5c8O8vxfxo-4NPpEVij5v6ldfxskwVecrIZqCA-QyI
 id: vector_image
 label: 'Vector Image'
-description: 'A locally hosted Scalable Vector Graphics file.'
+description: 'Fichier SVG (Scalable Vector Graphics) hébergé localement.'
 source: svg
 queue_thumbnail_downloads: false
 new_revision: true

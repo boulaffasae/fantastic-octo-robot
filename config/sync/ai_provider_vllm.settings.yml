@@ -1,0 +1,4 @@
+api_key: albert
+base_url: 'https://albert.api.etalab.gouv.fr/v1'
+model: albert-code
+model_type: chat

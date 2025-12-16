@@ -3,6 +3,15 @@ _core:
 langcode: fr
 module:
   admin_theme: 0
+  ai: 0
+  ai_agents: 0
+  ai_api_explorer: 0
+  ai_assistant_api: 0
+  ai_chatbot: 0
+  ai_provider_anthropic: 0
+  ai_provider_litellm: 0
+  ai_provider_openai: 0
+  ai_provider_vllm: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -36,6 +45,7 @@ module:
   image: 0
   jquery_ui: 0
   jquery_ui_resizable: 0
+  key: 0
   language: 0
   layout_builder: 0
   layout_discovery: 0
@@ -46,6 +56,7 @@ module:
   menu_link_content: 0
   menu_ui: 0
   metatag: 0
+  modeler_api: 0
   mysql: 0
   nbsp: 0
   node: 0
@@ -54,11 +65,13 @@ module:
   path: 0
   path_alias: 0
   phpass: 0
+  redis: 0
   responsive_image: 0
   save_edit: 0
   search_api: 0
   search_api_attachments: 0
   search_api_db: 0
+  search_api_typesense: 0
   style_selector: 0
   svg_image_field: 0
   svg_image_field_media_bundle: 0
