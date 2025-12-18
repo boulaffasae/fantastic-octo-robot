@@ -67,8 +67,6 @@
         "drupal/svg_image_field": "^2.3",
         "drupal/symfony_mailer_lite": "^2.0",
         "drupal/tacjs": "^7.0",
-        "drupal/webform": "^6.3@beta",
-        "drupal/webform_views": "^5.5",
         "drupal/wpf": "^1.2",
         "drush/drush": "^13.6",
         "npm-asset/tarteaucitronjs": "1.21.0",
