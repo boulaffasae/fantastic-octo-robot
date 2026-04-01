@@ -5,6 +5,6 @@ dependencies:
     - user
 id: user.register
 label: "S'inscrire"
-description: ''
+description: null
 targetEntityType: user
 cache: true

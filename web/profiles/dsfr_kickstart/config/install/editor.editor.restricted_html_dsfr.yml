@@ -22,6 +22,7 @@ settings:
       properties:
         reversed: false
         startIndex: false
+        styles: false
       multiBlock: false
 image_upload:
   status: false

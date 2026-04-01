@@ -1,0 +1,23 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - search_api_typesense
+id: typesense
+name: Typesense
+description: ''
+backend: search_api_typesense
+backend_config:
+  nodes:
+    -
+      host: typesense
+      port: '8108'
+      protocol: http
+  admin_api_key: xyz
+  nearest_node_enable: 0
+  nearest_node: null
+  public_endpoint:
+    host: localhost
+    port: ''
+    protocol: http
+  retry_interval_seconds: '2'

@@ -41,7 +41,7 @@ dependencies:
   - drupal:taxonomy
   - drupal:telephone
   - drupal:text
-  - drupal:toolbar
+#  - drupal:toolbar
   - drupal:user
   - drupal:views
   - drupal:views_ui
@@ -64,7 +64,7 @@ dependencies:
   - dsfr_menu:dsfr_menu
   - dsfr_paragraph:dsfr_paragraph
   - dsfr_twig_components:dsfr_twig_components
-  - gin_toolbar:gin_toolbar
+#  - gin_toolbar:gin_toolbar
 #  - gin_login:gin_login
 #  - symfony_mailer:symfony_mailer
 #  - symfony_mailer_lite:symfony_mailer_lite
@@ -82,6 +82,10 @@ dependencies:
   - publication_date:publication_date
   - search_api_attachments:search_api_attachments
   - tacjs:tacjs
+  - key:key
+  - ai:ai
+  - ai_agents:ai_agents
+  - search_api_typesense:search_api_typesense
 recipes:
   - drupal_cms_search
 # - easy_email_express
