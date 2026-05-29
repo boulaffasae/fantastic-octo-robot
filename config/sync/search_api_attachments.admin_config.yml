@@ -4,6 +4,7 @@ extraction_method: tika_server_extractor
 tika_extractor_configuration:
   java_path: java
   tika_path: ''
+  tika_config_path: ''
 tika_server_extractor_configuration:
   scheme: http
   host: tika
