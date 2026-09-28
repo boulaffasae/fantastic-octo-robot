@@ -1,0 +1,5 @@
+name: GraphQL API
+type: module
+description: Provides candidate certification autocomplete using the VAE GraphQL API.
+package: Custom
+core_version_requirement: ^11

@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * @file
+ * Theme hooks for certification search results.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function graphql_api_theme($existing, $type, $theme, $path): array {
+  return [
+    'graphql_api_certification' => [
+      'variables' => ['certification' => [], 'code' => '', 'expiration' => '', 'summary' => NULL, 'rncp_url' => '', 'back_url' => ''],
+      'template' => 'graphql-api-certification',
+    ],
+    'input__graphql_search_submit' => [
+      'base hook' => 'input',
+      'render element' => 'element',
+      'template' => 'input--graphql-search-submit',
+    ],
+    'graphql_api_results' => [
+      'variables' => ['heading' => '', 'total' => 0, 'certifications' => [], 'pager' => NULL, 'empty' => ''],
+      'template' => 'graphql-api-results',
+    ],
+    'pager__graphql_search' => [
+      'base hook' => 'pager',
+      'render element' => 'pager',
+      'template' => 'pager--graphql-search',
+    ],
+  ];
+}

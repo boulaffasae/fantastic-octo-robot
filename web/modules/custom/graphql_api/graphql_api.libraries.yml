@@ -1,0 +1,19 @@
+autocomplete:
+  css:
+    component:
+      css/autocomplete.css: {}
+  js:
+    js/autocomplete.js: {}
+  dependencies:
+    - core/drupal.autocomplete
+    - core/once
+
+search_results:
+  css:
+    component:
+      css/search-results.css: {}
+
+certification:
+  css:
+    component:
+      css/certification.css: {}

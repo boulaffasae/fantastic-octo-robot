@@ -1,0 +1,28 @@
+/* Layout additions to the theme's DSFR components; no utility framework. */
+.s-certification { padding-bottom: 2rem; }
+.s-certification__summary > .fr-text--lead { margin-bottom: 1.5rem; }
+.s-certification__facts { display: grid; grid-template-columns: repeat(2, minmax(0, 17.625rem)); gap: 1.5rem; margin-top: 1.5rem; }
+.s-certification__facts .fr-tile { width: 17.625rem; max-width: 100%; height: 100%; align-self: stretch; }
+.s-certification__facts .fr-tile__content { padding: 0; }
+.s-certification__facts .fr-tile__header { display: flex; align-items: center; justify-content: center; color: var(--text-title-blue-france); }
+.s-certification__facts .fr-tile__header span::before { --icon-size: 2.5rem; }
+.s-certification .s-certification__tabs { margin-top: 3rem; }
+.s-certification .fr-tabs__panel > h2 { font-size: 1.25rem; line-height: 1.75rem; margin-bottom: 1.5rem; }
+.s-certification .fr-tabs__panel > h3 { font-size: 1rem; line-height: 1.5rem; margin-bottom: .5rem; }
+.s-certification__text { white-space: pre-line; overflow-wrap: anywhere; }
+.s-certification__jury-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1.5rem; margin-bottom: 1.5rem; }
+.s-certification__jury-row > span:first-child { flex: 0 1 25rem; }
+.s-certification__jury-row .fr-tag { margin: 0 .5rem .5rem 0; }
+.s-certification__notice { display: flex; gap: .5rem; font-style: italic; }
+.s-certification__notice span { color: var(--text-mention-grey); }
+.s-certification__documents { padding: 1rem; margin-bottom: 1.5rem; background: var(--background-alt-blue-france); }
+.s-certification__download { max-width: 24rem; margin-bottom: 1.5rem; }
+.s-certification__resources { border-top: 1px solid var(--border-default-grey); margin-top: 3rem; padding-top: 2rem; }
+.s-certification__resources .fr-card { height: 100%; }
+@media (max-width: 47.99em) {
+  .s-certification__facts { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .s-certification__facts .fr-tile { width: 100%; }
+  .s-certification .s-certification__tabs { margin-top: 2rem; }
+  .s-certification__jury-row { flex-direction: column; }
+  .s-certification__jury-row > span:first-child { flex-basis: auto; }
+}

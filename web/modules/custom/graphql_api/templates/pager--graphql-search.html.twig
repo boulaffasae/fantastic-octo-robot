@@ -1,0 +1,23 @@
+{% if items %}
+  <nav role="navigation" class="fr-pagination" aria-label="{{ 'Pagination'|t }}">
+    <ul class="fr-pagination__list">
+      {% for key, control in {
+        first: {modifier: 'first', label: 'Première page'|t},
+        previous: {modifier: 'prev', label: 'Page précédente'|t}
+      } %}
+        <li><a class="fr-pagination__link fr-pagination__link--{{ control.modifier }}{{ key == 'previous' ? ' fr-pagination__link--lg-label' : '' }}" {% if items[key] %}href="{{ items[key].href }}"{% else %}aria-disabled="true" role="link"{% endif %}>{{ control.label }}</a></li>
+      {% endfor %}
+      {% if ellipses.previous %}<li><span class="fr-pagination__link">…</span></li>{% endif %}
+      {% for number, item in items.pages %}
+        <li><a href="{{ item.href }}" class="fr-pagination__link" title="{{ 'Page @number'|t({'@number': number}) }}"{% if current == number %} aria-current="page"{% endif %}>{{ number }}</a></li>
+      {% endfor %}
+      {% if ellipses.next %}<li><span class="fr-pagination__link">…</span></li>{% endif %}
+      {% for key, control in {
+        next: {modifier: 'next', label: 'Page suivante'|t},
+        last: {modifier: 'last', label: 'Dernière page'|t}
+      } %}
+        <li><a class="fr-pagination__link fr-pagination__link--{{ control.modifier }}{{ key == 'next' ? ' fr-pagination__link--lg-label' : '' }}" {% if items[key] %}href="{{ items[key].href }}"{% else %}aria-disabled="true" role="link"{% endif %}>{{ control.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+{% endif %}

@@ -1,0 +1,29 @@
+<div class="s-cert-results">
+  <h4 class="s-cert-results__heading">{{ heading }}</h4>
+  <p class="s-cert-results__count">{{ 'Nombre de diplômes disponibles : @count'|t({'@count': total}) }}</p>
+  <div class="s-cert-results__list">
+    {% for certification in certifications %}
+      <div class="fr-card fr-enlarge-link">
+        <div class="fr-card__body">
+          <div class="fr-card__content">
+            <h3 class="fr-card__title"><a href="{{ certification.url }}">{{ certification.label }}</a></h3>
+            {% if certification.authority %}
+              <p class="fr-card__desc">{{ certification.authority }}</p>
+            {% endif %}
+            <div class="fr-card__start">
+              <p class="fr-card__detail s-cert-results__detail">
+                <span><span class="fr-icon-award-fill s-cert-results__badge" aria-hidden="true"></span>RNCP {{ certification.codeRncp }}</span>
+              </p>
+            </div>
+            <div class="fr-card__end"></div>
+          </div>
+        </div>
+      </div>
+    {% else %}
+      <p>{{ empty }}</p>
+    {% endfor %}
+  </div>
+  {% if pager %}
+    <div class="s-cert-results__pagination">{{ pager }}</div>
+  {% endif %}
+</div>

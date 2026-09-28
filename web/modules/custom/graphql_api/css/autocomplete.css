@@ -1,0 +1,85 @@
+/* Hide Drupal's idle and loading throbbers for certification search. */
+.js input.form-autocomplete.s-cert__input,
+.js input.form-autocomplete.s-cert__input.ui-autocomplete-loading,
+.js input.form-autocomplete.s-cert__input.is-autocompleting {
+  background-image: none;
+}
+
+/* jQuery UI positions and sizes the dropdown against its input. */
+.s-cert__dropdown.ui-autocomplete {
+  position: absolute;
+  z-index: 10;
+  box-sizing: border-box;
+  max-height: 500px;
+  margin: 0;
+  padding: 8px 16px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  list-style: none;
+  white-space: normal;
+  color: var(--text-default-grey, #3a3a3a);
+  background: #fff;
+  border: 1px solid #cecece;
+  border-radius: 0;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 18, 0.16);
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.s-cert__dropdown .s-cert__item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.s-cert__dropdown .s-cert__option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 8px 0;
+  border: 0;
+  white-space: normal;
+  cursor: pointer;
+  user-select: none;
+}
+
+.s-cert__dropdown .s-cert__option.ui-state-active {
+  margin: 0;
+  color: inherit;
+  background: var(--background-default-grey-hover, #f6f6f6);
+  border: 0;
+}
+
+.s-cert__icon {
+  flex-shrink: 0;
+  align-self: center;
+  padding: 0 4px;
+  background: #f6f6f6;
+}
+
+.s-cert__details {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.s-cert__code {
+  display: block;
+  color: var(--text-mention-grey, #666);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.s-cert__dropdown .s-cert__item--all-results {
+  margin-top: 4px;
+  border-top: 1px solid var(--border-default-grey, #ddd);
+}
+
+.s-cert__item--all-results .s-cert__option {
+  padding-top: 12px;
+  overflow-wrap: anywhere;
+}
+
+.s-cert__link {
+  color: var(--text-action-high-blue-france, #000091);
+}

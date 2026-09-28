@@ -1,0 +1,117 @@
+{# The page title is rendered once by Drupal's page-title block. DSFR owns tabs and accordions. #}
+{% set info = certification.additionalInfo %}
+<div class="s-certification">
+  <header class="s-certification__summary">
+    {% if certification.certificationAuthorityStructure.label %}<p class="fr-text--lead">{{ certification.certificationAuthorityStructure.label }}</p>{% endif %}
+    <p class="fr-tag">RNCP {{ code }}</p>
+    <div class="s-certification__facts">
+      <div class="fr-tile fr-tile--horizontal fr-tile--sm">
+        <div class="fr-tile__body"><div class="fr-tile__content">
+          <h2 class="fr-tile__title">Niveau {{ certification.level }}</h2>
+          <p class="fr-tile__desc">{{ certification.typeDiplome }}</p>
+        </div></div>
+        <div class="fr-tile__header"><span class="fr-icon-information-line" aria-hidden="true"></span></div>
+      </div>
+      {% if expiration %}
+        <div class="fr-tile fr-tile--horizontal fr-tile--sm">
+          <div class="fr-tile__body"><div class="fr-tile__content">
+            <h2 class="fr-tile__title">Date d'expiration</h2><p class="fr-tile__desc">{{ expiration }}</p>
+          </div></div>
+          <div class="fr-tile__header"><span class="fr-icon-calendar-line" aria-hidden="true"></span></div>
+        </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="fr-tabs s-certification__tabs">
+    <ul class="fr-tabs__list" role="tablist" aria-label="Informations sur le diplôme">
+      {% for key, label in {'metier': 'Métier', 'competences': 'Blocs de compétences', 'prerequis': 'Prérequis', 'jury': 'Jury', 'documentation': 'Documentation'} %}
+        <li role="presentation"><button id="cert-tab-{{ key }}" class="fr-tabs__tab" type="button" role="tab" tabindex="{{ loop.first ? '0' : '-1' }}" aria-selected="{{ loop.first ? 'true' : 'false' }}" aria-controls="cert-panel-{{ key }}">{{ label }}</button></li>
+      {% endfor %}
+    </ul>
+    <section id="cert-panel-metier" class="fr-tabs__panel fr-tabs__panel--selected" role="tabpanel" aria-labelledby="cert-tab-metier" tabindex="0">
+      <h2>Résumé du métier</h2>
+      <div class="s-certification__text fr-mb-6v">{{ summary }}</div>
+      <h2>Activités visées par le diplôme</h2>
+      <p>Chaque diplôme correspond à un Référentiel d’Activités et de Compétences (REAC). Ce document liste les tâches et compétences attendues pour obtenir le diplôme.</p>
+      <h3>Pourquoi c'est important ?</h3>
+      <p>Avant de vous lancer, comparez les activités que vous avez exercées avec celles demandées pour le diplôme visé. C'est la première étape pour voir si votre projet de parcours de VAE est possible.</p>
+      <p>Pour comparer les activités avec vos expériences : <a class="fr-link" href="{{ rncp_url }}" target="_blank" rel="noopener noreferrer">Consulter les activités de ce diplôme sur le RNCP</a></p>
+    </section>
+    <section id="cert-panel-competences" class="fr-tabs__panel" role="tabpanel" aria-labelledby="cert-tab-competences" tabindex="0">
+      <p>Chaque bloc de compétences constitue une partie de votre diplôme qui peut être validée indépendamment des autres et reste acquise à vie.</p>
+      <div class="fr-accordions-group">
+        {% for bloc in certification.competenceBlocs %}
+          <section class="fr-accordion">
+            <h2 class="fr-accordion__title"><button class="fr-accordion__btn" type="button" aria-expanded="false" aria-controls="cert-bloc-{{ loop.index }}">{% if bloc.code %}{{ bloc.code }} - {% endif %}{{ bloc.label }}</button></h2>
+            <div class="fr-collapse" id="cert-bloc-{{ loop.index }}">{% for competence in bloc.competences %}<p class="s-certification__text">{{ competence.label }}</p>{% endfor %}</div>
+          </section>
+        {% else %}<p>Aucun bloc de compétences renseigné pour ce diplôme.</p>{% endfor %}
+      </div>
+    </section>
+    <section id="cert-panel-prerequis" class="fr-tabs__panel" role="tabpanel" aria-labelledby="cert-tab-prerequis" tabindex="0">
+      <h2>Prérequis obligatoires</h2>
+      <p>Avant de commencer votre parcours de VAE, il est important de vérifier les prérequis exigés par le certificateur pour le diplôme visé. Ces conditions sont obligatoires. Vous devez justifier de leur détention au moment du passage devant le jury en fin de parcours de VAE.</p>
+      {% if certification.prerequisites %}<ul>{% for prerequisite in certification.prerequisites %}<li>{{ prerequisite.label }}</li>{% endfor %}</ul>
+      {% else %}<p class="s-certification__notice"><span class="fr-icon-info-fill" aria-hidden="true"></span>Il n’y a pas de prérequis obligatoire renseigné pour ce diplôme</p>{% endif %}
+    </section>
+    <section id="cert-panel-jury" class="fr-tabs__panel" role="tabpanel" aria-labelledby="cert-tab-jury" tabindex="0">
+      <h2>Types d'épreuves</h2>
+      {% for field, label in {'juryTypeSoutenanceOrale': 'Soutenance orale du dossier de validation :', 'juryTypeMiseEnSituationProfessionnelle': 'Mise en situation professionnelle :'} %}
+        {% set modality = attribute(certification, field) %}
+        {% if modality %}<div class="s-certification__jury-row"><span>{{ label }}</span><div>
+          {% if modality in ['PRESENTIEL', 'LES_DEUX'] %}<p class="fr-tag">Présentiel</p>{% endif %}
+          {% if modality in ['A_DISTANCE', 'LES_DEUX'] %}<p class="fr-tag">À distance</p>{% endif %}
+        </div></div>{% endif %}
+      {% endfor %}
+      <h2>Estimation des frais de certification</h2>
+      <div class="s-certification__jury-row"><span>Montant à régler au certificateur :</span>
+        {% if certification.juryEstimatedCost is not null %}<p class="fr-tag">{{ certification.juryEstimatedCost }} €</p>
+        {% else %}<span>Les frais de jury n'ont pas été renseignés par le certificateur, rapprochez-vous de celui-ci pour plus d'informations.</span>{% endif %}
+      </div>
+      <h3>Pour comprendre le rôle du certificateur :</h3>
+      <p><a class="fr-link" href="https://vae.gouv.fr/savoir-plus/articles/missions-organisme-certificateur/">Quelles sont les missions d'un organisme certificateur ?</a></p>
+      {% if certification.juryPlace %}<h2>Lieu de passage du jury</h2><p class="s-certification__text">{{ certification.juryPlace }}</p>
+      {% else %}<p class="s-certification__notice"><span class="fr-icon-info-fill" aria-hidden="true"></span>Il n'y a pas de lieu de passage renseigné pour le jury sur ce diplôme.</p>{% endif %}
+      <a class="fr-link" href="https://vae.gouv.fr/savoir-plus/articles/comment-se-deroule-un-jury-vae/">Comment se déroule un jury VAE ?</a>
+    </section>
+    <section id="cert-panel-documentation" class="fr-tabs__panel" role="tabpanel" aria-labelledby="cert-tab-documentation" tabindex="0">
+      <p>Vous trouverez ci-dessous l'ensemble des ressources qui vous seront utiles tout du long de votre parcours. Elles sont mises à disposition par le certificateur.</p>
+      <h2>Documents essentiels</h2>
+      <div class="s-certification__documents">
+        <p>L’étape centrale de tout parcours VAE est la rédaction d’un dossier de validation. C’est un document rédigé par le candidat. Il permet au jury de VAE d’identifier les connaissances et compétences acquises, en lien avec celles exigées par les référentiels du diplôme visé.</p>
+        {% if info.dossierDeValidationTemplate.url %}
+          {{ _self.download(info.dossierDeValidationTemplate, 'Trame du dossier de validation') }}
+        {% endif %}
+        <p class="fr-mb-0"><strong>Besoin d’aide ? Consultez notre article : </strong><a class="fr-link" href="https://vae.gouv.fr/savoir-plus/articles/rediger-dossier-validation/">Comment rédiger son dossier de validation ?</a></p>
+      </div>
+      {% for field, label in {'dossierDeValidationLink': 'Trame du dossier de validation', 'linkToReferential': 'Référentiels d’activités', 'linkToJuryGuide': "Référentiel d'évaluation", 'linkToCorrespondenceTable': 'Tableau des correspondances et dispenses de blocs'} %}
+        {% if attribute(info, field) %}<p><a class="fr-link" href="{{ attribute(info, field) }}" target="_blank" rel="noopener noreferrer">{{ label }}</a></p>{% endif %}
+      {% endfor %}
+      {% if info.additionalDocuments %}<h2>Documents additionnels</h2><div class="fr-grid-row fr-grid-row--gutters">{% for document in info.additionalDocuments %}{% if document.url %}<div class="fr-col-12 fr-col-md-4">{{ _self.download(document, document.name) }}</div>{% endif %}{% endfor %}</div>{% endif %}
+      {% if info.certificationExpertContactDetails %}<h2>Informations complémentaires</h2><p class="s-certification__text">{{ info.certificationExpertContactDetails }}</p><p>{{ info.certificationExpertContactPhone }} {{ info.certificationExpertContactEmail }}</p>{% endif %}
+      {% if info.usefulResources or info.commentsForAAP %}<h2>Ressources complémentaires pour aider au parcours VAE</h2><p class="s-certification__text">{{ info.usefulResources }}</p><p class="s-certification__text">{{ info.commentsForAAP }}</p>{% endif %}
+    </section>
+  </div>
+
+  <section class="s-certification__resources" aria-labelledby="cert-resources-title">
+    <h2 id="cert-resources-title">Ressources utiles</h2>
+    <p>À la recherche de plus d’informations ? Découvrez nos articles de blog pour mieux comprendre, préparer et réussir sa VAE.</p>
+    <div class="fr-grid-row fr-grid-row--gutters">
+      {% set resources = [
+        {slug: 'comment-bien-choisir-son-diplome', title: 'Comment bien choisir son diplôme ?', description: 'Il peut être complexe de choisir le diplôme qui correspond le mieux à son projet. Voici un résumé des questions à se poser pour faire le bon choix.'},
+        {slug: 'quand-faire-une-vae', title: 'Dans quels cas est-il pertinent de faire une VAE ?', description: 'Quels sont les critères pour assurer la réussite de son projet ? Et comment savoir si c’est le bon moment de démarrer ? Voici un aperçu des questions importantes à se poser avant de se lancer.'},
+        {slug: 'financer-son-accompagnement-vae', title: 'Comment financer son parcours de VAE ?', description: 'Découvrez comment financer votre parcours de VAE : CPF, employeur, OPCO, Région, France Travail et associations Transitions Pro.'}
+      ] %}
+      {% for resource in resources %}<div class="fr-col-12 fr-col-md-4"><div class="fr-card fr-enlarge-link"><div class="fr-card__body"><div class="fr-card__content"><h3 class="fr-card__title"><a href="https://vae.gouv.fr/savoir-plus/articles/{{ resource.slug }}/">{{ resource.title }}</a></h3><p class="fr-card__desc">{{ resource.description }}</p></div></div></div></div>{% endfor %}
+    </div>
+  </section>
+  <a class="fr-btn fr-btn--secondary fr-mt-12v" href="{{ back_url }}">Retour</a>
+</div>
+
+{% macro download(document, title) %}
+  <div class="fr-tile fr-tile--download fr-enlarge-link s-certification__download"><div class="fr-tile__body"><div class="fr-tile__content">
+    <h3 class="fr-tile__title"><a href="{{ document.url }}" target="_blank" rel="noopener noreferrer">{{ title }}</a></h3>
+    <p class="fr-tile__detail">{{ document.mimeType == 'application/pdf' ? 'PDF' : document.mimeType }}</p>
+  </div></div></div>
+{% endmacro %}

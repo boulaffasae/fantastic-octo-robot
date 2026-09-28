@@ -1,0 +1,45 @@
+.s-cert-results {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 180px);
+  margin-top: 1.5rem;
+}
+
+.s-cert-results__heading {
+  margin-bottom: 0.25rem;
+}
+
+.s-cert-results__count {
+  margin-top: 0;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+
+.s-cert-results__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.s-cert-results .s-cert-results__detail {
+  margin-top: 0.5rem;
+}
+
+.s-cert-results__badge {
+  display: inline-block;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  color: var(--text-default-success, #18753c);
+}
+
+.s-cert-results__badge::before {
+  --icon-size: 1rem;
+}
+
+.s-cert-results__pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: 0;
+  padding-top: 2rem;
+}

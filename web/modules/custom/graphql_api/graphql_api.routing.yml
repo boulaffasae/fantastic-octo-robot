@@ -1,0 +1,38 @@
+graphql_api.page:
+  path: '/espace-candidat'
+  defaults:
+    _controller: '\Drupal\graphql_api\Controller\CandidateController::content'
+    _title: 'Espace candidat'
+  requirements:
+    _access: 'TRUE'
+
+graphql_api.search:
+  path: '/espace-candidat/recherche'
+  defaults:
+    _controller: '\Drupal\graphql_api\Controller\SearchController::search'
+    _title_callback: '\Drupal\graphql_api\Controller\SearchController::title'
+  requirements:
+    _access: 'TRUE'
+  options:
+    no_cache: TRUE
+
+graphql_api.certification:
+  path: '/certifications/{certification_id}'
+  defaults:
+    _controller: '\Drupal\graphql_api\Controller\CertificationController::content'
+    _title: 'Certification'
+  requirements:
+    _access: 'TRUE'
+    certification_id: '[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}'
+  options:
+    no_cache: TRUE
+
+graphql_api.autocomplete:
+  path: '/api/graphql'
+  defaults:
+    _controller: '\Drupal\graphql_api\Controller\AutocompleteController::autocomplete'
+  requirements:
+    _access: 'TRUE'
+  methods: [GET]
+  options:
+    no_cache: TRUE
